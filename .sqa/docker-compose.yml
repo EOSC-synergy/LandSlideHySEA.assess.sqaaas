@@ -1,5 +1,5 @@
 services:
-  qc.acc_blurry-lilac-snake:
+  qc.acc_scummy-corn-goat:
     command: sleep 6000000
     image: bitnami/git:2.34.1
     volumes:
@@ -7,7 +7,7 @@ services:
       target: /sqaaas-build
       type: bind
     working_dir: /sqaaas-build
-  qc.doc_frumpy-saffron-woodlouse:
+  qc.doc_blurry-bistre-budgerigar:
     command: sleep 6000000
     image: bitnami/git:2.34.1
     volumes:
@@ -15,7 +15,7 @@ services:
       target: /sqaaas-build
       type: bind
     working_dir: /sqaaas-build
-  qc.doc_gamy-lime-spider:
+  qc.doc_cozy-mustard-camel:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Doc/markdownlint
       dockerfile: Dockerfile
@@ -25,7 +25,7 @@ services:
       target: /sqaaas-build
       type: bind
     working_dir: /sqaaas-build
-  qc.doc_skimpy-taupe-hedgehog:
+  qc.doc_flimsy-bistre-baboon:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Doc
       dockerfile: Dockerfile
@@ -35,17 +35,23 @@ services:
       target: /sqaaas-build
       type: bind
     working_dir: /sqaaas-build
-  qc.lic_whiny-amber-ragdoll:
-    build:
-      context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Lic/licensee
-      dockerfile: Dockerfile
+  qc.lic_leaky-harlequin-deer:
     command: sleep 6000000
+    image: eoscsynergy/sqaaas-licensee:9.17.0
     volumes:
     - source: ./
       target: /sqaaas-build
       type: bind
     working_dir: /sqaaas-build
-  qc.ver_frumpy-saffron-impala:
+  qc.sty_wimpy-sepia-paradise:
+    command: sleep 6000000
+    image: drakorgaur/oclint:3077181575
+    volumes:
+    - source: ./
+      target: /sqaaas-build
+      type: bind
+    working_dir: /sqaaas-build
+  qc.ver_randy-chestnut-eel:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.Ver
       dockerfile: Dockerfile

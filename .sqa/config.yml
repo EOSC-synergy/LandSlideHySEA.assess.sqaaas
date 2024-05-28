@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/1.7.10
+      branch: release/2.1.1
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/edanya-uma/LandSlideHySEA:
       branch: v1.0.0
@@ -15,32 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.jumpy-xanthic-crab.sh
-        container: qc.acc_blurry-lilac-snake
+        - /usr/bin/env sh .sqa/script.gamy-xanthic-deer.sh
+        container: qc.acc_scummy-corn-goat
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-lilac-lobster.sh
-        container: qc.doc_skimpy-taupe-hedgehog
+        - /usr/bin/env sh .sqa/script.bumpy-olivine-harrier.sh
+        container: qc.doc_flimsy-bistre-baboon
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-plum-woodlouse.sh
-        container: qc.doc_frumpy-saffron-woodlouse
+        - /usr/bin/env sh .sqa/script.sunny-chocolate-bullfrog.sh
+        container: qc.doc_blurry-bistre-budgerigar
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-razzmatazz-foxhound.sh
-        container: qc.doc_gamy-lime-spider
+        - /usr/bin/env sh .sqa/script.foggy-rose-retriever.sh
+        container: qc.doc_cozy-mustard-camel
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-seashell-spaniel.sh
-        container: qc.lic_whiny-amber-ragdoll
+        - /usr/bin/env sh .sqa/script.lanky-tan-tiger.sh
+        container: qc.lic_leaky-harlequin-deer
+  QC.Sty:
+    repos:
+      github.com/edanya-uma/LandSlideHySEA oclint:
+        commands:
+        - /usr/bin/env sh .sqa/script.woolly-amber-fossa.sh
+        container: qc.sty_wimpy-sepia-paradise
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-plum-jackal.sh
-        container: qc.ver_frumpy-saffron-impala
+        - /usr/bin/env sh .sqa/script.gloppy-bronze-hippopotamus.sh
+        container: qc.ver_randy-chestnut-eel
 timeout: 5400
