@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-xanthic-deer.sh
-        container: qc.acc_scummy-corn-goat
+        - /usr/bin/env sh .sqa/script.lovely-amethyst-dugong.sh
+        container: qc.acc_chummy-yellow-bordeaux
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-olivine-harrier.sh
-        container: qc.doc_flimsy-bistre-baboon
+        - /usr/bin/env sh .sqa/script.wheezy-seashell-chipmunk.sh
+        container: qc.doc_nippy-taupe-spider
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.sunny-chocolate-bullfrog.sh
-        container: qc.doc_blurry-bistre-budgerigar
+        - /usr/bin/env sh .sqa/script.nerdy-gold-flamingo.sh
+        container: qc.doc_zippy-taupe-dogfish
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-rose-retriever.sh
-        container: qc.doc_cozy-mustard-camel
+        - /usr/bin/env sh .sqa/script.homey-burgundy-cat.sh
+        container: qc.doc_wimpy-cornflower-russel
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-tan-tiger.sh
-        container: qc.lic_leaky-harlequin-deer
+        - /usr/bin/env sh .sqa/script.dorky-brown-shark.sh
+        container: qc.lic_shaky-amber-bandicoot
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-amber-fossa.sh
-        container: qc.sty_wimpy-sepia-paradise
+        - /usr/bin/env sh .sqa/script.goopy-black-rabbit.sh
+        container: qc.sty_muggy-thistle-cow
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-bronze-hippopotamus.sh
-        container: qc.ver_randy-chestnut-eel
+        - /usr/bin/env sh .sqa/script.smelly-amaranth-bracke.sh
+        container: qc.ver_sleazy-olivine-raccoon
 timeout: 5400
