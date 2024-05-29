@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-coral-cattle.sh
-        container: qc.acc_trippy-eggplant-woodlouse
+        - /usr/bin/env sh .sqa/script.fuzzy-chocolate-wasp.sh
+        container: qc.acc_woolly-persimmon-akita
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snoopy-tangerine-snail.sh
-        container: qc.doc_hilly-wisteria-akita
+        - /usr/bin/env sh .sqa/script.tacky-champagne-wildebeest.sh
+        container: qc.doc_queasy-pear-zebra
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-cream-bandicoot.sh
-        container: qc.doc_cranky-lilac-otter
+        - /usr/bin/env sh .sqa/script.whiny-turquoise-setter.sh
+        container: qc.doc_homely-sapphire-mandrill
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-yellow-newt.sh
-        container: qc.doc_cloudy-black-tapir
+        - /usr/bin/env sh .sqa/script.clammy-salmon-spitz.sh
+        container: qc.doc_droopy-viridian-hyena
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-khaki-macaw.sh
-        container: qc.lic_lanky-puce-tarsier
+        - /usr/bin/env sh .sqa/script.scaly-pear-mammoth.sh
+        container: qc.lic_gimpy-purple-nightingale
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-linen-crane.sh
-        container: qc.sty_geeky-olivine-uakari
+        - /usr/bin/env sh .sqa/script.gloppy-red-termite.sh
+        container: qc.sty_lumpy-corn-retriever
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.blurry-pear-swan.sh
-        container: qc.ver_frumpy-denim-fish
+        - /usr/bin/env sh .sqa/script.hilly-heliotrope-ant.sh
+        container: qc.ver_greasy-mustard-bloodhound
 timeout: 5400
