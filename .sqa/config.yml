@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-amethyst-dugong.sh
-        container: qc.acc_chummy-yellow-bordeaux
+        - /usr/bin/env sh .sqa/script.lovely-ivory-whippet.sh
+        container: qc.acc_clammy-grey-catfish
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-seashell-chipmunk.sh
-        container: qc.doc_nippy-taupe-spider
+        - /usr/bin/env sh .sqa/script.ready-alizarin-warthog.sh
+        container: qc.doc_flaky-tangerine-coyote
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.nerdy-gold-flamingo.sh
-        container: qc.doc_zippy-taupe-dogfish
+        - /usr/bin/env sh .sqa/script.dorky-carmine-gorilla.sh
+        container: qc.doc_snoopy-cobalt-horse
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-burgundy-cat.sh
-        container: qc.doc_wimpy-cornflower-russel
+        - /usr/bin/env sh .sqa/script.lousy-coral-kiwi.sh
+        container: qc.doc_surly-bistre-eagle
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-brown-shark.sh
-        container: qc.lic_shaky-amber-bandicoot
+        - /usr/bin/env sh .sqa/script.tasty-sepia-worm.sh
+        container: qc.lic_hazy-cobalt-tarsier
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-black-rabbit.sh
-        container: qc.sty_muggy-thistle-cow
+        - /usr/bin/env sh .sqa/script.gloppy-jade-spitz.sh
+        container: qc.sty_clammy-red-squid
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-amaranth-bracke.sh
-        container: qc.ver_sleazy-olivine-raccoon
+        - /usr/bin/env sh .sqa/script.thirsty-zucchini-vole.sh
+        container: qc.ver_squirrely-teal-capybara
 timeout: 5400
