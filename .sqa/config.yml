@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-ivory-whippet.sh
-        container: qc.acc_clammy-grey-catfish
+        - /usr/bin/env sh .sqa/script.skimpy-coral-cattle.sh
+        container: qc.acc_trippy-eggplant-woodlouse
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-alizarin-warthog.sh
-        container: qc.doc_flaky-tangerine-coyote
+        - /usr/bin/env sh .sqa/script.snoopy-tangerine-snail.sh
+        container: qc.doc_hilly-wisteria-akita
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-carmine-gorilla.sh
-        container: qc.doc_snoopy-cobalt-horse
+        - /usr/bin/env sh .sqa/script.lovely-cream-bandicoot.sh
+        container: qc.doc_cranky-lilac-otter
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-coral-kiwi.sh
-        container: qc.doc_surly-bistre-eagle
+        - /usr/bin/env sh .sqa/script.lanky-yellow-newt.sh
+        container: qc.doc_cloudy-black-tapir
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-sepia-worm.sh
-        container: qc.lic_hazy-cobalt-tarsier
+        - /usr/bin/env sh .sqa/script.muggy-khaki-macaw.sh
+        container: qc.lic_lanky-puce-tarsier
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-jade-spitz.sh
-        container: qc.sty_clammy-red-squid
+        - /usr/bin/env sh .sqa/script.skanky-linen-crane.sh
+        container: qc.sty_geeky-olivine-uakari
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-zucchini-vole.sh
-        container: qc.ver_squirrely-teal-capybara
+        - /usr/bin/env sh .sqa/script.blurry-pear-swan.sh
+        container: qc.ver_frumpy-denim-fish
 timeout: 5400
