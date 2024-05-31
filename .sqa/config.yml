@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-indigo-fox.sh
-        container: qc.acc_slaphappy-myrtle-squirt
+        - /usr/bin/env sh .sqa/script.pokey-eggplant-weasel.sh
+        container: qc.acc_cozy-amaranth-vole
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-sangria-hornet.sh
-        container: qc.doc_stealthy-buff-mist
+        - /usr/bin/env sh .sqa/script.skanky-tan-frise.sh
+        container: qc.doc_woolly-chartreuse-goose
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.wiggy-gold-kakapo.sh
-        container: qc.doc_frumpy-ultramarine-panda
+        - /usr/bin/env sh .sqa/script.chewy-pink-walrus.sh
+        container: qc.doc_chewy-crimson-saola
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-sapphire-centipede.sh
-        container: qc.doc_slaphappy-charcoal-anteater
+        - /usr/bin/env sh .sqa/script.messy-heliotrope-urchin.sh
+        container: qc.doc_stuffy-wisteria-yak
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-orange-vulture.sh
-        container: qc.lic_nerdy-chocolate-chameleon
+        - /usr/bin/env sh .sqa/script.geeky-coral-skunk.sh
+        container: qc.lic_hilly-ivory-tortoise
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-sangria-nightingale.sh
-        container: qc.sty_blurry-charcoal-coral
+        - /usr/bin/env sh .sqa/script.scummy-crimson-badger.sh
+        container: qc.sty_gamy-persimmon-robin
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-linen-chinchilla.sh
-        container: qc.ver_sloppy-ecru-markhor
+        - /usr/bin/env sh .sqa/script.slaphappy-violet-tapir.sh
+        container: qc.ver_silly-taupe-raccoon
 timeout: 5400
