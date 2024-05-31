@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-red-dragonfly.sh
-        container: qc.acc_trippy-lilac-worm
+        - /usr/bin/env sh .sqa/script.stealthy-pink-jaguar.sh
+        container: qc.acc_thirsty-lemon-crocodile
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cloudy-turquoise-chameleon.sh
-        container: qc.doc_randy-charcoal-chamois
+        - /usr/bin/env sh .sqa/script.dorky-fuchsia-goose.sh
+        container: qc.doc_leaky-cinnabar-moose
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-yellow-gecko.sh
-        container: qc.doc_foggy-azure-mongoose
+        - /usr/bin/env sh .sqa/script.boozy-razzmatazz-discus.sh
+        container: qc.doc_zippy-bronze-shark
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-crimson-rottweiler.sh
-        container: qc.doc_jumpy-goldenrod-dragonfly
+        - /usr/bin/env sh .sqa/script.sunny-azure-gecko.sh
+        container: qc.doc_skinny-pink-coral
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.geeky-chestnut-reindeer.sh
-        container: qc.lic_gummy-turquoise-zebu
+        - /usr/bin/env sh .sqa/script.paltry-peach-albatross.sh
+        container: qc.lic_boozy-chocolate-bee
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.nerdy-cream-gecko.sh
-        container: qc.sty_randy-red-caracal
+        - /usr/bin/env sh .sqa/script.bumpy-bronze-eleuth.sh
+        container: qc.sty_zippy-wisteria-peccary
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-razzmatazz-tamarin.sh
-        container: qc.ver_lumpy-sepia-chinchilla
+        - /usr/bin/env sh .sqa/script.stuffy-tangerine-neanderthal.sh
+        container: qc.ver_goopy-olive-budgerigar
 timeout: 5400
