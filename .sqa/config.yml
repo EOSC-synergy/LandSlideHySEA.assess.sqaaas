@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-eggplant-weasel.sh
-        container: qc.acc_cozy-amaranth-vole
+        - /usr/bin/env sh .sqa/script.sleazy-ivory-tuatara.sh
+        container: qc.acc_clammy-corn-slug
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-tan-frise.sh
-        container: qc.doc_woolly-chartreuse-goose
+        - /usr/bin/env sh .sqa/script.smelly-sepia-peccary.sh
+        container: qc.doc_gloppy-white-discus
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-pink-walrus.sh
-        container: qc.doc_chewy-crimson-saola
+        - /usr/bin/env sh .sqa/script.stuffy-cerise-tamarin.sh
+        container: qc.doc_shaky-tangerine-bloodhound
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-heliotrope-urchin.sh
-        container: qc.doc_stuffy-wisteria-yak
+        - /usr/bin/env sh .sqa/script.silly-firebrick-termite.sh
+        container: qc.doc_wheezy-vermilion-gopher
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.geeky-coral-skunk.sh
-        container: qc.lic_hilly-ivory-tortoise
+        - /usr/bin/env sh .sqa/script.leaky-black-boar.sh
+        container: qc.lic_tacky-copper-sheepdog
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.scummy-crimson-badger.sh
-        container: qc.sty_gamy-persimmon-robin
+        - /usr/bin/env sh .sqa/script.breezy-carmine-jaguar.sh
+        container: qc.sty_freaky-copper-blue
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-violet-tapir.sh
-        container: qc.ver_silly-taupe-raccoon
+        - /usr/bin/env sh .sqa/script.flabby-black-shark.sh
+        container: qc.ver_stuffy-cardinal-dalmatian
 timeout: 5400
