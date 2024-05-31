@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-carmine-toad.sh
-        container: qc.acc_seedy-plum-kakapo
+        - /usr/bin/env sh .sqa/script.stealthy-linen-reindeer.sh
+        container: qc.acc_wiggy-emerald-olm
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-cyan-neanderthal.sh
-        container: qc.doc_zippy-orchid-fish
+        - /usr/bin/env sh .sqa/script.surly-salmon-lion.sh
+        container: qc.doc_greasy-rose-bongo
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.bluesy-jade-crocodile.sh
-        container: qc.doc_homely-ecru-sponge
+        - /usr/bin/env sh .sqa/script.muggy-razzmatazz-wolf.sh
+        container: qc.doc_crabby-orchid-caterpillar
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-cerise-husky.sh
-        container: qc.doc_slimy-pear-caiman
+        - /usr/bin/env sh .sqa/script.sleazy-platinum-dodo.sh
+        container: qc.doc_stealthy-zucchini-wrasse
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-rose-setter.sh
-        container: qc.lic_jumpy-orchid-giraffe
+        - /usr/bin/env sh .sqa/script.stinky-amaranth-sparrow.sh
+        container: qc.lic_lousy-corn-kingfisher
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-rust-bat.sh
-        container: qc.sty_baggy-eggplant-lionfish
+        - /usr/bin/env sh .sqa/script.freaky-cornflower-kakapo.sh
+        container: qc.sty_silly-chocolate-monster
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.scummy-chocolate-chameleon.sh
-        container: qc.ver_stinky-corn-zebra
+        - /usr/bin/env sh .sqa/script.zippy-sangria-reindeer.sh
+        container: qc.ver_gimpy-malachite-insect
 timeout: 5400
