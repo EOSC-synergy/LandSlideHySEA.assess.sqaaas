@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-linen-reindeer.sh
-        container: qc.acc_wiggy-emerald-olm
+        - /usr/bin/env sh .sqa/script.homey-black-llama.sh
+        container: qc.acc_queasy-razzmatazz-raccoon
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-salmon-lion.sh
-        container: qc.doc_greasy-rose-bongo
+        - /usr/bin/env sh .sqa/script.frumpy-aquamarine-abyssinian.sh
+        container: qc.doc_woolly-asparagus-kakapo
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-razzmatazz-wolf.sh
-        container: qc.doc_crabby-orchid-caterpillar
+        - /usr/bin/env sh .sqa/script.gloppy-carmine-rabbit.sh
+        container: qc.doc_beady-blue-swan
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-platinum-dodo.sh
-        container: qc.doc_stealthy-zucchini-wrasse
+        - /usr/bin/env sh .sqa/script.wheezy-myrtle-axolotl.sh
+        container: qc.doc_crabby-buff-chinchilla
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.stinky-amaranth-sparrow.sh
-        container: qc.lic_lousy-corn-kingfisher
+        - /usr/bin/env sh .sqa/script.breezy-cobalt-molly.sh
+        container: qc.lic_hazy-violet-chipmunk
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.freaky-cornflower-kakapo.sh
-        container: qc.sty_silly-chocolate-monster
+        - /usr/bin/env sh .sqa/script.craggy-lilac-eagle.sh
+        container: qc.sty_grumpy-malachite-mau
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-sangria-reindeer.sh
-        container: qc.ver_gimpy-malachite-insect
+        - /usr/bin/env sh .sqa/script.cranky-goldenrod-retriever.sh
+        container: qc.ver_breezy-azure-urchin
 timeout: 5400
