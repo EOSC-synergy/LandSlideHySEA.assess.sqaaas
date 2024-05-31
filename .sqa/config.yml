@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-red-kakapo.sh
-        container: qc.acc_breezy-maroon-quail
+        - /usr/bin/env sh .sqa/script.geeky-thistle-shark.sh
+        container: qc.acc_tasty-pink-toad
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.greasy-silver-barracuda.sh
-        container: qc.doc_flaky-turquoise-wolfhound
+        - /usr/bin/env sh .sqa/script.jumpy-aquamarine-moose.sh
+        container: qc.doc_lanky-wisteria-macaque
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.nerdy-mustard-zonkey.sh
-        container: qc.doc_hilly-ecru-mayfly
+        - /usr/bin/env sh .sqa/script.gloppy-cobalt-pinscher.sh
+        container: qc.doc_blurry-amethyst-cockroach
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-apricot-kudu.sh
-        container: qc.doc_crabby-yellow-opossum
+        - /usr/bin/env sh .sqa/script.cozy-charcoal-shrimp.sh
+        container: qc.doc_thirsty-jade-fox
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-pumpkin-loon.sh
-        container: qc.lic_bumpy-gamboge-harrier
+        - /usr/bin/env sh .sqa/script.wheezy-tangerine-nightingale.sh
+        container: qc.lic_surly-indigo-hyrax
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-tangerine-ibis.sh
-        container: qc.sty_grumpy-smalt-civet
+        - /usr/bin/env sh .sqa/script.pokey-viridian-cattle.sh
+        container: qc.sty_scaly-cornflower-mau
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-aqua-seahorse.sh
-        container: qc.ver_scanty-cream-deer
+        - /usr/bin/env sh .sqa/script.messy-fuchsia-antelope.sh
+        container: qc.ver_crabby-goldenrod-quoll
 timeout: 5400
