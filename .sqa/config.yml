@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-black-llama.sh
-        container: qc.acc_queasy-razzmatazz-raccoon
+        - /usr/bin/env sh .sqa/script.bumpy-champagne-woodlouse.sh
+        container: qc.acc_gimpy-burgundy-pig
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.frumpy-aquamarine-abyssinian.sh
-        container: qc.doc_woolly-asparagus-kakapo
+        - /usr/bin/env sh .sqa/script.clammy-zucchini-yak.sh
+        container: qc.doc_wiggy-copper-insect
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-carmine-rabbit.sh
-        container: qc.doc_beady-blue-swan
+        - /usr/bin/env sh .sqa/script.slaphappy-aquamarine-chow.sh
+        container: qc.doc_pretty-blue-flamingo
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-myrtle-axolotl.sh
-        container: qc.doc_crabby-buff-chinchilla
+        - /usr/bin/env sh .sqa/script.wimpy-corn-grouse.sh
+        container: qc.doc_wimpy-cornflower-wolfhound
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.breezy-cobalt-molly.sh
-        container: qc.lic_hazy-violet-chipmunk
+        - /usr/bin/env sh .sqa/script.gummy-white-corgi.sh
+        container: qc.lic_smelly-beige-koala
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-lilac-eagle.sh
-        container: qc.sty_grumpy-malachite-mau
+        - /usr/bin/env sh .sqa/script.crappy-mauve-gorilla.sh
+        container: qc.sty_bumpy-taupe-wallaby
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cranky-goldenrod-retriever.sh
-        container: qc.ver_breezy-azure-urchin
+        - /usr/bin/env sh .sqa/script.scummy-amaranth-slug.sh
+        container: qc.ver_cranky-rose-wallaby
 timeout: 5400
