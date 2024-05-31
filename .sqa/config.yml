@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.clammy-gold-wolfhound.sh
-        container: qc.acc_breezy-wheat-flounder
+        - /usr/bin/env sh .sqa/script.muzzy-charcoal-barnacle.sh
+        container: qc.acc_geeky-ultramarine-cassowary
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-ivory-mongrel.sh
-        container: qc.doc_hilly-denim-dugong
+        - /usr/bin/env sh .sqa/script.messy-malachite-blue.sh
+        container: qc.doc_flabby-sapphire-fowl
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-chartreuse-worm.sh
-        container: qc.doc_droopy-violet-wasp
+        - /usr/bin/env sh .sqa/script.boozy-burgundy-swan.sh
+        container: qc.doc_surly-zucchini-spaniel
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.clammy-cardinal-moose.sh
-        container: qc.doc_gimpy-carmine-oriole
+        - /usr/bin/env sh .sqa/script.snippy-persimmon-dragon.sh
+        container: qc.doc_foggy-wisteria-argentino
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-white-tamarin.sh
-        container: qc.lic_lumpy-xanthic-lemming
+        - /usr/bin/env sh .sqa/script.lanky-ochre-slug.sh
+        container: qc.lic_sloppy-linen-mau
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-sangria-flamingo.sh
-        container: qc.sty_stinky-plum-tang
+        - /usr/bin/env sh .sqa/script.flimsy-razzmatazz-wallaby.sh
+        container: qc.sty_beady-wisteria-jaguar
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.hilly-alizarin-hummingbird.sh
-        container: qc.ver_trippy-copper-uguisu
+        - /usr/bin/env sh .sqa/script.shaggy-white-salamander.sh
+        container: qc.ver_hasty-vermilion-forest
 timeout: 5400
