@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.breezy-cinnabar-maltese.sh
-        container: qc.acc_flimsy-rose-uakari
+        - /usr/bin/env sh .sqa/script.flaky-celadon-mole.sh
+        container: qc.acc_nerdy-white-zonkey
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-burgundy-setter.sh
-        container: qc.doc_lumpy-cerulean-hedgehog
+        - /usr/bin/env sh .sqa/script.fuzzy-ruby-horse.sh
+        container: qc.doc_stuffy-cinnamon-chipmunk
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.hilly-salmon-greyhound.sh
-        container: qc.doc_stealthy-crimson-ferret
+        - /usr/bin/env sh .sqa/script.frumpy-flax-cow.sh
+        container: qc.doc_lousy-rust-boar
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-rust-yak.sh
-        container: qc.doc_stuffy-coral-kudu
+        - /usr/bin/env sh .sqa/script.whiny-brass-millipede.sh
+        container: qc.doc_pretty-vermilion-dane
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-firebrick-sparrow.sh
-        container: qc.lic_muzzy-russet-collie
+        - /usr/bin/env sh .sqa/script.cheeky-indigo-kakapo.sh
+        container: qc.lic_flimsy-plum-mastiff
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-amaranth-zorse.sh
-        container: qc.sty_snoopy-firebrick-toad
+        - /usr/bin/env sh .sqa/script.lovely-ecru-rat.sh
+        container: qc.sty_sunny-zucchini-bongo
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-chestnut-okapi.sh
-        container: qc.ver_breezy-wheat-dormouse
+        - /usr/bin/env sh .sqa/script.paltry-wheat-cow.sh
+        container: qc.ver_tasty-cyan-dugong
 timeout: 5400
