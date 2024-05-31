@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-gold-woodpecker.sh
-        container: qc.acc_cheeky-seashell-coati
+        - /usr/bin/env sh .sqa/script.lousy-chartreuse-wolverine.sh
+        container: qc.acc_squirrely-cerulean-goat
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-cerise-wolfhound.sh
-        container: qc.doc_stealthy-cobalt-mole
+        - /usr/bin/env sh .sqa/script.droopy-indigo-bobcat.sh
+        container: qc.doc_trippy-sepia-rattlesnake
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.nerdy-gold-neanderthal.sh
-        container: qc.doc_boozy-mustard-kudu
+        - /usr/bin/env sh .sqa/script.hazy-ivory-avocet.sh
+        container: qc.doc_grumpy-gamboge-zorse
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.flimsy-periwinkle-wildebeest.sh
-        container: qc.doc_sickly-jade-monster
+        - /usr/bin/env sh .sqa/script.ready-buff-zebu.sh
+        container: qc.doc_gummy-azure-saola
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.hilly-chestnut-moth.sh
-        container: qc.lic_chummy-cerulean-rottweiler
+        - /usr/bin/env sh .sqa/script.pokey-salmon-angora.sh
+        container: qc.lic_chummy-buff-bear
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-apricot-burmese.sh
-        container: qc.sty_tacky-apricot-grouse
+        - /usr/bin/env sh .sqa/script.blurry-amethyst-wolverine.sh
+        container: qc.sty_woozy-aquamarine-seahorse
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-malachite-tarantula.sh
-        container: qc.ver_zippy-chestnut-chinchilla
+        - /usr/bin/env sh .sqa/script.slimy-crimson-caiman.sh
+        container: qc.ver_clammy-peach-antelope
 timeout: 5400
