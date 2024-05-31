@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-grey-flounder.sh
-        container: qc.acc_fuzzy-razzmatazz-sloth
+        - /usr/bin/env sh .sqa/script.breezy-cinnabar-maltese.sh
+        container: qc.acc_flimsy-rose-uakari
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-aquamarine-foxhound.sh
-        container: qc.doc_stinky-viridian-koala
+        - /usr/bin/env sh .sqa/script.stuffy-burgundy-setter.sh
+        container: qc.doc_lumpy-cerulean-hedgehog
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.stinky-xanthic-pinscher.sh
-        container: qc.doc_seedy-alizarin-retriever
+        - /usr/bin/env sh .sqa/script.hilly-salmon-greyhound.sh
+        container: qc.doc_stealthy-crimson-ferret
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-cerise-camel.sh
-        container: qc.doc_squeaky-flax-crab
+        - /usr/bin/env sh .sqa/script.ready-rust-yak.sh
+        container: qc.doc_stuffy-coral-kudu
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-goldenrod-newt.sh
-        container: qc.lic_nippy-chartreuse-buffalo
+        - /usr/bin/env sh .sqa/script.zippy-firebrick-sparrow.sh
+        container: qc.lic_muzzy-russet-collie
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-turquoise-capuchin.sh
-        container: qc.sty_nippy-cyan-crocodile
+        - /usr/bin/env sh .sqa/script.homey-amaranth-zorse.sh
+        container: qc.sty_snoopy-firebrick-toad
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-turquoise-gecko.sh
-        container: qc.ver_geeky-zucchini-moorhen
+        - /usr/bin/env sh .sqa/script.stuffy-chestnut-okapi.sh
+        container: qc.ver_breezy-wheat-dormouse
 timeout: 5400
