@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.grumpy-cyan-squid.sh
-        container: qc.acc_woozy-silver-collie
+        - /usr/bin/env sh .sqa/script.pretty-indigo-fox.sh
+        container: qc.acc_slaphappy-myrtle-squirt
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-mustard-donkey.sh
-        container: qc.doc_stealthy-cerise-lionfish
+        - /usr/bin/env sh .sqa/script.homely-sangria-hornet.sh
+        container: qc.doc_stealthy-buff-mist
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-heliotrope-bison.sh
-        container: qc.doc_wheezy-olivine-budgerigar
+        - /usr/bin/env sh .sqa/script.wiggy-gold-kakapo.sh
+        container: qc.doc_frumpy-ultramarine-panda
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-saffron-wombat.sh
-        container: qc.doc_lousy-ruby-hare
+        - /usr/bin/env sh .sqa/script.randy-sapphire-centipede.sh
+        container: qc.doc_slaphappy-charcoal-anteater
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.stinky-white-angelfish.sh
-        container: qc.lic_smelly-ruby-mule
+        - /usr/bin/env sh .sqa/script.squirrely-orange-vulture.sh
+        container: qc.lic_nerdy-chocolate-chameleon
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-chartreuse-salamander.sh
-        container: qc.sty_woozy-emerald-gopher
+        - /usr/bin/env sh .sqa/script.hasty-sangria-nightingale.sh
+        container: qc.sty_blurry-charcoal-coral
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-coral-cockroach.sh
-        container: qc.ver_surly-periwinkle-albatross
+        - /usr/bin/env sh .sqa/script.slimy-linen-chinchilla.sh
+        container: qc.ver_sloppy-ecru-markhor
 timeout: 5400
