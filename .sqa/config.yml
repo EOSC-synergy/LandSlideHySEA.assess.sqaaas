@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-buff-numbat.sh
-        container: qc.acc_scummy-zucchini-cat
+        - /usr/bin/env sh .sqa/script.pasty-white-barnacle.sh
+        container: qc.acc_woozy-chocolate-bracke
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.scummy-brass-budgerigar.sh
-        container: qc.doc_flabby-periwinkle-chinook
+        - /usr/bin/env sh .sqa/script.blurry-persimmon-seal.sh
+        container: qc.doc_tasty-chartreuse-sloth
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-thistle-javanese.sh
-        container: qc.doc_boozy-blue-terrier
+        - /usr/bin/env sh .sqa/script.trippy-xanthic-falcon.sh
+        container: qc.doc_gloppy-black-clam
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-cerulean-jellyfish.sh
-        container: qc.doc_queasy-teal-capybara
+        - /usr/bin/env sh .sqa/script.lanky-violet-quetzal.sh
+        container: qc.doc_greasy-lilac-dragon
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-harlequin-cattle.sh
-        container: qc.lic_randy-wisteria-lemming
+        - /usr/bin/env sh .sqa/script.droopy-peach-spoonbill.sh
+        container: qc.lic_hilly-peach-swan
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-pink-chin.sh
-        container: qc.sty_skanky-persimmon-mole
+        - /usr/bin/env sh .sqa/script.squirrely-rose-donkey.sh
+        container: qc.sty_grumpy-buff-bracke
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-chestnut-eel.sh
-        container: qc.ver_clammy-cyan-mau
+        - /usr/bin/env sh .sqa/script.nerdy-mustard-iguana.sh
+        container: qc.ver_shaky-ochre-bonobo
 timeout: 5400
