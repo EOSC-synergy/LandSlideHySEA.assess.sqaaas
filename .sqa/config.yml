@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-chartreuse-wolverine.sh
-        container: qc.acc_squirrely-cerulean-goat
+        - /usr/bin/env sh .sqa/script.bumpy-apricot-woodpecker.sh
+        container: qc.acc_homely-linen-hare
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-indigo-bobcat.sh
-        container: qc.doc_trippy-sepia-rattlesnake
+        - /usr/bin/env sh .sqa/script.skanky-bistre-whippet.sh
+        container: qc.doc_slaphappy-crimson-swan
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-ivory-avocet.sh
-        container: qc.doc_grumpy-gamboge-zorse
+        - /usr/bin/env sh .sqa/script.snappy-mustard-whippet.sh
+        container: qc.doc_sunny-sangria-stoat
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-buff-zebu.sh
-        container: qc.doc_gummy-azure-saola
+        - /usr/bin/env sh .sqa/script.lumpy-indigo-macaque.sh
+        container: qc.doc_foggy-aqua-tarsier
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-salmon-angora.sh
-        container: qc.lic_chummy-buff-bear
+        - /usr/bin/env sh .sqa/script.foggy-harlequin-vulture.sh
+        container: qc.lic_whiny-purple-dachsbracke
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.blurry-amethyst-wolverine.sh
-        container: qc.sty_woozy-aquamarine-seahorse
+        - /usr/bin/env sh .sqa/script.skimpy-scarlet-tapir.sh
+        container: qc.sty_tasty-peach-nightingale
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-crimson-caiman.sh
-        container: qc.ver_clammy-peach-antelope
+        - /usr/bin/env sh .sqa/script.pretty-cardinal-lizard.sh
+        container: qc.ver_sloppy-platinum-bracke
 timeout: 5400
