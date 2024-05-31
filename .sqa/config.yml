@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-aqua-ladybird.sh
-        container: qc.acc_gamy-magnolia-avocet
+        - /usr/bin/env sh .sqa/script.queasy-red-kakapo.sh
+        container: qc.acc_breezy-maroon-quail
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-wisteria-walrus.sh
-        container: qc.doc_snoopy-ruby-kakapo
+        - /usr/bin/env sh .sqa/script.greasy-silver-barracuda.sh
+        container: qc.doc_flaky-turquoise-wolfhound
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-cerise-mandrill.sh
-        container: qc.doc_trippy-apricot-capybara
+        - /usr/bin/env sh .sqa/script.nerdy-mustard-zonkey.sh
+        container: qc.doc_hilly-ecru-mayfly
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-magenta-kingfisher.sh
-        container: qc.doc_scummy-grey-shark
+        - /usr/bin/env sh .sqa/script.pretty-apricot-kudu.sh
+        container: qc.doc_crabby-yellow-opossum
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-cinnamon-coral.sh
-        container: qc.lic_homely-carmine-labradoodle
+        - /usr/bin/env sh .sqa/script.crabby-pumpkin-loon.sh
+        container: qc.lic_bumpy-gamboge-harrier
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-cyan-ibis.sh
-        container: qc.sty_snippy-auburn-ocelot
+        - /usr/bin/env sh .sqa/script.droopy-tangerine-ibis.sh
+        container: qc.sty_grumpy-smalt-civet
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-saffron-raccoon.sh
-        container: qc.ver_hasty-emerald-shark
+        - /usr/bin/env sh .sqa/script.chewy-aqua-seahorse.sh
+        container: qc.ver_scanty-cream-deer
 timeout: 5400
