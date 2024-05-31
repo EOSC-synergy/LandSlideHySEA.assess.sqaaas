@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-apricot-woodpecker.sh
-        container: qc.acc_homely-linen-hare
+        - /usr/bin/env sh .sqa/script.seedy-carmine-toad.sh
+        container: qc.acc_seedy-plum-kakapo
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-bistre-whippet.sh
-        container: qc.doc_slaphappy-crimson-swan
+        - /usr/bin/env sh .sqa/script.ready-cyan-neanderthal.sh
+        container: qc.doc_zippy-orchid-fish
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-mustard-whippet.sh
-        container: qc.doc_sunny-sangria-stoat
+        - /usr/bin/env sh .sqa/script.bluesy-jade-crocodile.sh
+        container: qc.doc_homely-ecru-sponge
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-indigo-macaque.sh
-        container: qc.doc_foggy-aqua-tarsier
+        - /usr/bin/env sh .sqa/script.paltry-cerise-husky.sh
+        container: qc.doc_slimy-pear-caiman
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-harlequin-vulture.sh
-        container: qc.lic_whiny-purple-dachsbracke
+        - /usr/bin/env sh .sqa/script.silly-rose-setter.sh
+        container: qc.lic_jumpy-orchid-giraffe
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-scarlet-tapir.sh
-        container: qc.sty_tasty-peach-nightingale
+        - /usr/bin/env sh .sqa/script.queasy-rust-bat.sh
+        container: qc.sty_baggy-eggplant-lionfish
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-cardinal-lizard.sh
-        container: qc.ver_sloppy-platinum-bracke
+        - /usr/bin/env sh .sqa/script.scummy-chocolate-chameleon.sh
+        container: qc.ver_stinky-corn-zebra
 timeout: 5400
