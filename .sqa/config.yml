@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-lilac-lion.sh
-        container: qc.acc_clammy-harlequin-okapi
+        - /usr/bin/env sh .sqa/script.cranky-sepia-snake.sh
+        container: qc.acc_wheezy-pumpkin-heron
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.stinky-orange-octopus.sh
-        container: qc.doc_nippy-burgundy-pig
+        - /usr/bin/env sh .sqa/script.woozy-pear-ocelot.sh
+        container: qc.doc_crappy-copper-moth
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-mustard-bongo.sh
-        container: qc.doc_skinny-cream-mouse
+        - /usr/bin/env sh .sqa/script.lovely-copper-mist.sh
+        container: qc.doc_stinky-champagne-fossa
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-amethyst-wasp.sh
-        container: qc.doc_tacky-silver-opossum
+        - /usr/bin/env sh .sqa/script.ugly-ecru-pig.sh
+        container: qc.doc_homely-persimmon-buffalo
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.grumpy-violet-iguana.sh
-        container: qc.lic_ready-lavender-chin
+        - /usr/bin/env sh .sqa/script.hazy-green-ladybird.sh
+        container: qc.lic_gamy-azure-macaque
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-corn-cuttlefish.sh
-        container: qc.sty_gimpy-yellow-goose
+        - /usr/bin/env sh .sqa/script.dorky-orange-hyrax.sh
+        container: qc.sty_sickly-cornflower-camel
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cloudy-crimson-abyssinian.sh
-        container: qc.ver_breezy-jade-sparrow
+        - /usr/bin/env sh .sqa/script.squirrely-asparagus-robin.sh
+        container: qc.ver_tacky-bronze-gerbil
 timeout: 5400
