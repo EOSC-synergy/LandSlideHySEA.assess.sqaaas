@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-ivory-tuatara.sh
-        container: qc.acc_clammy-corn-slug
+        - /usr/bin/env sh .sqa/script.grumpy-rust-binturong.sh
+        container: qc.acc_cloudy-vermilion-greyhound
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-sepia-peccary.sh
-        container: qc.doc_gloppy-white-discus
+        - /usr/bin/env sh .sqa/script.silly-azure-monster.sh
+        container: qc.doc_homely-amaranth-olm
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-cerise-tamarin.sh
-        container: qc.doc_shaky-tangerine-bloodhound
+        - /usr/bin/env sh .sqa/script.woozy-turquoise-fox.sh
+        container: qc.doc_freaky-corn-markhor
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-firebrick-termite.sh
-        container: qc.doc_wheezy-vermilion-gopher
+        - /usr/bin/env sh .sqa/script.goopy-coral-mouse.sh
+        container: qc.doc_muggy-brass-sponge
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-black-boar.sh
-        container: qc.lic_tacky-copper-sheepdog
+        - /usr/bin/env sh .sqa/script.shaky-green-argentino.sh
+        container: qc.lic_zippy-cream-impala
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.breezy-carmine-jaguar.sh
-        container: qc.sty_freaky-copper-blue
+        - /usr/bin/env sh .sqa/script.ugly-carmine-tapir.sh
+        container: qc.sty_cranky-indigo-woodlouse
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-black-shark.sh
-        container: qc.ver_stuffy-cardinal-dalmatian
+        - /usr/bin/env sh .sqa/script.shaggy-saffron-dalmatian.sh
+        container: qc.ver_ready-champagne-fowl
 timeout: 5400
