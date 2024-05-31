@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-ultramarine-vole.sh
-        container: qc.acc_stinky-tan-kingfisher
+        - /usr/bin/env sh .sqa/script.flabby-aquamarine-alligator.sh
+        container: qc.acc_smelly-emerald-ibis
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.baggy-viridian-bandicoot.sh
-        container: qc.doc_nippy-cream-skunk
+        - /usr/bin/env sh .sqa/script.droopy-periwinkle-bracke.sh
+        container: qc.doc_chewy-russet-loon
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-dandelion-barb.sh
-        container: qc.doc_nippy-emerald-kakapo
+        - /usr/bin/env sh .sqa/script.scanty-malachite-mongoose.sh
+        container: qc.doc_surly-charcoal-moorhen
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.gimpy-cornflower-wrasse.sh
-        container: qc.doc_gummy-salmon-ostrich
+        - /usr/bin/env sh .sqa/script.tacky-crimson-hare.sh
+        container: qc.doc_woolly-sapphire-panda
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.muzzy-amethyst-bulldog.sh
-        container: qc.lic_scummy-chartreuse-balinese
+        - /usr/bin/env sh .sqa/script.shaky-rust-duck.sh
+        container: qc.lic_cozy-mustard-zonkey
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-violet-quail.sh
-        container: qc.sty_ugly-cinnamon-mole
+        - /usr/bin/env sh .sqa/script.blurry-goldenrod-eagle.sh
+        container: qc.sty_gloppy-green-lemming
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.wimpy-wisteria-squirrel.sh
-        container: qc.ver_craggy-salmon-toad
+        - /usr/bin/env sh .sqa/script.sleazy-tomato-cassowary.sh
+        container: qc.ver_clammy-flax-setter
 timeout: 5400
