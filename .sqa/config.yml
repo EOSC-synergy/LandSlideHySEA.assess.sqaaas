@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-bronze-emu.sh
-        container: qc.acc_hasty-peach-eleuth
+        - /usr/bin/env sh .sqa/script.wimpy-tomato-dugong.sh
+        container: qc.acc_tasty-teal-mandrill
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-thistle-quail.sh
-        container: qc.doc_skimpy-vermilion-discus
+        - /usr/bin/env sh .sqa/script.paltry-lilac-mau.sh
+        container: qc.doc_flimsy-wisteria-anteater
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-russet-cattle.sh
-        container: qc.doc_sloppy-tan-spoonbill
+        - /usr/bin/env sh .sqa/script.gloppy-bistre-crane.sh
+        container: qc.doc_muggy-azure-chow
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-gold-sponge.sh
-        container: qc.doc_stinky-indigo-kudu
+        - /usr/bin/env sh .sqa/script.queasy-wheat-lemming.sh
+        container: qc.doc_ugly-corn-camel
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-pumpkin-gharial.sh
-        container: qc.lic_gloppy-mustard-woodpecker
+        - /usr/bin/env sh .sqa/script.stealthy-chestnut-crocodile.sh
+        container: qc.lic_homely-brass-civet
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-cinnamon-akita.sh
-        container: qc.sty_sleepy-seashell-scorpion
+        - /usr/bin/env sh .sqa/script.sickly-dandelion-badger.sh
+        container: qc.sty_clammy-azure-bordeaux
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-zucchini-markhor.sh
-        container: qc.ver_gimpy-sepia-caterpillar
+        - /usr/bin/env sh .sqa/script.boozy-smalt-koala.sh
+        container: qc.ver_hazy-blue-goose
 timeout: 5400
