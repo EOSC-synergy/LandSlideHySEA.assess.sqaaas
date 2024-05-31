@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.freaky-lavender-abyssinian.sh
-        container: qc.acc_nerdy-magnolia-magpie
+        - /usr/bin/env sh .sqa/script.squeaky-yellow-chin.sh
+        container: qc.acc_nippy-aqua-ladybird
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-magnolia-turkey.sh
-        container: qc.doc_droopy-auburn-reindeer
+        - /usr/bin/env sh .sqa/script.woozy-chestnut-kakapo.sh
+        container: qc.doc_leaky-linen-beaver
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.nerdy-olivine-whippet.sh
-        container: qc.doc_bluesy-alizarin-affenpinscher
+        - /usr/bin/env sh .sqa/script.queasy-auburn-barracuda.sh
+        container: qc.doc_bumpy-ecru-penguin
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-amaranth-urchin.sh
-        container: qc.doc_wheezy-coral-havanese
+        - /usr/bin/env sh .sqa/script.flaky-thistle-oriole.sh
+        container: qc.doc_trippy-thistle-binturong
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-beige-whippet.sh
-        container: qc.lic_shaggy-magenta-koala
+        - /usr/bin/env sh .sqa/script.cozy-pumpkin-termite.sh
+        container: qc.lic_lousy-gold-axolotl
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-apricot-sparrow.sh
-        container: qc.sty_blurry-cyan-ostrich
+        - /usr/bin/env sh .sqa/script.hilly-teal-lemming.sh
+        container: qc.sty_pokey-auburn-uakari
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-cyan-cow.sh
-        container: qc.ver_cranky-brass-fousek
+        - /usr/bin/env sh .sqa/script.whiny-linen-echidna.sh
+        container: qc.ver_wiggy-azure-rattlesnake
 timeout: 5400
