@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-pink-jaguar.sh
-        container: qc.acc_thirsty-lemon-crocodile
+        - /usr/bin/env sh .sqa/script.blurry-lavender-wasp.sh
+        container: qc.acc_leaky-cardinal-booby
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-fuchsia-goose.sh
-        container: qc.doc_leaky-cinnabar-moose
+        - /usr/bin/env sh .sqa/script.geeky-puce-yak.sh
+        container: qc.doc_scaly-razzmatazz-newfoundland
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-razzmatazz-discus.sh
-        container: qc.doc_zippy-bronze-shark
+        - /usr/bin/env sh .sqa/script.wimpy-bistre-tetra.sh
+        container: qc.doc_cloudy-cinnabar-mammoth
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.sunny-azure-gecko.sh
-        container: qc.doc_skinny-pink-coral
+        - /usr/bin/env sh .sqa/script.droopy-orange-harrier.sh
+        container: qc.doc_slimy-goldenrod-toucan
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-peach-albatross.sh
-        container: qc.lic_boozy-chocolate-bee
+        - /usr/bin/env sh .sqa/script.randy-goldenrod-pig.sh
+        container: qc.lic_queasy-heliotrope-crocodile
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-bronze-eleuth.sh
-        container: qc.sty_zippy-wisteria-peccary
+        - /usr/bin/env sh .sqa/script.snazzy-aquamarine-bee.sh
+        container: qc.sty_blurry-ochre-fish
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-tangerine-neanderthal.sh
-        container: qc.ver_goopy-olive-budgerigar
+        - /usr/bin/env sh .sqa/script.wimpy-persimmon-chinook.sh
+        container: qc.ver_pretty-carmine-donkey
 timeout: 5400
