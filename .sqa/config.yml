@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-blue-barracuda.sh
-        container: qc.acc_homely-copper-wasp
+        - /usr/bin/env sh .sqa/script.crappy-maroon-angelfish.sh
+        container: qc.acc_lousy-aqua-robin
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-olive-salamander.sh
-        container: qc.doc_cheeky-lavender-monster
+        - /usr/bin/env sh .sqa/script.pretty-rust-gharial.sh
+        container: qc.doc_randy-tan-swan
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-jade-mastiff.sh
-        container: qc.doc_skinny-persimmon-uakari
+        - /usr/bin/env sh .sqa/script.chummy-chocolate-barracuda.sh
+        container: qc.doc_zippy-ecru-heron
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-olive-burmese.sh
-        container: qc.doc_skinny-platinum-anteater
+        - /usr/bin/env sh .sqa/script.ready-yellow-clam.sh
+        container: qc.doc_shaggy-rose-binturong
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-amber-burmese.sh
-        container: qc.lic_pasty-russet-rattlesnake
+        - /usr/bin/env sh .sqa/script.lanky-sapphire-jaguar.sh
+        container: qc.lic_droopy-emerald-koala
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-taupe-maltese.sh
-        container: qc.sty_fuzzy-cinnabar-kiwi
+        - /usr/bin/env sh .sqa/script.blurry-emerald-cockroach.sh
+        container: qc.sty_chummy-zucchini-lizard
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.scummy-viridian-jaguar.sh
-        container: qc.ver_craggy-yellow-moth
+        - /usr/bin/env sh .sqa/script.leaky-cardinal-olm.sh
+        container: qc.ver_wheezy-chestnut-fowl
 timeout: 5400
