@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-aquamarine-alligator.sh
-        container: qc.acc_smelly-emerald-ibis
+        - /usr/bin/env sh .sqa/script.clammy-gold-wolfhound.sh
+        container: qc.acc_breezy-wheat-flounder
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-periwinkle-bracke.sh
-        container: qc.doc_chewy-russet-loon
+        - /usr/bin/env sh .sqa/script.homely-ivory-mongrel.sh
+        container: qc.doc_hilly-denim-dugong
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-malachite-mongoose.sh
-        container: qc.doc_surly-charcoal-moorhen
+        - /usr/bin/env sh .sqa/script.lanky-chartreuse-worm.sh
+        container: qc.doc_droopy-violet-wasp
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-crimson-hare.sh
-        container: qc.doc_woolly-sapphire-panda
+        - /usr/bin/env sh .sqa/script.clammy-cardinal-moose.sh
+        container: qc.doc_gimpy-carmine-oriole
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-rust-duck.sh
-        container: qc.lic_cozy-mustard-zonkey
+        - /usr/bin/env sh .sqa/script.dorky-white-tamarin.sh
+        container: qc.lic_lumpy-xanthic-lemming
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.blurry-goldenrod-eagle.sh
-        container: qc.sty_gloppy-green-lemming
+        - /usr/bin/env sh .sqa/script.lousy-sangria-flamingo.sh
+        container: qc.sty_stinky-plum-tang
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-tomato-cassowary.sh
-        container: qc.ver_clammy-flax-setter
+        - /usr/bin/env sh .sqa/script.hilly-alizarin-hummingbird.sh
+        container: qc.ver_trippy-copper-uguisu
 timeout: 5400
