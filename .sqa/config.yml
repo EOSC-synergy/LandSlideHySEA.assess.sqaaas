@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-magnolia-dogfish.sh
-        container: qc.acc_squirrely-zucchini-albatross
+        - /usr/bin/env sh .sqa/script.woolly-buff-drever.sh
+        container: qc.acc_woolly-indigo-ferret
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.baggy-mustard-panda.sh
-        container: qc.doc_leaky-grey-frise
+        - /usr/bin/env sh .sqa/script.hazy-sepia-stingray.sh
+        container: qc.doc_randy-cinnabar-buzzard
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.snoopy-brass-barb.sh
-        container: qc.doc_slaphappy-myrtle-cichlid
+        - /usr/bin/env sh .sqa/script.lovely-chestnut-capybara.sh
+        container: qc.doc_tasty-brass-gerbil
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-ruby-fossa.sh
-        container: qc.doc_snippy-charcoal-mastiff
+        - /usr/bin/env sh .sqa/script.shaggy-emerald-sheep.sh
+        container: qc.doc_lanky-red-havanese
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-emerald-shrew.sh
-        container: qc.lic_gummy-yellow-robin
+        - /usr/bin/env sh .sqa/script.slaphappy-orchid-turtle.sh
+        container: qc.lic_sleazy-teal-iguana
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.grumpy-auburn-fowl.sh
-        container: qc.sty_sickly-burgundy-javanese
+        - /usr/bin/env sh .sqa/script.whiny-lime-eel.sh
+        container: qc.sty_slaphappy-carmine-mayfly
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.wiggy-lavender-gibbon.sh
-        container: qc.ver_greasy-cerulean-russel
+        - /usr/bin/env sh .sqa/script.homely-sepia-barracuda.sh
+        container: qc.ver_woolly-gold-gibbon
 timeout: 5400
