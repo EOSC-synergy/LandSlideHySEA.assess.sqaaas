@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-puce-fossa.sh
-        container: qc.acc_scummy-corn-crab
+        - /usr/bin/env sh .sqa/script.crabby-grey-flounder.sh
+        container: qc.acc_fuzzy-razzmatazz-sloth
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-rust-coyote.sh
-        container: qc.doc_tasty-cinnabar-hedgehog
+        - /usr/bin/env sh .sqa/script.foggy-aquamarine-foxhound.sh
+        container: qc.doc_stinky-viridian-koala
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-myrtle-tiger.sh
-        container: qc.doc_woolly-bistre-armadillo
+        - /usr/bin/env sh .sqa/script.stinky-xanthic-pinscher.sh
+        container: qc.doc_seedy-alizarin-retriever
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-amber-labradoodle.sh
-        container: qc.doc_queasy-eggplant-mandrill
+        - /usr/bin/env sh .sqa/script.droopy-cerise-camel.sh
+        container: qc.doc_squeaky-flax-crab
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-cornflower-chin.sh
-        container: qc.lic_chummy-scarlet-chicken
+        - /usr/bin/env sh .sqa/script.gummy-goldenrod-newt.sh
+        container: qc.lic_nippy-chartreuse-buffalo
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-salmon-gorilla.sh
-        container: qc.sty_chummy-cream-panda
+        - /usr/bin/env sh .sqa/script.droopy-turquoise-capuchin.sh
+        container: qc.sty_nippy-cyan-crocodile
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-amaranth-moose.sh
-        container: qc.ver_snappy-ivory-schnauzer
+        - /usr/bin/env sh .sqa/script.pretty-turquoise-gecko.sh
+        container: qc.ver_geeky-zucchini-moorhen
 timeout: 5400
