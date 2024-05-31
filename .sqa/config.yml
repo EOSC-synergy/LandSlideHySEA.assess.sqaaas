@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-white-barnacle.sh
-        container: qc.acc_woozy-chocolate-bracke
+        - /usr/bin/env sh .sqa/script.sickly-salmon-wallaby.sh
+        container: qc.acc_pretty-turquoise-serval
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.blurry-persimmon-seal.sh
-        container: qc.doc_tasty-chartreuse-sloth
+        - /usr/bin/env sh .sqa/script.cozy-saffron-quokka.sh
+        container: qc.doc_geeky-cerulean-monster
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.trippy-xanthic-falcon.sh
-        container: qc.doc_gloppy-black-clam
+        - /usr/bin/env sh .sqa/script.gummy-harlequin-anteater.sh
+        container: qc.doc_thirsty-asparagus-macaw
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-violet-quetzal.sh
-        container: qc.doc_greasy-lilac-dragon
+        - /usr/bin/env sh .sqa/script.snoopy-taupe-meerkat.sh
+        container: qc.doc_trippy-jade-penguin
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-peach-spoonbill.sh
-        container: qc.lic_hilly-peach-swan
+        - /usr/bin/env sh .sqa/script.crappy-chestnut-hyrax.sh
+        container: qc.lic_muzzy-rose-walrus
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-rose-donkey.sh
-        container: qc.sty_grumpy-buff-bracke
+        - /usr/bin/env sh .sqa/script.stealthy-beige-collie.sh
+        container: qc.sty_clammy-gold-jellyfish
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.nerdy-mustard-iguana.sh
-        container: qc.ver_shaky-ochre-bonobo
+        - /usr/bin/env sh .sqa/script.droopy-plum-rattlesnake.sh
+        container: qc.ver_homely-teal-turkey
 timeout: 5400
