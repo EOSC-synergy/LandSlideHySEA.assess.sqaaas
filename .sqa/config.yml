@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-green-bullfrog.sh
-        container: qc.acc_gloppy-mauve-budgerigar
+        - /usr/bin/env sh .sqa/script.sleepy-aqua-ladybird.sh
+        container: qc.acc_gamy-magnolia-avocet
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-goldenrod-chinook.sh
-        container: qc.doc_sleepy-crimson-chinook
+        - /usr/bin/env sh .sqa/script.silly-wisteria-walrus.sh
+        container: qc.doc_snoopy-ruby-kakapo
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-razzmatazz-tortoise.sh
-        container: qc.doc_homey-viridian-avocet
+        - /usr/bin/env sh .sqa/script.sleepy-cerise-mandrill.sh
+        container: qc.doc_trippy-apricot-capybara
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-mauve-bat.sh
-        container: qc.doc_lousy-teal-dragonfly
+        - /usr/bin/env sh .sqa/script.pasty-magenta-kingfisher.sh
+        container: qc.doc_scummy-grey-shark
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-cyan-donkey.sh
-        container: qc.lic_flabby-cinnabar-jaguar
+        - /usr/bin/env sh .sqa/script.flaky-cinnamon-coral.sh
+        container: qc.lic_homely-carmine-labradoodle
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-teal-angelfish.sh
-        container: qc.sty_blurry-pink-devil
+        - /usr/bin/env sh .sqa/script.snappy-cyan-ibis.sh
+        container: qc.sty_snippy-auburn-ocelot
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-buff-setter.sh
-        container: qc.ver_flimsy-copper-coyote
+        - /usr/bin/env sh .sqa/script.muggy-saffron-raccoon.sh
+        container: qc.ver_hasty-emerald-shark
 timeout: 5400
