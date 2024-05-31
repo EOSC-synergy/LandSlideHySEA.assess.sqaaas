@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-buff-drever.sh
-        container: qc.acc_woolly-indigo-ferret
+        - /usr/bin/env sh .sqa/script.scanty-blue-barracuda.sh
+        container: qc.acc_homely-copper-wasp
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-sepia-stingray.sh
-        container: qc.doc_randy-cinnabar-buzzard
+        - /usr/bin/env sh .sqa/script.sloppy-olive-salamander.sh
+        container: qc.doc_cheeky-lavender-monster
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-chestnut-capybara.sh
-        container: qc.doc_tasty-brass-gerbil
+        - /usr/bin/env sh .sqa/script.craggy-jade-mastiff.sh
+        container: qc.doc_skinny-persimmon-uakari
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-emerald-sheep.sh
-        container: qc.doc_lanky-red-havanese
+        - /usr/bin/env sh .sqa/script.cheeky-olive-burmese.sh
+        container: qc.doc_skinny-platinum-anteater
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-orchid-turtle.sh
-        container: qc.lic_sleazy-teal-iguana
+        - /usr/bin/env sh .sqa/script.muggy-amber-burmese.sh
+        container: qc.lic_pasty-russet-rattlesnake
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.whiny-lime-eel.sh
-        container: qc.sty_slaphappy-carmine-mayfly
+        - /usr/bin/env sh .sqa/script.stuffy-taupe-maltese.sh
+        container: qc.sty_fuzzy-cinnabar-kiwi
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-sepia-barracuda.sh
-        container: qc.ver_woolly-gold-gibbon
+        - /usr/bin/env sh .sqa/script.scummy-viridian-jaguar.sh
+        container: qc.ver_craggy-yellow-moth
 timeout: 5400
