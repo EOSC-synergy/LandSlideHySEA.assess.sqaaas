@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.crappy-beige-millipede.sh
-        container: qc.acc_stealthy-auburn-buzzard
+        - /usr/bin/env sh .sqa/script.droopy-buff-numbat.sh
+        container: qc.acc_scummy-zucchini-cat
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-zucchini-gerbil.sh
-        container: qc.doc_cozy-saffron-robin
+        - /usr/bin/env sh .sqa/script.scummy-brass-budgerigar.sh
+        container: qc.doc_flabby-periwinkle-chinook
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.snoopy-charcoal-yak.sh
-        container: qc.doc_hazy-periwinkle-spaniel
+        - /usr/bin/env sh .sqa/script.craggy-thistle-javanese.sh
+        container: qc.doc_boozy-blue-terrier
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-persimmon-hummingbird.sh
-        container: qc.doc_gimpy-firebrick-ray
+        - /usr/bin/env sh .sqa/script.randy-cerulean-jellyfish.sh
+        container: qc.doc_queasy-teal-capybara
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.geeky-amethyst-rat.sh
-        container: qc.lic_thirsty-eggplant-zebra
+        - /usr/bin/env sh .sqa/script.hazy-harlequin-cattle.sh
+        container: qc.lic_randy-wisteria-lemming
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-emerald-kangaroo.sh
-        container: qc.sty_wimpy-celadon-mule
+        - /usr/bin/env sh .sqa/script.ugly-pink-chin.sh
+        container: qc.sty_skanky-persimmon-mole
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cranky-wisteria-weasel.sh
-        container: qc.ver_tacky-emerald-terrier
+        - /usr/bin/env sh .sqa/script.tacky-chestnut-eel.sh
+        container: qc.ver_clammy-cyan-mau
 timeout: 5400
