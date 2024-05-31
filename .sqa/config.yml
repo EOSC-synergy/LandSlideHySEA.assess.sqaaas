@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-turquoise-wolverine.sh
-        container: qc.acc_snazzy-bistre-squirt
+        - /usr/bin/env sh .sqa/script.chewy-bronze-emu.sh
+        container: qc.acc_hasty-peach-eleuth
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sunny-champagne-angelfish.sh
-        container: qc.doc_surly-scarlet-salamander
+        - /usr/bin/env sh .sqa/script.chewy-thistle-quail.sh
+        container: qc.doc_skimpy-vermilion-discus
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.cloudy-russet-tapir.sh
-        container: qc.doc_shabby-gold-wolfhound
+        - /usr/bin/env sh .sqa/script.pretty-russet-cattle.sh
+        container: qc.doc_sloppy-tan-spoonbill
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-burgundy-chicken.sh
-        container: qc.doc_gummy-zucchini-gharial
+        - /usr/bin/env sh .sqa/script.homey-gold-sponge.sh
+        container: qc.doc_stinky-indigo-kudu
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-puce-wolfhound.sh
-        container: qc.lic_sleazy-sepia-seahorse
+        - /usr/bin/env sh .sqa/script.lumpy-pumpkin-gharial.sh
+        container: qc.lic_gloppy-mustard-woodpecker
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-cornflower-wallaby.sh
-        container: qc.sty_silly-crimson-seahorse
+        - /usr/bin/env sh .sqa/script.snippy-cinnamon-akita.sh
+        container: qc.sty_sleepy-seashell-scorpion
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-red-crane.sh
-        container: qc.ver_sunny-aquamarine-cuttlefish
+        - /usr/bin/env sh .sqa/script.skanky-zucchini-markhor.sh
+        container: qc.ver_gimpy-sepia-caterpillar
 timeout: 5400
