@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-azure-ragdoll.sh
-        container: qc.acc_leaky-orchid-macaw
+        - /usr/bin/env sh .sqa/script.bumpy-orchid-gecko.sh
+        container: qc.acc_seedy-gamboge-gopher
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-aquamarine-newt.sh
-        container: qc.doc_gummy-grey-cat
+        - /usr/bin/env sh .sqa/script.sloppy-red-horse.sh
+        container: qc.doc_breezy-cobalt-kakapo
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-silver-wrasse.sh
-        container: qc.doc_scaly-ivory-fox
+        - /usr/bin/env sh .sqa/script.lousy-periwinkle-birman.sh
+        container: qc.doc_baggy-gamboge-chinook
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.geeky-beige-turtle.sh
-        container: qc.doc_ready-cinnamon-cichlid
+        - /usr/bin/env sh .sqa/script.silly-auburn-foxhound.sh
+        container: qc.doc_beady-gamboge-stingray
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-sepia-mau.sh
-        container: qc.lic_bluesy-olive-dollar
+        - /usr/bin/env sh .sqa/script.ready-scarlet-quail.sh
+        container: qc.lic_beady-coral-indri
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-tomato-chow.sh
-        container: qc.sty_seedy-wheat-caiman
+        - /usr/bin/env sh .sqa/script.lanky-lilac-loon.sh
+        container: qc.sty_crappy-gold-barracuda
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-brown-quail.sh
-        container: qc.ver_chewy-razzmatazz-retriever
+        - /usr/bin/env sh .sqa/script.greasy-azure-salamander.sh
+        container: qc.ver_cheeky-khaki-owl
 timeout: 5400
