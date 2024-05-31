@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-celadon-mole.sh
-        container: qc.acc_nerdy-white-zonkey
+        - /usr/bin/env sh .sqa/script.snippy-magnolia-dogfish.sh
+        container: qc.acc_squirrely-zucchini-albatross
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.fuzzy-ruby-horse.sh
-        container: qc.doc_stuffy-cinnamon-chipmunk
+        - /usr/bin/env sh .sqa/script.baggy-mustard-panda.sh
+        container: qc.doc_leaky-grey-frise
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.frumpy-flax-cow.sh
-        container: qc.doc_lousy-rust-boar
+        - /usr/bin/env sh .sqa/script.snoopy-brass-barb.sh
+        container: qc.doc_slaphappy-myrtle-cichlid
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.whiny-brass-millipede.sh
-        container: qc.doc_pretty-vermilion-dane
+        - /usr/bin/env sh .sqa/script.silly-ruby-fossa.sh
+        container: qc.doc_snippy-charcoal-mastiff
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-indigo-kakapo.sh
-        container: qc.lic_flimsy-plum-mastiff
+        - /usr/bin/env sh .sqa/script.squirrely-emerald-shrew.sh
+        container: qc.lic_gummy-yellow-robin
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-ecru-rat.sh
-        container: qc.sty_sunny-zucchini-bongo
+        - /usr/bin/env sh .sqa/script.grumpy-auburn-fowl.sh
+        container: qc.sty_sickly-burgundy-javanese
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-wheat-cow.sh
-        container: qc.ver_tasty-cyan-dugong
+        - /usr/bin/env sh .sqa/script.wiggy-lavender-gibbon.sh
+        container: qc.ver_greasy-cerulean-russel
 timeout: 5400
