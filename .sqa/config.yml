@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.blurry-lavender-wasp.sh
-        container: qc.acc_leaky-cardinal-booby
+        - /usr/bin/env sh .sqa/script.woolly-periwinkle-dolphin.sh
+        container: qc.acc_shaggy-cerulean-cattle
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.geeky-puce-yak.sh
-        container: qc.doc_scaly-razzmatazz-newfoundland
+        - /usr/bin/env sh .sqa/script.lumpy-sepia-wrasse.sh
+        container: qc.doc_stuffy-coral-barb
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.wimpy-bistre-tetra.sh
-        container: qc.doc_cloudy-cinnabar-mammoth
+        - /usr/bin/env sh .sqa/script.slimy-champagne-dogfish.sh
+        container: qc.doc_pasty-vermilion-yak
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-orange-harrier.sh
-        container: qc.doc_slimy-goldenrod-toucan
+        - /usr/bin/env sh .sqa/script.breezy-persimmon-millipede.sh
+        container: qc.doc_stealthy-magenta-dane
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-goldenrod-pig.sh
-        container: qc.lic_queasy-heliotrope-crocodile
+        - /usr/bin/env sh .sqa/script.paltry-gold-panda.sh
+        container: qc.lic_goopy-flax-barnacle
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-aquamarine-bee.sh
-        container: qc.sty_blurry-ochre-fish
+        - /usr/bin/env sh .sqa/script.wheezy-taupe-havanese.sh
+        container: qc.sty_sloppy-ruby-snail
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.wimpy-persimmon-chinook.sh
-        container: qc.ver_pretty-carmine-donkey
+        - /usr/bin/env sh .sqa/script.shaggy-grey-bird.sh
+        container: qc.ver_bumpy-apricot-tzu
 timeout: 5400
