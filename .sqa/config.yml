@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.wimpy-tomato-dugong.sh
-        container: qc.acc_tasty-teal-mandrill
+        - /usr/bin/env sh .sqa/script.cheeky-zucchini-hummingbird.sh
+        container: qc.acc_woozy-razzmatazz-blue
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-lilac-mau.sh
-        container: qc.doc_flimsy-wisteria-anteater
+        - /usr/bin/env sh .sqa/script.tacky-goldenrod-cat.sh
+        container: qc.doc_gamy-violet-spoonbill
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-bistre-crane.sh
-        container: qc.doc_muggy-azure-chow
+        - /usr/bin/env sh .sqa/script.stuffy-smalt-owl.sh
+        container: qc.doc_flaky-cornflower-spoonbill
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-wheat-lemming.sh
-        container: qc.doc_ugly-corn-camel
+        - /usr/bin/env sh .sqa/script.slimy-razzmatazz-lion.sh
+        container: qc.doc_flaky-chocolate-bongo
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-chestnut-crocodile.sh
-        container: qc.lic_homely-brass-civet
+        - /usr/bin/env sh .sqa/script.scummy-amber-quoll.sh
+        container: qc.lic_ready-ultramarine-chameleon
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-dandelion-badger.sh
-        container: qc.sty_clammy-azure-bordeaux
+        - /usr/bin/env sh .sqa/script.sleepy-cerise-grouse.sh
+        container: qc.sty_pokey-tangerine-echidna
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-smalt-koala.sh
-        container: qc.ver_hazy-blue-goose
+        - /usr/bin/env sh .sqa/script.ugly-bistre-tiger.sh
+        container: qc.ver_surly-goldenrod-ocelot
 timeout: 5400
