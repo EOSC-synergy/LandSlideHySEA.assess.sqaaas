@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-orchid-gecko.sh
-        container: qc.acc_seedy-gamboge-gopher
+        - /usr/bin/env sh .sqa/script.cheeky-lilac-lion.sh
+        container: qc.acc_clammy-harlequin-okapi
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-red-horse.sh
-        container: qc.doc_breezy-cobalt-kakapo
+        - /usr/bin/env sh .sqa/script.stinky-orange-octopus.sh
+        container: qc.doc_nippy-burgundy-pig
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-periwinkle-birman.sh
-        container: qc.doc_baggy-gamboge-chinook
+        - /usr/bin/env sh .sqa/script.sleepy-mustard-bongo.sh
+        container: qc.doc_skinny-cream-mouse
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-auburn-foxhound.sh
-        container: qc.doc_beady-gamboge-stingray
+        - /usr/bin/env sh .sqa/script.scaly-amethyst-wasp.sh
+        container: qc.doc_tacky-silver-opossum
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-scarlet-quail.sh
-        container: qc.lic_beady-coral-indri
+        - /usr/bin/env sh .sqa/script.grumpy-violet-iguana.sh
+        container: qc.lic_ready-lavender-chin
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-lilac-loon.sh
-        container: qc.sty_crappy-gold-barracuda
+        - /usr/bin/env sh .sqa/script.chewy-corn-cuttlefish.sh
+        container: qc.sty_gimpy-yellow-goose
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.greasy-azure-salamander.sh
-        container: qc.ver_cheeky-khaki-owl
+        - /usr/bin/env sh .sqa/script.cloudy-crimson-abyssinian.sh
+        container: qc.ver_breezy-jade-sparrow
 timeout: 5400
