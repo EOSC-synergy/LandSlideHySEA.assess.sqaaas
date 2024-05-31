@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-salmon-wallaby.sh
-        container: qc.acc_pretty-turquoise-serval
+        - /usr/bin/env sh .sqa/script.shaggy-green-bullfrog.sh
+        container: qc.acc_gloppy-mauve-budgerigar
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cozy-saffron-quokka.sh
-        container: qc.doc_geeky-cerulean-monster
+        - /usr/bin/env sh .sqa/script.foggy-goldenrod-chinook.sh
+        container: qc.doc_sleepy-crimson-chinook
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-harlequin-anteater.sh
-        container: qc.doc_thirsty-asparagus-macaw
+        - /usr/bin/env sh .sqa/script.pretty-razzmatazz-tortoise.sh
+        container: qc.doc_homey-viridian-avocet
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.snoopy-taupe-meerkat.sh
-        container: qc.doc_trippy-jade-penguin
+        - /usr/bin/env sh .sqa/script.hazy-mauve-bat.sh
+        container: qc.doc_lousy-teal-dragonfly
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.crappy-chestnut-hyrax.sh
-        container: qc.lic_muzzy-rose-walrus
+        - /usr/bin/env sh .sqa/script.scanty-cyan-donkey.sh
+        container: qc.lic_flabby-cinnabar-jaguar
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-beige-collie.sh
-        container: qc.sty_clammy-gold-jellyfish
+        - /usr/bin/env sh .sqa/script.ready-teal-angelfish.sh
+        container: qc.sty_blurry-pink-devil
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-plum-rattlesnake.sh
-        container: qc.ver_homely-teal-turkey
+        - /usr/bin/env sh .sqa/script.ready-buff-setter.sh
+        container: qc.ver_flimsy-copper-coyote
 timeout: 5400
