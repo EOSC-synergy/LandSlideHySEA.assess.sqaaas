@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.squeaky-yellow-chin.sh
-        container: qc.acc_nippy-aqua-ladybird
+        - /usr/bin/env sh .sqa/script.woozy-puce-fossa.sh
+        container: qc.acc_scummy-corn-crab
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-chestnut-kakapo.sh
-        container: qc.doc_leaky-linen-beaver
+        - /usr/bin/env sh .sqa/script.leaky-rust-coyote.sh
+        container: qc.doc_tasty-cinnabar-hedgehog
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-auburn-barracuda.sh
-        container: qc.doc_bumpy-ecru-penguin
+        - /usr/bin/env sh .sqa/script.cheeky-myrtle-tiger.sh
+        container: qc.doc_woolly-bistre-armadillo
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-thistle-oriole.sh
-        container: qc.doc_trippy-thistle-binturong
+        - /usr/bin/env sh .sqa/script.surly-amber-labradoodle.sh
+        container: qc.doc_queasy-eggplant-mandrill
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.cozy-pumpkin-termite.sh
-        container: qc.lic_lousy-gold-axolotl
+        - /usr/bin/env sh .sqa/script.shaky-cornflower-chin.sh
+        container: qc.lic_chummy-scarlet-chicken
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.hilly-teal-lemming.sh
-        container: qc.sty_pokey-auburn-uakari
+        - /usr/bin/env sh .sqa/script.snazzy-salmon-gorilla.sh
+        container: qc.sty_chummy-cream-panda
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.whiny-linen-echidna.sh
-        container: qc.ver_wiggy-azure-rattlesnake
+        - /usr/bin/env sh .sqa/script.leaky-amaranth-moose.sh
+        container: qc.ver_snappy-ivory-schnauzer
 timeout: 5400
