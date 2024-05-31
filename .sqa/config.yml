@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.grumpy-rust-binturong.sh
-        container: qc.acc_cloudy-vermilion-greyhound
+        - /usr/bin/env sh .sqa/script.gloppy-azure-ragdoll.sh
+        container: qc.acc_leaky-orchid-macaw
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-azure-monster.sh
-        container: qc.doc_homely-amaranth-olm
+        - /usr/bin/env sh .sqa/script.dorky-aquamarine-newt.sh
+        container: qc.doc_gummy-grey-cat
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-turquoise-fox.sh
-        container: qc.doc_freaky-corn-markhor
+        - /usr/bin/env sh .sqa/script.shaky-silver-wrasse.sh
+        container: qc.doc_scaly-ivory-fox
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-coral-mouse.sh
-        container: qc.doc_muggy-brass-sponge
+        - /usr/bin/env sh .sqa/script.geeky-beige-turtle.sh
+        container: qc.doc_ready-cinnamon-cichlid
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-green-argentino.sh
-        container: qc.lic_zippy-cream-impala
+        - /usr/bin/env sh .sqa/script.tacky-sepia-mau.sh
+        container: qc.lic_bluesy-olive-dollar
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-carmine-tapir.sh
-        container: qc.sty_cranky-indigo-woodlouse
+        - /usr/bin/env sh .sqa/script.sleepy-tomato-chow.sh
+        container: qc.sty_seedy-wheat-caiman
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-saffron-dalmatian.sh
-        container: qc.ver_ready-champagne-fowl
+        - /usr/bin/env sh .sqa/script.woozy-brown-quail.sh
+        container: qc.ver_chewy-razzmatazz-retriever
 timeout: 5400
