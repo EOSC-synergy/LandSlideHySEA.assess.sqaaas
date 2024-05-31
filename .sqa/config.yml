@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-asparagus-scorpion.sh
-        container: qc.acc_bluesy-cobalt-mammoth
+        - /usr/bin/env sh .sqa/script.freaky-lavender-abyssinian.sh
+        container: qc.acc_nerdy-magnolia-magpie
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.whiny-mustard-centipede.sh
-        container: qc.doc_skanky-thistle-woodlouse
+        - /usr/bin/env sh .sqa/script.flabby-magnolia-turkey.sh
+        container: qc.doc_droopy-auburn-reindeer
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-periwinkle-mongoose.sh
-        container: qc.doc_silly-platinum-ocelot
+        - /usr/bin/env sh .sqa/script.nerdy-olivine-whippet.sh
+        container: qc.doc_bluesy-alizarin-affenpinscher
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-denim-pinscher.sh
-        container: qc.doc_geeky-seashell-bobcat
+        - /usr/bin/env sh .sqa/script.flaky-amaranth-urchin.sh
+        container: qc.doc_wheezy-coral-havanese
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-lavender-grouse.sh
-        container: qc.lic_queasy-ecru-hippopotamus
+        - /usr/bin/env sh .sqa/script.droopy-beige-whippet.sh
+        container: qc.lic_shaggy-magenta-koala
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-chestnut-bobcat.sh
-        container: qc.sty_fuzzy-heliotrope-ocelot
+        - /usr/bin/env sh .sqa/script.lovely-apricot-sparrow.sh
+        container: qc.sty_blurry-cyan-ostrich
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-magenta-tapir.sh
-        container: qc.ver_gummy-salmon-bombay
+        - /usr/bin/env sh .sqa/script.pasty-cyan-cow.sh
+        container: qc.ver_cranky-brass-fousek
 timeout: 5400
