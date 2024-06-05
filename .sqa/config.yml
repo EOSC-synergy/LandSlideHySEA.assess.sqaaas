@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-tomato-heron.sh
-        container: qc.acc_skimpy-asparagus-woodpecker
+        - /usr/bin/env sh .sqa/script.frumpy-aquamarine-quail.sh
+        container: qc.acc_woozy-red-argentino
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-apricot-labradoodle.sh
-        container: qc.doc_hilly-violet-molly
+        - /usr/bin/env sh .sqa/script.pasty-razzmatazz-uakari.sh
+        container: qc.doc_sickly-fuchsia-hornet
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-silver-beaver.sh
-        container: qc.doc_snappy-sapphire-beagle
+        - /usr/bin/env sh .sqa/script.blurry-periwinkle-cougar.sh
+        container: qc.doc_trippy-smalt-kiwi
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-cream-shark.sh
-        container: qc.doc_droopy-cerulean-fly
+        - /usr/bin/env sh .sqa/script.snippy-ultramarine-raccoon.sh
+        container: qc.doc_beady-amber-gecko
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.clammy-sapphire-okapi.sh
-        container: qc.lic_crabby-cyan-tamarin
+        - /usr/bin/env sh .sqa/script.sleepy-white-kudu.sh
+        container: qc.lic_wheezy-magnolia-tuatara
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-chestnut-indri.sh
-        container: qc.sty_shaggy-cerulean-bison
+        - /usr/bin/env sh .sqa/script.stealthy-denim-burmese.sh
+        container: qc.sty_cloudy-linen-spaniel
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.clammy-goldenrod-penguin.sh
-        container: qc.ver_foggy-lime-saola
+        - /usr/bin/env sh .sqa/script.lanky-aqua-javanese.sh
+        container: qc.ver_stealthy-aqua-buffalo
 timeout: 5400
