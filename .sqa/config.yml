@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-brass-barnacle.sh
-        container: qc.acc_sunny-heliotrope-cockroach
+        - /usr/bin/env sh .sqa/script.thirsty-cinnabar-fowl.sh
+        container: qc.acc_muzzy-cinnamon-uguisu
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cozy-aqua-bonobo.sh
-        container: qc.doc_stuffy-cardinal-whippet
+        - /usr/bin/env sh .sqa/script.muggy-puce-dodo.sh
+        container: qc.doc_beady-sangria-frise
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-chartreuse-fly.sh
-        container: qc.doc_thirsty-bronze-monster
+        - /usr/bin/env sh .sqa/script.flaky-charcoal-fox.sh
+        container: qc.doc_muggy-purple-cattle
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-amber-rat.sh
-        container: qc.doc_sleepy-celadon-caracal
+        - /usr/bin/env sh .sqa/script.gimpy-zucchini-ibis.sh
+        container: qc.doc_squirrely-gamboge-snake
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.scummy-flax-bird.sh
-        container: qc.lic_fuzzy-jade-mongrel
+        - /usr/bin/env sh .sqa/script.skimpy-sepia-forest.sh
+        container: qc.lic_surly-myrtle-kangaroo
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-linen-lionfish.sh
-        container: qc.sty_messy-seashell-akbash
+        - /usr/bin/env sh .sqa/script.stinky-chocolate-toad.sh
+        container: qc.sty_flimsy-scarlet-grasshopper
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-saffron-molly.sh
-        container: qc.ver_cozy-chestnut-kudu
+        - /usr/bin/env sh .sqa/script.tacky-cinnamon-tapir.sh
+        container: qc.ver_gamy-mustard-olm
 timeout: 5400
