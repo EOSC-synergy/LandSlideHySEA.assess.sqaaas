@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-white-manatee.sh
-        container: qc.acc_seedy-olivine-heron
+        - /usr/bin/env sh .sqa/script.flaky-plum-sponge.sh
+        container: qc.acc_goopy-mauve-greyhound
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-saffron-ostrich.sh
-        container: qc.doc_fuzzy-russet-spider
+        - /usr/bin/env sh .sqa/script.snippy-amethyst-javanese.sh
+        container: qc.doc_seedy-white-grouse
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-grey-sparrow.sh
-        container: qc.doc_nippy-gold-tamarin
+        - /usr/bin/env sh .sqa/script.leaky-apricot-squirrel.sh
+        container: qc.doc_homely-cerise-cheetah
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.wimpy-white-bombay.sh
-        container: qc.doc_nerdy-charcoal-balinese
+        - /usr/bin/env sh .sqa/script.pasty-orchid-affenpinscher.sh
+        container: qc.doc_surly-pink-dingo
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-firebrick-cockroach.sh
-        container: qc.lic_bumpy-burgundy-dachsbracke
+        - /usr/bin/env sh .sqa/script.stuffy-mustard-stingray.sh
+        container: qc.lic_lovely-sepia-akita
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-blue-crocodile.sh
-        container: qc.sty_blurry-beige-whippet
+        - /usr/bin/env sh .sqa/script.gummy-taupe-butterfly.sh
+        container: qc.sty_woozy-smalt-chinook
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-vermilion-rhinoceros.sh
-        container: qc.ver_scaly-white-axolotl
+        - /usr/bin/env sh .sqa/script.dorky-copper-cuttlefish.sh
+        container: qc.ver_dorky-champagne-dolphin
 timeout: 5400
