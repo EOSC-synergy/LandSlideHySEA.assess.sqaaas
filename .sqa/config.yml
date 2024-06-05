@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-asparagus-dolphin.sh
-        container: qc.acc_dorky-teal-squirt
+        - /usr/bin/env sh .sqa/script.chummy-persimmon-toad.sh
+        container: qc.acc_thirsty-orange-forest
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-malachite-magpie.sh
-        container: qc.doc_gloppy-silver-beaver
+        - /usr/bin/env sh .sqa/script.chummy-black-abyssinian.sh
+        container: qc.doc_baggy-asparagus-budgerigar
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-cornflower-indri.sh
-        container: qc.doc_homely-magenta-peccary
+        - /usr/bin/env sh .sqa/script.lanky-corn-squirrel.sh
+        container: qc.doc_shaky-viridian-rhinoceros
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-green-avocet.sh
-        container: qc.doc_dorky-jade-tamarin
+        - /usr/bin/env sh .sqa/script.beady-carmine-bordeaux.sh
+        container: qc.doc_wimpy-wisteria-whippet
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-cerise-flounder.sh
-        container: qc.lic_greasy-orange-penguin
+        - /usr/bin/env sh .sqa/script.messy-thistle-tzu.sh
+        container: qc.lic_foggy-cream-havanese
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-chartreuse-kingfisher.sh
-        container: qc.sty_cozy-aquamarine-barb
+        - /usr/bin/env sh .sqa/script.dorky-orange-setter.sh
+        container: qc.sty_squeaky-flax-chipmunk
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-aquamarine-octopus.sh
-        container: qc.ver_jumpy-carmine-terrier
+        - /usr/bin/env sh .sqa/script.geeky-ivory-caracal.sh
+        container: qc.ver_baggy-pumpkin-coral
 timeout: 5400
