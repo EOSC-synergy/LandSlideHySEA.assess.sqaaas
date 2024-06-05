@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.jumpy-periwinkle-jaguar.sh
-        container: qc.acc_cozy-lime-chow
+        - /usr/bin/env sh .sqa/script.cheeky-ochre-butterfly.sh
+        container: qc.acc_leaky-beige-havanese
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-chocolate-kiwi.sh
-        container: qc.doc_foggy-brown-avocet
+        - /usr/bin/env sh .sqa/script.smelly-pear-balinese.sh
+        container: qc.doc_shaggy-indigo-toad
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-coral-wombat.sh
-        container: qc.doc_hazy-russet-wildebeest
+        - /usr/bin/env sh .sqa/script.nippy-charcoal-cichlid.sh
+        container: qc.doc_lanky-buff-sloth
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-gold-flounder.sh
-        container: qc.doc_bluesy-mauve-otter
+        - /usr/bin/env sh .sqa/script.stinky-cobalt-eagle.sh
+        container: qc.doc_thirsty-brown-bear
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-orchid-tetra.sh
-        container: qc.lic_randy-fuchsia-cichlid
+        - /usr/bin/env sh .sqa/script.wimpy-cerise-markhor.sh
+        container: qc.lic_sloppy-ruby-angelfish
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-flax-raccoon.sh
-        container: qc.sty_lousy-malachite-badger
+        - /usr/bin/env sh .sqa/script.lumpy-thistle-lion.sh
+        container: qc.sty_freaky-mustard-bonobo
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.trippy-red-dingo.sh
-        container: qc.ver_nerdy-azure-tzu
+        - /usr/bin/env sh .sqa/script.tacky-orange-sparrow.sh
+        container: qc.ver_thirsty-dandelion-catfish
 timeout: 5400
