@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-harlequin-quetzal.sh
-        container: qc.acc_boozy-russet-moth
+        - /usr/bin/env sh .sqa/script.scanty-magnolia-lemur.sh
+        container: qc.acc_skinny-brass-peccary
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-magenta-civet.sh
-        container: qc.doc_clammy-crimson-baboon
+        - /usr/bin/env sh .sqa/script.thirsty-aquamarine-lynx.sh
+        container: qc.doc_flimsy-orange-echidna
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-crimson-anteater.sh
-        container: qc.doc_hasty-chocolate-turtle
+        - /usr/bin/env sh .sqa/script.stinky-taupe-chameleon.sh
+        container: qc.doc_flaky-burgundy-heron
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-cinnamon-fly.sh
-        container: qc.doc_nippy-burgundy-lizard
+        - /usr/bin/env sh .sqa/script.droopy-mauve-moose.sh
+        container: qc.doc_randy-flax-coyote
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-orchid-moth.sh
-        container: qc.lic_lanky-bistre-newt
+        - /usr/bin/env sh .sqa/script.chummy-grey-monkey.sh
+        container: qc.lic_lumpy-saffron-robin
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-asparagus-caiman.sh
-        container: qc.sty_breezy-platinum-flamingo
+        - /usr/bin/env sh .sqa/script.stealthy-pear-buzzard.sh
+        container: qc.sty_shaggy-grey-turtle
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-tomato-cat.sh
-        container: qc.ver_wimpy-firebrick-wombat
+        - /usr/bin/env sh .sqa/script.shaggy-salmon-hyrax.sh
+        container: qc.ver_crappy-ochre-kingfisher
 timeout: 5400
