@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-persimmon-toad.sh
-        container: qc.acc_thirsty-orange-forest
+        - /usr/bin/env sh .sqa/script.skinny-burgundy-markhor.sh
+        container: qc.acc_bumpy-pear-kiwi
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-black-abyssinian.sh
-        container: qc.doc_baggy-asparagus-budgerigar
+        - /usr/bin/env sh .sqa/script.tacky-brown-newfoundland.sh
+        container: qc.doc_cranky-corn-whippet
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-corn-squirrel.sh
-        container: qc.doc_shaky-viridian-rhinoceros
+        - /usr/bin/env sh .sqa/script.wheezy-pink-cheetah.sh
+        container: qc.doc_flimsy-olivine-coati
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.beady-carmine-bordeaux.sh
-        container: qc.doc_wimpy-wisteria-whippet
+        - /usr/bin/env sh .sqa/script.tacky-copper-whale.sh
+        container: qc.doc_slimy-wisteria-forest
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-thistle-tzu.sh
-        container: qc.lic_foggy-cream-havanese
+        - /usr/bin/env sh .sqa/script.muggy-fuchsia-gopher.sh
+        container: qc.lic_snazzy-zucchini-toad
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-orange-setter.sh
-        container: qc.sty_squeaky-flax-chipmunk
+        - /usr/bin/env sh .sqa/script.crabby-harlequin-wolf.sh
+        container: qc.sty_gummy-cardinal-forest
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.geeky-ivory-caracal.sh
-        container: qc.ver_baggy-pumpkin-coral
+        - /usr/bin/env sh .sqa/script.zippy-teal-gorilla.sh
+        container: qc.ver_randy-beige-dodo
 timeout: 5400
