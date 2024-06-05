@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-azure-anteater.sh
-        container: qc.acc_silly-coral-forest
+        - /usr/bin/env sh .sqa/script.lanky-cerise-orangutan.sh
+        container: qc.acc_tasty-mauve-swan
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-zucchini-fossa.sh
-        container: qc.doc_stuffy-olivine-newfoundland
+        - /usr/bin/env sh .sqa/script.bumpy-eggplant-tarantula.sh
+        container: qc.doc_sleazy-pear-zebra
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-chartreuse-uakari.sh
-        container: qc.doc_gummy-ruby-yak
+        - /usr/bin/env sh .sqa/script.messy-magnolia-chinchilla.sh
+        container: qc.doc_sickly-tomato-buzzard
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-cobalt-dalmatian.sh
-        container: qc.doc_crappy-aqua-wolf
+        - /usr/bin/env sh .sqa/script.sleepy-goldenrod-monkey.sh
+        container: qc.doc_scaly-green-panda
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-plum-beagle.sh
-        container: qc.lic_lumpy-tangerine-moose
+        - /usr/bin/env sh .sqa/script.thirsty-asparagus-sponge.sh
+        container: qc.lic_scummy-ivory-wolverine
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-amber-frigatebird.sh
-        container: qc.sty_shaky-malachite-ocelot
+        - /usr/bin/env sh .sqa/script.sickly-myrtle-lionfish.sh
+        container: qc.sty_messy-viridian-dachsbracke
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-beige-seal.sh
-        container: qc.ver_squirrely-vermilion-greyhound
+        - /usr/bin/env sh .sqa/script.hasty-zucchini-markhor.sh
+        container: qc.ver_cheeky-champagne-cow
 timeout: 5400
