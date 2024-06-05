@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-cerise-orangutan.sh
-        container: qc.acc_tasty-mauve-swan
+        - /usr/bin/env sh .sqa/script.gamy-coral-quetzal.sh
+        container: qc.acc_fuzzy-wisteria-olm
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-eggplant-tarantula.sh
-        container: qc.doc_sleazy-pear-zebra
+        - /usr/bin/env sh .sqa/script.surly-bistre-ant.sh
+        container: qc.doc_snazzy-fuchsia-mongrel
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-magnolia-chinchilla.sh
-        container: qc.doc_sickly-tomato-buzzard
+        - /usr/bin/env sh .sqa/script.randy-maroon-rattlesnake.sh
+        container: qc.doc_foggy-plum-blue
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-goldenrod-monkey.sh
-        container: qc.doc_scaly-green-panda
+        - /usr/bin/env sh .sqa/script.shabby-aqua-albatross.sh
+        container: qc.doc_pretty-maroon-avocet
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-asparagus-sponge.sh
-        container: qc.lic_scummy-ivory-wolverine
+        - /usr/bin/env sh .sqa/script.scanty-green-lizard.sh
+        container: qc.lic_nippy-jade-woodpecker
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-myrtle-lionfish.sh
-        container: qc.sty_messy-viridian-dachsbracke
+        - /usr/bin/env sh .sqa/script.cloudy-cerise-coral.sh
+        container: qc.sty_gloppy-flax-mist
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-zucchini-markhor.sh
-        container: qc.ver_cheeky-champagne-cow
+        - /usr/bin/env sh .sqa/script.slimy-lime-setter.sh
+        container: qc.ver_skinny-alizarin-gorilla
 timeout: 5400
