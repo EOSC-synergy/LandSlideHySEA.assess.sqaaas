@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-plum-sponge.sh
-        container: qc.acc_goopy-mauve-greyhound
+        - /usr/bin/env sh .sqa/script.stuffy-asparagus-dolphin.sh
+        container: qc.acc_dorky-teal-squirt
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-amethyst-javanese.sh
-        container: qc.doc_seedy-white-grouse
+        - /usr/bin/env sh .sqa/script.squirrely-malachite-magpie.sh
+        container: qc.doc_gloppy-silver-beaver
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-apricot-squirrel.sh
-        container: qc.doc_homely-cerise-cheetah
+        - /usr/bin/env sh .sqa/script.paltry-cornflower-indri.sh
+        container: qc.doc_homely-magenta-peccary
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-orchid-affenpinscher.sh
-        container: qc.doc_surly-pink-dingo
+        - /usr/bin/env sh .sqa/script.pasty-green-avocet.sh
+        container: qc.doc_dorky-jade-tamarin
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-mustard-stingray.sh
-        container: qc.lic_lovely-sepia-akita
+        - /usr/bin/env sh .sqa/script.sickly-cerise-flounder.sh
+        container: qc.lic_greasy-orange-penguin
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-taupe-butterfly.sh
-        container: qc.sty_woozy-smalt-chinook
+        - /usr/bin/env sh .sqa/script.crabby-chartreuse-kingfisher.sh
+        container: qc.sty_cozy-aquamarine-barb
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-copper-cuttlefish.sh
-        container: qc.ver_dorky-champagne-dolphin
+        - /usr/bin/env sh .sqa/script.gamy-aquamarine-octopus.sh
+        container: qc.ver_jumpy-carmine-terrier
 timeout: 5400
