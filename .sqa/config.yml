@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.beady-wheat-gerbil.sh
-        container: qc.acc_sleazy-lime-abyssinian
+        - /usr/bin/env sh .sqa/script.trippy-ultramarine-fowl.sh
+        container: qc.acc_snappy-black-kangaroo
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-scarlet-maltese.sh
-        container: qc.doc_snazzy-copper-axolotl
+        - /usr/bin/env sh .sqa/script.gimpy-asparagus-malamute.sh
+        container: qc.doc_queasy-puce-harrier
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-corn-hound.sh
-        container: qc.doc_hasty-sepia-barb
+        - /usr/bin/env sh .sqa/script.scanty-amethyst-avocet.sh
+        container: qc.doc_zippy-eggplant-kakapo
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-chocolate-dragon.sh
-        container: qc.doc_sleazy-cinnabar-burmese
+        - /usr/bin/env sh .sqa/script.goopy-beige-devil.sh
+        container: qc.doc_chummy-gamboge-dolphin
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-pear-turtle.sh
-        container: qc.lic_tasty-gold-bordeaux
+        - /usr/bin/env sh .sqa/script.pasty-seashell-kudu.sh
+        container: qc.lic_bumpy-salmon-blue
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-scarlet-jaguar.sh
-        container: qc.sty_skimpy-cobalt-whippet
+        - /usr/bin/env sh .sqa/script.cloudy-pear-hippopotamus.sh
+        container: qc.sty_boozy-cream-fish
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-aquamarine-fish.sh
-        container: qc.ver_surly-gold-jaguar
+        - /usr/bin/env sh .sqa/script.dorky-amethyst-corgi.sh
+        container: qc.ver_seedy-corn-frog
 timeout: 5400
