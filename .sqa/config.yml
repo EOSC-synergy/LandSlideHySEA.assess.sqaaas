@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-cyan-mule.sh
-        container: qc.acc_stuffy-celadon-bear
+        - /usr/bin/env sh .sqa/script.crabby-pumpkin-cat.sh
+        container: qc.acc_shaggy-sapphire-tang
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-amber-crab.sh
-        container: qc.doc_grumpy-beige-cow
+        - /usr/bin/env sh .sqa/script.breezy-pink-capybara.sh
+        container: qc.doc_randy-aqua-bongo
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-cream-urchin.sh
-        container: qc.doc_slimy-apricot-kangaroo
+        - /usr/bin/env sh .sqa/script.goopy-sangria-capybara.sh
+        container: qc.doc_pokey-olive-starfish
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.squeaky-rust-oyster.sh
-        container: qc.doc_beady-firebrick-bloodhound
+        - /usr/bin/env sh .sqa/script.lumpy-gold-terrier.sh
+        container: qc.doc_pasty-cinnamon-frise
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.sunny-magenta-dogfish.sh
-        container: qc.lic_cozy-gold-gharial
+        - /usr/bin/env sh .sqa/script.dorky-myrtle-audemer.sh
+        container: qc.lic_beady-buff-gopher
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.grumpy-taupe-chamois.sh
-        container: qc.sty_pasty-maroon-blue
+        - /usr/bin/env sh .sqa/script.homely-beige-panda.sh
+        container: qc.sty_snappy-lemon-hedgehog
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-heliotrope-affenpinscher.sh
-        container: qc.ver_woozy-sapphire-chameleon
+        - /usr/bin/env sh .sqa/script.lovely-ultramarine-vulture.sh
+        container: qc.ver_breezy-blue-buffalo
 timeout: 5400
