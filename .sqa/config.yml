@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-champagne-otter.sh
-        container: qc.acc_gamy-wisteria-fousek
+        - /usr/bin/env sh .sqa/script.lousy-brass-barnacle.sh
+        container: qc.acc_sunny-heliotrope-cockroach
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-turquoise-cow.sh
-        container: qc.doc_homely-cornflower-whippet
+        - /usr/bin/env sh .sqa/script.cozy-aqua-bonobo.sh
+        container: qc.doc_stuffy-cardinal-whippet
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.wiggy-rose-deer.sh
-        container: qc.doc_cheeky-red-vulture
+        - /usr/bin/env sh .sqa/script.scanty-chartreuse-fly.sh
+        container: qc.doc_thirsty-bronze-monster
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-linen-gibbon.sh
-        container: qc.doc_scummy-carmine-blue
+        - /usr/bin/env sh .sqa/script.stuffy-amber-rat.sh
+        container: qc.doc_sleepy-celadon-caracal
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.wimpy-russet-bat.sh
-        container: qc.lic_snazzy-brass-eleuth
+        - /usr/bin/env sh .sqa/script.scummy-flax-bird.sh
+        container: qc.lic_fuzzy-jade-mongrel
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.jumpy-bistre-echidna.sh
-        container: qc.sty_homely-brass-flounder
+        - /usr/bin/env sh .sqa/script.muggy-linen-lionfish.sh
+        container: qc.sty_messy-seashell-akbash
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-purple-peccary.sh
-        container: qc.ver_hilly-thistle-cassowary
+        - /usr/bin/env sh .sqa/script.skinny-saffron-molly.sh
+        container: qc.ver_cozy-chestnut-kudu
 timeout: 5400
