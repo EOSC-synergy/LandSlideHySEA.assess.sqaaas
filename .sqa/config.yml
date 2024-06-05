@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-myrtle-sloth.sh
-        container: qc.acc_jumpy-lemon-quail
+        - /usr/bin/env sh .sqa/script.homely-chestnut-dollar.sh
+        container: qc.acc_gloppy-teal-reindeer
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-buff-retriever.sh
-        container: qc.doc_sloppy-buff-scorpion
+        - /usr/bin/env sh .sqa/script.muzzy-linen-duck.sh
+        container: qc.doc_shaggy-white-mandrill
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-magnolia-coati.sh
-        container: qc.doc_paltry-sangria-saola
+        - /usr/bin/env sh .sqa/script.pasty-yellow-wrasse.sh
+        container: qc.doc_gimpy-aqua-grasshopper
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-scarlet-zorse.sh
-        container: qc.doc_snoopy-celadon-mule
+        - /usr/bin/env sh .sqa/script.messy-platinum-bulldog.sh
+        container: qc.doc_skanky-asparagus-bird
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.jumpy-sangria-devil.sh
-        container: qc.lic_gummy-saffron-earwig
+        - /usr/bin/env sh .sqa/script.leaky-carmine-tarsier.sh
+        container: qc.lic_foggy-ruby-mandrill
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-xanthic-sheepdog.sh
-        container: qc.sty_thirsty-black-robin
+        - /usr/bin/env sh .sqa/script.flabby-peach-grouse.sh
+        container: qc.sty_queasy-flax-schnauzer
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-rose-horse.sh
-        container: qc.ver_cheeky-salmon-chipmunk
+        - /usr/bin/env sh .sqa/script.wiggy-sepia-uakari.sh
+        container: qc.ver_scaly-champagne-civet
 timeout: 5400
