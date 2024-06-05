@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-mustard-opossum.sh
-        container: qc.acc_messy-ochre-moose
+        - /usr/bin/env sh .sqa/script.stealthy-ivory-ray.sh
+        container: qc.acc_muzzy-champagne-whale
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.scummy-vermilion-octopus.sh
-        container: qc.doc_woozy-lilac-retriever
+        - /usr/bin/env sh .sqa/script.pasty-blue-gecko.sh
+        container: qc.doc_cloudy-copper-dormouse
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-brass-owl.sh
-        container: qc.doc_sleazy-lemon-koala
+        - /usr/bin/env sh .sqa/script.shabby-cinnamon-dragonfly.sh
+        container: qc.doc_skimpy-olivine-gibbon
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.muzzy-amaranth-chinook.sh
-        container: qc.doc_pasty-champagne-shrimp
+        - /usr/bin/env sh .sqa/script.ugly-gamboge-wolfhound.sh
+        container: qc.doc_slimy-denim-wrasse
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-amaranth-kingfisher.sh
-        container: qc.lic_homely-rust-hamster
+        - /usr/bin/env sh .sqa/script.gummy-cyan-schnauzer.sh
+        container: qc.lic_homey-harlequin-raccoon
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-corn-dachshund.sh
-        container: qc.sty_pasty-malachite-oyster
+        - /usr/bin/env sh .sqa/script.paltry-burgundy-moorhen.sh
+        container: qc.sty_goopy-grey-oriole
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-copper-eleuth.sh
-        container: qc.ver_baggy-cream-bobcat
+        - /usr/bin/env sh .sqa/script.foggy-chocolate-falcon.sh
+        container: qc.ver_cozy-buff-worm
 timeout: 5400
