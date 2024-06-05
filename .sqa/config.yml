@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-pumpkin-cat.sh
-        container: qc.acc_shaggy-sapphire-tang
+        - /usr/bin/env sh .sqa/script.squirrely-peach-bear.sh
+        container: qc.acc_breezy-tangerine-bandicoot
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.breezy-pink-capybara.sh
-        container: qc.doc_randy-aqua-bongo
+        - /usr/bin/env sh .sqa/script.crabby-cerulean-chimpanzee.sh
+        container: qc.doc_lousy-orange-angelfish
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-sangria-capybara.sh
-        container: qc.doc_pokey-olive-starfish
+        - /usr/bin/env sh .sqa/script.pasty-gamboge-iguana.sh
+        container: qc.doc_fuzzy-eggplant-wasp
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-gold-terrier.sh
-        container: qc.doc_pasty-cinnamon-frise
+        - /usr/bin/env sh .sqa/script.paltry-blue-jaguar.sh
+        container: qc.doc_shabby-azure-boar
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-myrtle-audemer.sh
-        container: qc.lic_beady-buff-gopher
+        - /usr/bin/env sh .sqa/script.shaggy-rust-tamarin.sh
+        container: qc.lic_queasy-celadon-ant
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-beige-panda.sh
-        container: qc.sty_snappy-lemon-hedgehog
+        - /usr/bin/env sh .sqa/script.shabby-green-tapir.sh
+        container: qc.sty_pasty-red-hornet
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-ultramarine-vulture.sh
-        container: qc.ver_breezy-blue-buffalo
+        - /usr/bin/env sh .sqa/script.squirrely-aquamarine-octopus.sh
+        container: qc.ver_muzzy-smalt-kiwi
 timeout: 5400
