@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-pear-hedgehog.sh
-        container: qc.acc_randy-amaranth-heron
+        - /usr/bin/env sh .sqa/script.snappy-emerald-owl.sh
+        container: qc.acc_sunny-magnolia-yak
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-olivine-kudu.sh
-        container: qc.doc_lovely-russet-emu
+        - /usr/bin/env sh .sqa/script.dorky-brown-molly.sh
+        container: qc.doc_muzzy-tangerine-frise
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-burgundy-bonobo.sh
-        container: qc.doc_boozy-jade-akita
+        - /usr/bin/env sh .sqa/script.beady-thistle-orangutan.sh
+        container: qc.doc_homey-grey-fowl
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-ecru-flamingo.sh
-        container: qc.doc_nippy-cream-cheetah
+        - /usr/bin/env sh .sqa/script.messy-champagne-coati.sh
+        container: qc.doc_slimy-buff-cheetah
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.cozy-cream-turtle.sh
-        container: qc.lic_nerdy-bistre-koala
+        - /usr/bin/env sh .sqa/script.gimpy-wisteria-wildebeest.sh
+        container: qc.lic_nerdy-white-lobster
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-magnolia-angora.sh
-        container: qc.sty_sloppy-celadon-antelope
+        - /usr/bin/env sh .sqa/script.baggy-persimmon-dane.sh
+        container: qc.sty_muggy-amber-kudu
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.frumpy-cinnamon-rat.sh
-        container: qc.ver_lanky-scarlet-clam
+        - /usr/bin/env sh .sqa/script.sunny-denim-civet.sh
+        container: qc.ver_flimsy-flax-barnacle
 timeout: 5400
