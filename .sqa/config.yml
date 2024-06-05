@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-black-whippet.sh
-        container: qc.acc_queasy-aqua-anteater
+        - /usr/bin/env sh .sqa/script.leaky-aqua-jackal.sh
+        container: qc.acc_droopy-fuchsia-monster
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-cyan-millipede.sh
-        container: qc.doc_woolly-cerise-caracal
+        - /usr/bin/env sh .sqa/script.randy-bistre-monster.sh
+        container: qc.doc_wimpy-magenta-butterfly
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-pear-numbat.sh
-        container: qc.doc_boozy-xanthic-vulture
+        - /usr/bin/env sh .sqa/script.whiny-periwinkle-gar.sh
+        container: qc.doc_homely-magnolia-russel
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-bronze-guppy.sh
-        container: qc.doc_baggy-olivine-chamois
+        - /usr/bin/env sh .sqa/script.flaky-cardinal-akbash.sh
+        container: qc.doc_sunny-seashell-oyster
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-white-spaniel.sh
-        container: qc.lic_hasty-magnolia-snake
+        - /usr/bin/env sh .sqa/script.hazy-tan-quail.sh
+        container: qc.lic_flaky-amethyst-crane
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.baggy-cinnamon-crab.sh
-        container: qc.sty_scanty-cerulean-lobster
+        - /usr/bin/env sh .sqa/script.messy-teal-vole.sh
+        container: qc.sty_crabby-tangerine-yak
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-tomato-seal.sh
-        container: qc.ver_dorky-pink-gar
+        - /usr/bin/env sh .sqa/script.hazy-cerise-rhinoceros.sh
+        container: qc.ver_gamy-orchid-grouse
 timeout: 5400
