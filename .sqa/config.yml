@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-tomato-butterfly.sh
-        container: qc.acc_squeaky-ivory-lemur
+        - /usr/bin/env sh .sqa/script.droopy-pink-starfish.sh
+        container: qc.acc_craggy-yellow-dormouse
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-gamboge-capuchin.sh
-        container: qc.doc_ready-ivory-balinese
+        - /usr/bin/env sh .sqa/script.gimpy-corn-capuchin.sh
+        container: qc.doc_muzzy-chestnut-drever
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-dandelion-bombay.sh
-        container: qc.doc_stinky-dandelion-sheepdog
+        - /usr/bin/env sh .sqa/script.gummy-teal-barracuda.sh
+        container: qc.doc_wiggy-chestnut-jackal
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-magenta-paradise.sh
-        container: qc.doc_ugly-peach-anteater
+        - /usr/bin/env sh .sqa/script.wiggy-cornflower-flamingo.sh
+        container: qc.doc_skimpy-rust-chamois
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-cobalt-eagle.sh
-        container: qc.lic_lumpy-champagne-mastiff
+        - /usr/bin/env sh .sqa/script.geeky-brown-macaque.sh
+        container: qc.lic_flabby-beige-havanese
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-heliotrope-quetzal.sh
-        container: qc.sty_foggy-russet-dog
+        - /usr/bin/env sh .sqa/script.chewy-ultramarine-weasel.sh
+        container: qc.sty_blurry-smalt-centipede
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-indigo-mouse.sh
-        container: qc.ver_zippy-carmine-centipede
+        - /usr/bin/env sh .sqa/script.cloudy-azure-cuttlefish.sh
+        container: qc.ver_pasty-maroon-malamute
 timeout: 5400
