@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-brass-antelope.sh
-        container: qc.acc_sloppy-teal-tortoise
+        - /usr/bin/env sh .sqa/script.squeaky-persimmon-malamute.sh
+        container: qc.acc_beady-cerise-skunk
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-olive-vulture.sh
-        container: qc.doc_geeky-gamboge-shark
+        - /usr/bin/env sh .sqa/script.snazzy-white-seal.sh
+        container: qc.doc_gummy-amaranth-spaniel
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.wiggy-purple-camel.sh
-        container: qc.doc_fuzzy-plum-guppy
+        - /usr/bin/env sh .sqa/script.snappy-olivine-bloodhound.sh
+        container: qc.doc_gummy-seashell-eel
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.scummy-ochre-salamander.sh
-        container: qc.doc_sleepy-lavender-walrus
+        - /usr/bin/env sh .sqa/script.thirsty-olive-dormouse.sh
+        container: qc.doc_pokey-silver-raccoon
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-mauve-cichlid.sh
-        container: qc.lic_randy-blue-burmese
+        - /usr/bin/env sh .sqa/script.gummy-zucchini-swan.sh
+        container: qc.lic_cheeky-pear-termite
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-brown-fowl.sh
-        container: qc.sty_sickly-violet-mist
+        - /usr/bin/env sh .sqa/script.woozy-plum-argentino.sh
+        container: qc.sty_shabby-aquamarine-panda
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-alizarin-frise.sh
-        container: qc.ver_hasty-buff-gharial
+        - /usr/bin/env sh .sqa/script.greasy-scarlet-pig.sh
+        container: qc.ver_shabby-gamboge-rhinoceros
 timeout: 5400
