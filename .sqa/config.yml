@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.crappy-magenta-bee.sh
-        container: qc.acc_sunny-tangerine-stoat
+        - /usr/bin/env sh .sqa/script.hasty-razzmatazz-walrus.sh
+        container: qc.acc_snoopy-violet-buffalo
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-amaranth-havanese.sh
-        container: qc.doc_baggy-malachite-mayfly
+        - /usr/bin/env sh .sqa/script.snoopy-emerald-tzu.sh
+        container: qc.doc_whiny-cinnabar-catfish
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-jade-foxhound.sh
-        container: qc.doc_breezy-white-sheepdog
+        - /usr/bin/env sh .sqa/script.randy-teal-sparrow.sh
+        container: qc.doc_wheezy-corn-horse
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.squeaky-lavender-seal.sh
-        container: qc.doc_randy-russet-goose
+        - /usr/bin/env sh .sqa/script.wheezy-blue-dollar.sh
+        container: qc.doc_sunny-silver-mammoth
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-champagne-tamarin.sh
-        container: qc.lic_muzzy-cerise-slug
+        - /usr/bin/env sh .sqa/script.thirsty-peach-slug.sh
+        container: qc.lic_muzzy-cream-dalmatian
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-aqua-duck.sh
-        container: qc.sty_slimy-dandelion-birman
+        - /usr/bin/env sh .sqa/script.cloudy-zucchini-leopard.sh
+        container: qc.sty_geeky-yellow-dog
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-orange-devil.sh
-        container: qc.ver_gimpy-dandelion-swan
+        - /usr/bin/env sh .sqa/script.skimpy-wheat-corgi.sh
+        container: qc.ver_muzzy-orange-macaw
 timeout: 5400
