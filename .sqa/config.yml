@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-champagne-anteater.sh
-        container: qc.acc_snoopy-linen-dugong
+        - /usr/bin/env sh .sqa/script.shaggy-maroon-clam.sh
+        container: qc.acc_breezy-flax-cow
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-champagne-dragonfly.sh
-        container: qc.doc_gamy-aqua-octopus
+        - /usr/bin/env sh .sqa/script.wheezy-crimson-quail.sh
+        container: qc.doc_gummy-chartreuse-akita
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-fuchsia-forest.sh
-        container: qc.doc_cozy-maroon-setter
+        - /usr/bin/env sh .sqa/script.craggy-aquamarine-dhole.sh
+        container: qc.doc_clammy-grey-beaver
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-champagne-ladybird.sh
-        container: qc.doc_geeky-amaranth-caracal
+        - /usr/bin/env sh .sqa/script.pokey-wheat-orangutan.sh
+        container: qc.doc_sloppy-apricot-bandicoot
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-brown-bird.sh
-        container: qc.lic_stinky-sapphire-devil
+        - /usr/bin/env sh .sqa/script.hilly-grey-indri.sh
+        container: qc.lic_scanty-wheat-quoll
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-zucchini-mau.sh
-        container: qc.sty_stinky-salmon-affenpinscher
+        - /usr/bin/env sh .sqa/script.baggy-cream-wolverine.sh
+        container: qc.sty_woozy-orange-ostrich
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-cobalt-millipede.sh
-        container: qc.ver_stinky-jade-gerbil
+        - /usr/bin/env sh .sqa/script.foggy-auburn-wombat.sh
+        container: qc.ver_gloppy-malachite-robin
 timeout: 5400
