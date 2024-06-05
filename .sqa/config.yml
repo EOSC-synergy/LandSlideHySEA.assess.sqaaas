@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.trippy-ultramarine-fowl.sh
-        container: qc.acc_snappy-black-kangaroo
+        - /usr/bin/env sh .sqa/script.snippy-beige-dolphin.sh
+        container: qc.acc_flimsy-black-snail
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gimpy-asparagus-malamute.sh
-        container: qc.doc_queasy-puce-harrier
+        - /usr/bin/env sh .sqa/script.paltry-zucchini-horse.sh
+        container: qc.doc_flaky-pear-rottweiler
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-amethyst-avocet.sh
-        container: qc.doc_zippy-eggplant-kakapo
+        - /usr/bin/env sh .sqa/script.ugly-thistle-drever.sh
+        container: qc.doc_cranky-turquoise-dormouse
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-beige-devil.sh
-        container: qc.doc_chummy-gamboge-dolphin
+        - /usr/bin/env sh .sqa/script.hazy-teal-frog.sh
+        container: qc.doc_queasy-lavender-tzu
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-seashell-kudu.sh
-        container: qc.lic_bumpy-salmon-blue
+        - /usr/bin/env sh .sqa/script.hazy-razzmatazz-argentino.sh
+        container: qc.lic_gamy-rust-sloth
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.cloudy-pear-hippopotamus.sh
-        container: qc.sty_boozy-cream-fish
+        - /usr/bin/env sh .sqa/script.wiggy-aqua-mau.sh
+        container: qc.sty_seedy-sangria-argentino
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-amethyst-corgi.sh
-        container: qc.ver_seedy-corn-frog
+        - /usr/bin/env sh .sqa/script.queasy-sepia-capuchin.sh
+        container: qc.ver_craggy-cerise-abyssinian
 timeout: 5400
