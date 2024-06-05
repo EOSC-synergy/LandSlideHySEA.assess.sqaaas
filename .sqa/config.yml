@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-asparagus-cuscus.sh
-        container: qc.acc_bluesy-amber-cuttlefish
+        - /usr/bin/env sh .sqa/script.snippy-mustard-opossum.sh
+        container: qc.acc_messy-ochre-moose
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.whiny-crimson-meerkat.sh
-        container: qc.doc_clammy-orchid-balinese
+        - /usr/bin/env sh .sqa/script.scummy-vermilion-octopus.sh
+        container: qc.doc_woozy-lilac-retriever
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-magenta-butterfly.sh
-        container: qc.doc_queasy-vermilion-mole
+        - /usr/bin/env sh .sqa/script.stealthy-brass-owl.sh
+        container: qc.doc_sleazy-lemon-koala
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-tan-uakari.sh
-        container: qc.doc_wiggy-lime-olm
+        - /usr/bin/env sh .sqa/script.muzzy-amaranth-chinook.sh
+        container: qc.doc_pasty-champagne-shrimp
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-indigo-mole.sh
-        container: qc.lic_breezy-khaki-ant
+        - /usr/bin/env sh .sqa/script.hasty-amaranth-kingfisher.sh
+        container: qc.lic_homely-rust-hamster
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.cranky-gamboge-cat.sh
-        container: qc.sty_flimsy-olive-bloodhound
+        - /usr/bin/env sh .sqa/script.homey-corn-dachshund.sh
+        container: qc.sty_pasty-malachite-oyster
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-azure-cow.sh
-        container: qc.ver_crappy-tomato-bandicoot
+        - /usr/bin/env sh .sqa/script.shaggy-copper-eleuth.sh
+        container: qc.ver_baggy-cream-bobcat
 timeout: 5400
