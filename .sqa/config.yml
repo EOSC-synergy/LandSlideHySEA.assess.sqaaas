@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.whiny-wheat-fly.sh
-        container: qc.acc_beady-wisteria-earwig
+        - /usr/bin/env sh .sqa/script.silly-wisteria-penguin.sh
+        container: qc.acc_randy-wisteria-discus
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.wimpy-smalt-goat.sh
-        container: qc.doc_muggy-magnolia-crab
+        - /usr/bin/env sh .sqa/script.lovely-cobalt-bat.sh
+        container: qc.doc_wiggy-maroon-llama
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-seashell-axolotl.sh
-        container: qc.doc_cheeky-salmon-eleuth
+        - /usr/bin/env sh .sqa/script.messy-viridian-hare.sh
+        container: qc.doc_silly-wheat-rat
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.breezy-crimson-zebu.sh
-        container: qc.doc_flabby-wisteria-ferret
+        - /usr/bin/env sh .sqa/script.sleepy-cornflower-woodlouse.sh
+        container: qc.doc_squeaky-coral-guppy
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-chartreuse-zebu.sh
-        container: qc.lic_trippy-ecru-liger
+        - /usr/bin/env sh .sqa/script.cheeky-pumpkin-neanderthal.sh
+        container: qc.lic_sickly-red-falcon
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.beady-white-cuscus.sh
-        container: qc.sty_queasy-amber-deer
+        - /usr/bin/env sh .sqa/script.pokey-mauve-bombay.sh
+        container: qc.sty_craggy-silver-affenpinscher
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-corn-chameleon.sh
-        container: qc.ver_shabby-rust-shark
+        - /usr/bin/env sh .sqa/script.jumpy-smalt-sheepdog.sh
+        container: qc.ver_sloppy-goldenrod-coral
 timeout: 5400
