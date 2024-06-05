@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.muzzy-charcoal-barnacle.sh
-        container: qc.acc_geeky-ultramarine-cassowary
+        - /usr/bin/env sh .sqa/script.jumpy-periwinkle-jaguar.sh
+        container: qc.acc_cozy-lime-chow
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-malachite-blue.sh
-        container: qc.doc_flabby-sapphire-fowl
+        - /usr/bin/env sh .sqa/script.boozy-chocolate-kiwi.sh
+        container: qc.doc_foggy-brown-avocet
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-burgundy-swan.sh
-        container: qc.doc_surly-zucchini-spaniel
+        - /usr/bin/env sh .sqa/script.crabby-coral-wombat.sh
+        container: qc.doc_hazy-russet-wildebeest
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-persimmon-dragon.sh
-        container: qc.doc_foggy-wisteria-argentino
+        - /usr/bin/env sh .sqa/script.paltry-gold-flounder.sh
+        container: qc.doc_bluesy-mauve-otter
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-ochre-slug.sh
-        container: qc.lic_sloppy-linen-mau
+        - /usr/bin/env sh .sqa/script.randy-orchid-tetra.sh
+        container: qc.lic_randy-fuchsia-cichlid
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.flimsy-razzmatazz-wallaby.sh
-        container: qc.sty_beady-wisteria-jaguar
+        - /usr/bin/env sh .sqa/script.zippy-flax-raccoon.sh
+        container: qc.sty_lousy-malachite-badger
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-white-salamander.sh
-        container: qc.ver_hasty-vermilion-forest
+        - /usr/bin/env sh .sqa/script.trippy-red-dingo.sh
+        container: qc.ver_nerdy-azure-tzu
 timeout: 5400
