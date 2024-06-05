@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-razzmatazz-walrus.sh
-        container: qc.acc_snoopy-violet-buffalo
+        - /usr/bin/env sh .sqa/script.skinny-dandelion-zebu.sh
+        container: qc.acc_baggy-cornflower-millipede
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snoopy-emerald-tzu.sh
-        container: qc.doc_whiny-cinnabar-catfish
+        - /usr/bin/env sh .sqa/script.lousy-saffron-zorse.sh
+        container: qc.doc_hasty-khaki-dingo
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-teal-sparrow.sh
-        container: qc.doc_wheezy-corn-horse
+        - /usr/bin/env sh .sqa/script.gummy-green-tarantula.sh
+        container: qc.doc_gamy-dandelion-fish
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-blue-dollar.sh
-        container: qc.doc_sunny-silver-mammoth
+        - /usr/bin/env sh .sqa/script.wheezy-celadon-tortoise.sh
+        container: qc.doc_homely-grey-wildebeest
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-peach-slug.sh
-        container: qc.lic_muzzy-cream-dalmatian
+        - /usr/bin/env sh .sqa/script.skimpy-eggplant-frise.sh
+        container: qc.lic_randy-charcoal-shrimp
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.cloudy-zucchini-leopard.sh
-        container: qc.sty_geeky-yellow-dog
+        - /usr/bin/env sh .sqa/script.pretty-amaranth-lizard.sh
+        container: qc.sty_sunny-jade-catfish
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-wheat-corgi.sh
-        container: qc.ver_muzzy-orange-macaw
+        - /usr/bin/env sh .sqa/script.gloppy-indigo-skunk.sh
+        container: qc.ver_hasty-ivory-eagle
 timeout: 5400
