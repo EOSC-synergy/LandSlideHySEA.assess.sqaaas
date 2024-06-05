@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-purple-liger.sh
-        container: qc.acc_ugly-wisteria-hyrax
+        - /usr/bin/env sh .sqa/script.skinny-brass-tarsier.sh
+        container: qc.acc_leaky-blue-fox
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.flimsy-orange-tuatara.sh
-        container: qc.doc_cheeky-eggplant-dachshund
+        - /usr/bin/env sh .sqa/script.zippy-pumpkin-koala.sh
+        container: qc.doc_bumpy-magenta-affenpinscher
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.scummy-cobalt-camel.sh
-        container: qc.doc_gamy-mustard-dachshund
+        - /usr/bin/env sh .sqa/script.zippy-purple-albatross.sh
+        container: qc.doc_ugly-goldenrod-raccoon
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.squeaky-lemon-wolverine.sh
-        container: qc.doc_clammy-cinnamon-impala
+        - /usr/bin/env sh .sqa/script.seedy-maroon-spitz.sh
+        container: qc.doc_greasy-cardinal-deer
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-orange-tuatara.sh
-        container: qc.lic_lousy-plum-uguisu
+        - /usr/bin/env sh .sqa/script.chewy-viridian-chameleon.sh
+        container: qc.lic_sloppy-malachite-hedgehog
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-ivory-spitz.sh
-        container: qc.sty_baggy-rose-chameleon
+        - /usr/bin/env sh .sqa/script.pretty-alizarin-caterpillar.sh
+        container: qc.sty_flimsy-taupe-dragonfly
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-periwinkle-earwig.sh
-        container: qc.ver_slimy-silver-ostrich
+        - /usr/bin/env sh .sqa/script.freaky-green-mandrill.sh
+        container: qc.ver_stinky-lime-leopard
 timeout: 5400
