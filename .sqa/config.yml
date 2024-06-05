@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-aquamarine-paradise.sh
-        container: qc.acc_goopy-cardinal-dingo
+        - /usr/bin/env sh .sqa/script.droopy-ruby-uguisu.sh
+        container: qc.acc_muggy-smalt-civet
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.freaky-brown-husky.sh
-        container: qc.doc_seedy-gold-snake
+        - /usr/bin/env sh .sqa/script.homey-sangria-ragdoll.sh
+        container: qc.doc_wiggy-amaranth-eleuth
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.cloudy-chestnut-chinchilla.sh
-        container: qc.doc_pretty-sangria-barracuda
+        - /usr/bin/env sh .sqa/script.freaky-firebrick-mandrill.sh
+        container: qc.doc_tacky-apricot-liger
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-black-grasshopper.sh
-        container: qc.doc_lumpy-russet-fowl
+        - /usr/bin/env sh .sqa/script.ready-ecru-badger.sh
+        container: qc.doc_goopy-lilac-mole
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.cozy-chartreuse-tarantula.sh
-        container: qc.lic_snippy-lilac-fossa
+        - /usr/bin/env sh .sqa/script.muzzy-lime-chow.sh
+        container: qc.lic_scummy-goldenrod-deer
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.cranky-ecru-seahorse.sh
-        container: qc.sty_wiggy-razzmatazz-moorhen
+        - /usr/bin/env sh .sqa/script.blurry-azure-kingfisher.sh
+        container: qc.sty_cheeky-bronze-frise
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-charcoal-spitz.sh
-        container: qc.ver_snappy-razzmatazz-labradoodle
+        - /usr/bin/env sh .sqa/script.homely-rust-yak.sh
+        container: qc.ver_grumpy-jade-termite
 timeout: 5400
