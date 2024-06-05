@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-ruby-bird.sh
-        container: qc.acc_lumpy-violet-dragon
+        - /usr/bin/env sh .sqa/script.gloppy-apricot-chameleon.sh
+        container: qc.acc_shabby-malachite-quoll
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-crimson-moose.sh
-        container: qc.doc_pretty-ruby-opossum
+        - /usr/bin/env sh .sqa/script.cranky-amaranth-spaniel.sh
+        container: qc.doc_craggy-ultramarine-camel
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.freaky-asparagus-macaque.sh
-        container: qc.doc_fuzzy-heliotrope-paradise
+        - /usr/bin/env sh .sqa/script.greasy-tangerine-koala.sh
+        container: qc.doc_crappy-seashell-barb
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-orchid-fox.sh
-        container: qc.doc_hazy-buff-goose
+        - /usr/bin/env sh .sqa/script.leaky-chocolate-forest.sh
+        container: qc.doc_lanky-pumpkin-stoat
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-carmine-cat.sh
-        container: qc.lic_skinny-coral-devil
+        - /usr/bin/env sh .sqa/script.freaky-burgundy-chinchilla.sh
+        container: qc.lic_woolly-gold-cow
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-violet-foxhound.sh
-        container: qc.sty_woozy-razzmatazz-capuchin
+        - /usr/bin/env sh .sqa/script.sloppy-periwinkle-dhole.sh
+        container: qc.sty_cranky-scarlet-oriole
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.muzzy-ivory-mouse.sh
-        container: qc.ver_bluesy-olivine-boar
+        - /usr/bin/env sh .sqa/script.lousy-silver-lemming.sh
+        container: qc.ver_skinny-zucchini-hippopotamus
 timeout: 5400
