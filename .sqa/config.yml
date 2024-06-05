@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-cinnabar-fowl.sh
-        container: qc.acc_muzzy-cinnamon-uguisu
+        - /usr/bin/env sh .sqa/script.blurry-russet-zebra.sh
+        container: qc.acc_trippy-cyan-frigatebird
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-puce-dodo.sh
-        container: qc.doc_beady-sangria-frise
+        - /usr/bin/env sh .sqa/script.muzzy-periwinkle-bee.sh
+        container: qc.doc_bumpy-plum-hare
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-charcoal-fox.sh
-        container: qc.doc_muggy-purple-cattle
+        - /usr/bin/env sh .sqa/script.crappy-buff-capuchin.sh
+        container: qc.doc_wiggy-fuchsia-skunk
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.gimpy-zucchini-ibis.sh
-        container: qc.doc_squirrely-gamboge-snake
+        - /usr/bin/env sh .sqa/script.crabby-green-dane.sh
+        container: qc.doc_goopy-beige-albatross
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-sepia-forest.sh
-        container: qc.lic_surly-myrtle-kangaroo
+        - /usr/bin/env sh .sqa/script.sleepy-orchid-hyrax.sh
+        container: qc.lic_leaky-razzmatazz-abyssinian
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.stinky-chocolate-toad.sh
-        container: qc.sty_flimsy-scarlet-grasshopper
+        - /usr/bin/env sh .sqa/script.chummy-champagne-slug.sh
+        container: qc.sty_lanky-scarlet-boar
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-cinnamon-tapir.sh
-        container: qc.ver_gamy-mustard-olm
+        - /usr/bin/env sh .sqa/script.tacky-lime-lynx.sh
+        container: qc.ver_tasty-mustard-coati
 timeout: 5400
