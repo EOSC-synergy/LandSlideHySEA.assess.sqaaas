@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-aqua-jackal.sh
-        container: qc.acc_droopy-fuchsia-monster
+        - /usr/bin/env sh .sqa/script.slimy-azure-flounder.sh
+        container: qc.acc_clammy-mauve-meerkat
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.randy-bistre-monster.sh
-        container: qc.doc_wimpy-magenta-butterfly
+        - /usr/bin/env sh .sqa/script.woozy-azure-grouse.sh
+        container: qc.doc_muzzy-aqua-coral
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.whiny-periwinkle-gar.sh
-        container: qc.doc_homely-magnolia-russel
+        - /usr/bin/env sh .sqa/script.sloppy-platinum-whale.sh
+        container: qc.doc_scanty-alizarin-ladybird
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-cardinal-akbash.sh
-        container: qc.doc_sunny-seashell-oyster
+        - /usr/bin/env sh .sqa/script.smelly-maroon-chimpanzee.sh
+        container: qc.doc_silly-salmon-tortoise
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-tan-quail.sh
-        container: qc.lic_flaky-amethyst-crane
+        - /usr/bin/env sh .sqa/script.lumpy-turquoise-ferret.sh
+        container: qc.lic_gamy-persimmon-pig
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-teal-vole.sh
-        container: qc.sty_crabby-tangerine-yak
+        - /usr/bin/env sh .sqa/script.pokey-ruby-penguin.sh
+        container: qc.sty_homey-amber-quail
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-cerise-rhinoceros.sh
-        container: qc.ver_gamy-orchid-grouse
+        - /usr/bin/env sh .sqa/script.paltry-amethyst-swan.sh
+        container: qc.ver_trippy-aqua-quoll
 timeout: 5400
