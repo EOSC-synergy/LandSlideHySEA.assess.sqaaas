@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-emerald-owl.sh
-        container: qc.acc_sunny-magnolia-yak
+        - /usr/bin/env sh .sqa/script.snazzy-smalt-buzzard.sh
+        container: qc.acc_homey-taupe-insect
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-brown-molly.sh
-        container: qc.doc_muzzy-tangerine-frise
+        - /usr/bin/env sh .sqa/script.hasty-brown-penguin.sh
+        container: qc.doc_crappy-cerulean-salamander
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.beady-thistle-orangutan.sh
-        container: qc.doc_homey-grey-fowl
+        - /usr/bin/env sh .sqa/script.goopy-taupe-loon.sh
+        container: qc.doc_queasy-cobalt-chipmunk
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-champagne-coati.sh
-        container: qc.doc_slimy-buff-cheetah
+        - /usr/bin/env sh .sqa/script.bluesy-celadon-turkey.sh
+        container: qc.doc_hilly-bronze-harrier
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.gimpy-wisteria-wildebeest.sh
-        container: qc.lic_nerdy-white-lobster
+        - /usr/bin/env sh .sqa/script.shaggy-harlequin-baboon.sh
+        container: qc.lic_wheezy-viridian-deer
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.baggy-persimmon-dane.sh
-        container: qc.sty_muggy-amber-kudu
+        - /usr/bin/env sh .sqa/script.trippy-cobalt-anteater.sh
+        container: qc.sty_thirsty-charcoal-avocet
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sunny-denim-civet.sh
-        container: qc.ver_flimsy-flax-barnacle
+        - /usr/bin/env sh .sqa/script.zippy-dandelion-caracal.sh
+        container: qc.ver_gloppy-tangerine-caracal
 timeout: 5400
