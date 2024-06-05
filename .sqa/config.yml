@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-pink-emu.sh
-        container: qc.acc_gamy-jade-chicken
+        - /usr/bin/env sh .sqa/script.shaky-purple-liger.sh
+        container: qc.acc_ugly-wisteria-hyrax
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-gold-dingo.sh
-        container: qc.doc_muggy-ruby-kangaroo
+        - /usr/bin/env sh .sqa/script.flimsy-orange-tuatara.sh
+        container: qc.doc_cheeky-eggplant-dachshund
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.cranky-puce-corgi.sh
-        container: qc.doc_cozy-magenta-woodlouse
+        - /usr/bin/env sh .sqa/script.scummy-cobalt-camel.sh
+        container: qc.doc_gamy-mustard-dachshund
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-asparagus-chinook.sh
-        container: qc.doc_freaky-bistre-crocodile
+        - /usr/bin/env sh .sqa/script.squeaky-lemon-wolverine.sh
+        container: qc.doc_clammy-cinnamon-impala
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-yellow-cat.sh
-        container: qc.lic_crabby-celadon-duck
+        - /usr/bin/env sh .sqa/script.stealthy-orange-tuatara.sh
+        container: qc.lic_lousy-plum-uguisu
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-harlequin-armadillo.sh
-        container: qc.sty_snippy-smalt-audemer
+        - /usr/bin/env sh .sqa/script.hasty-ivory-spitz.sh
+        container: qc.sty_baggy-rose-chameleon
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-pumpkin-termite.sh
-        container: qc.ver_zippy-carmine-walrus
+        - /usr/bin/env sh .sqa/script.thirsty-periwinkle-earwig.sh
+        container: qc.ver_slimy-silver-ostrich
 timeout: 5400
