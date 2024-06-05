@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-ivory-ray.sh
-        container: qc.acc_muzzy-champagne-whale
+        - /usr/bin/env sh .sqa/script.whiny-wheat-fly.sh
+        container: qc.acc_beady-wisteria-earwig
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-blue-gecko.sh
-        container: qc.doc_cloudy-copper-dormouse
+        - /usr/bin/env sh .sqa/script.wimpy-smalt-goat.sh
+        container: qc.doc_muggy-magnolia-crab
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-cinnamon-dragonfly.sh
-        container: qc.doc_skimpy-olivine-gibbon
+        - /usr/bin/env sh .sqa/script.gloppy-seashell-axolotl.sh
+        container: qc.doc_cheeky-salmon-eleuth
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-gamboge-wolfhound.sh
-        container: qc.doc_slimy-denim-wrasse
+        - /usr/bin/env sh .sqa/script.breezy-crimson-zebu.sh
+        container: qc.doc_flabby-wisteria-ferret
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-cyan-schnauzer.sh
-        container: qc.lic_homey-harlequin-raccoon
+        - /usr/bin/env sh .sqa/script.woolly-chartreuse-zebu.sh
+        container: qc.lic_trippy-ecru-liger
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-burgundy-moorhen.sh
-        container: qc.sty_goopy-grey-oriole
+        - /usr/bin/env sh .sqa/script.beady-white-cuscus.sh
+        container: qc.sty_queasy-amber-deer
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-chocolate-falcon.sh
-        container: qc.ver_cozy-buff-worm
+        - /usr/bin/env sh .sqa/script.tasty-corn-chameleon.sh
+        container: qc.ver_shabby-rust-shark
 timeout: 5400
