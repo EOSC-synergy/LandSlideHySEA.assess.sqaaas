@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-celadon-orangutan.sh
-        container: qc.acc_skimpy-copper-nightingale
+        - /usr/bin/env sh .sqa/script.foggy-tomato-butterfly.sh
+        container: qc.acc_squeaky-ivory-lemur
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-aquamarine-walrus.sh
-        container: qc.doc_muggy-jade-stingray
+        - /usr/bin/env sh .sqa/script.crabby-gamboge-capuchin.sh
+        container: qc.doc_ready-ivory-balinese
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.freaky-plum-dingo.sh
-        container: qc.doc_lousy-coral-ant
+        - /usr/bin/env sh .sqa/script.craggy-dandelion-bombay.sh
+        container: qc.doc_stinky-dandelion-sheepdog
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-rose-cichlid.sh
-        container: qc.doc_snippy-xanthic-bordeaux
+        - /usr/bin/env sh .sqa/script.surly-magenta-paradise.sh
+        container: qc.doc_ugly-peach-anteater
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-seashell-quokka.sh
-        container: qc.lic_cranky-cyan-llama
+        - /usr/bin/env sh .sqa/script.gamy-cobalt-eagle.sh
+        container: qc.lic_lumpy-champagne-mastiff
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-ochre-tarantula.sh
-        container: qc.sty_dorky-wheat-fly
+        - /usr/bin/env sh .sqa/script.ugly-heliotrope-quetzal.sh
+        container: qc.sty_foggy-russet-dog
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-tomato-shark.sh
-        container: qc.ver_jumpy-persimmon-armadillo
+        - /usr/bin/env sh .sqa/script.tacky-indigo-mouse.sh
+        container: qc.ver_zippy-carmine-centipede
 timeout: 5400
