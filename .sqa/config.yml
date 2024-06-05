@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.snoopy-salmon-anteater.sh
-        container: qc.acc_shaky-eggplant-bracke
+        - /usr/bin/env sh .sqa/script.cheeky-pink-emu.sh
+        container: qc.acc_gamy-jade-chicken
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-ecru-civet.sh
-        container: qc.doc_silly-maroon-zebra
+        - /usr/bin/env sh .sqa/script.smelly-gold-dingo.sh
+        container: qc.doc_muggy-ruby-kangaroo
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-red-olm.sh
-        container: qc.doc_boozy-copper-chow
+        - /usr/bin/env sh .sqa/script.cranky-puce-corgi.sh
+        container: qc.doc_cozy-magenta-woodlouse
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-chocolate-tang.sh
-        container: qc.doc_sloppy-red-audemer
+        - /usr/bin/env sh .sqa/script.flaky-asparagus-chinook.sh
+        container: qc.doc_freaky-bistre-crocodile
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-chestnut-budgerigar.sh
-        container: qc.lic_snazzy-amethyst-tiger
+        - /usr/bin/env sh .sqa/script.chummy-yellow-cat.sh
+        container: qc.lic_crabby-celadon-duck
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-smalt-monster.sh
-        container: qc.sty_grumpy-amber-mist
+        - /usr/bin/env sh .sqa/script.sleazy-harlequin-armadillo.sh
+        container: qc.sty_snippy-smalt-audemer
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-pumpkin-orangutan.sh
-        container: qc.ver_droopy-cinnabar-dogfish
+        - /usr/bin/env sh .sqa/script.scanty-pumpkin-termite.sh
+        container: qc.ver_zippy-carmine-walrus
 timeout: 5400
