@@ -4,7 +4,7 @@ config:
     github.com/EOSC-synergy/sqaaas-tooling:
       branch: release/1.7.10
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
-    github.com/edanya-uma/LandSlideHySEA:
+    github.com/edanya-uma/LandSlideHySEA/src:
       branch: v1.0.0
       repo: https://github.com/edanya-uma/LandSlideHySEA
 environment:
@@ -13,33 +13,33 @@ environment:
 sqa_criteria:
   QC.Acc:
     repos:
-      github.com/edanya-uma/LandSlideHySEA git:
+      github.com/edanya-uma/LandSlideHySEA/src git:
         commands:
         - /usr/bin/env sh .sqa/script.jumpy-xanthic-crab.sh
         container: qc.acc_blurry-lilac-snake
   QC.Doc:
     repos:
-      github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
+      github.com/edanya-uma/LandSlideHySEA/src find_doc_files.py:
         commands:
         - /usr/bin/env sh .sqa/script.messy-lilac-lobster.sh
         container: qc.doc_skimpy-taupe-hedgehog
-      github.com/edanya-uma/LandSlideHySEA git:
+      github.com/edanya-uma/LandSlideHySEA/src git:
         commands:
         - /usr/bin/env sh .sqa/script.silly-plum-woodlouse.sh
         container: qc.doc_frumpy-saffron-woodlouse
-      github.com/edanya-uma/LandSlideHySEA markdownlint:
+      github.com/edanya-uma/LandSlideHySEA/src markdownlint:
         commands:
         - /usr/bin/env sh .sqa/script.flaky-razzmatazz-foxhound.sh
         container: qc.doc_gamy-lime-spider
   QC.Lic:
     repos:
-      github.com/edanya-uma/LandSlideHySEA licensee:
+      github.com/edanya-uma/LandSlideHySEA/src licensee:
         commands:
         - /usr/bin/env sh .sqa/script.wheezy-seashell-spaniel.sh
         container: qc.lic_whiny-amber-ragdoll
   QC.Ver:
     repos:
-      github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
+      github.com/edanya-uma/LandSlideHySEA/src get_git_tags.py:
         commands:
         - /usr/bin/env sh .sqa/script.goopy-plum-jackal.sh
         container: qc.ver_frumpy-saffron-impala
