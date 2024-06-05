@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.freaky-apricot-uakari.sh
-        container: qc.acc_flaky-sangria-balinese
+        - /usr/bin/env sh .sqa/script.baggy-corn-mouse.sh
+        container: qc.acc_baggy-scarlet-peccary
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.blurry-tomato-malamute.sh
-        container: qc.doc_trippy-brass-dollar
+        - /usr/bin/env sh .sqa/script.pokey-smalt-skunk.sh
+        container: qc.doc_sleepy-seashell-orangutan
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.baggy-lavender-caracal.sh
-        container: qc.doc_pokey-linen-cassowary
+        - /usr/bin/env sh .sqa/script.tasty-rust-octopus.sh
+        container: qc.doc_blurry-ivory-reindeer
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.squeaky-azure-frog.sh
-        container: qc.doc_zippy-maroon-lizard
+        - /usr/bin/env sh .sqa/script.pasty-tan-scorpion.sh
+        container: qc.doc_homey-coral-bison
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-azure-lionfish.sh
-        container: qc.lic_grumpy-lemon-robin
+        - /usr/bin/env sh .sqa/script.slimy-cornflower-foxhound.sh
+        container: qc.lic_hilly-malachite-mole
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-plum-chinchilla.sh
-        container: qc.sty_sleepy-myrtle-squid
+        - /usr/bin/env sh .sqa/script.pasty-purple-leopard.sh
+        container: qc.sty_scaly-violet-bullfrog
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-emerald-akbash.sh
-        container: qc.ver_goopy-azure-rhinoceros
+        - /usr/bin/env sh .sqa/script.cranky-emerald-tortoise.sh
+        container: qc.ver_hilly-lavender-quoll
 timeout: 5400
