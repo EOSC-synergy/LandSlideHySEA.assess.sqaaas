@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-cerulean-wolf.sh
-        container: qc.acc_shaky-tomato-cockroach
+        - /usr/bin/env sh .sqa/script.paltry-brass-antelope.sh
+        container: qc.acc_sloppy-teal-tortoise
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-ruby-rhinoceros.sh
-        container: qc.doc_bluesy-ochre-dogfish
+        - /usr/bin/env sh .sqa/script.seedy-olive-vulture.sh
+        container: qc.doc_geeky-gamboge-shark
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-platinum-jellyfish.sh
-        container: qc.doc_gamy-gamboge-panda
+        - /usr/bin/env sh .sqa/script.wiggy-purple-camel.sh
+        container: qc.doc_fuzzy-plum-guppy
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-cinnamon-cow.sh
-        container: qc.doc_gloppy-scarlet-capuchin
+        - /usr/bin/env sh .sqa/script.scummy-ochre-salamander.sh
+        container: qc.doc_sleepy-lavender-walrus
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-grey-otter.sh
-        container: qc.lic_gimpy-lemon-sloth
+        - /usr/bin/env sh .sqa/script.stuffy-mauve-cichlid.sh
+        container: qc.lic_randy-blue-burmese
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-pear-mandrill.sh
-        container: qc.sty_ugly-coral-horse
+        - /usr/bin/env sh .sqa/script.skimpy-brown-fowl.sh
+        container: qc.sty_sickly-violet-mist
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.trippy-cornflower-wallaby.sh
-        container: qc.ver_smelly-brass-wallaby
+        - /usr/bin/env sh .sqa/script.gamy-alizarin-frise.sh
+        container: qc.ver_hasty-buff-gharial
 timeout: 5400
