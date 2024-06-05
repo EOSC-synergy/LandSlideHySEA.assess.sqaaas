@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-burgundy-markhor.sh
-        container: qc.acc_bumpy-pear-kiwi
+        - /usr/bin/env sh .sqa/script.hazy-harlequin-quetzal.sh
+        container: qc.acc_boozy-russet-moth
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-brown-newfoundland.sh
-        container: qc.doc_cranky-corn-whippet
+        - /usr/bin/env sh .sqa/script.homey-magenta-civet.sh
+        container: qc.doc_clammy-crimson-baboon
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-pink-cheetah.sh
-        container: qc.doc_flimsy-olivine-coati
+        - /usr/bin/env sh .sqa/script.shabby-crimson-anteater.sh
+        container: qc.doc_hasty-chocolate-turtle
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-copper-whale.sh
-        container: qc.doc_slimy-wisteria-forest
+        - /usr/bin/env sh .sqa/script.stealthy-cinnamon-fly.sh
+        container: qc.doc_nippy-burgundy-lizard
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-fuchsia-gopher.sh
-        container: qc.lic_snazzy-zucchini-toad
+        - /usr/bin/env sh .sqa/script.sleepy-orchid-moth.sh
+        container: qc.lic_lanky-bistre-newt
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-harlequin-wolf.sh
-        container: qc.sty_gummy-cardinal-forest
+        - /usr/bin/env sh .sqa/script.shaky-asparagus-caiman.sh
+        container: qc.sty_breezy-platinum-flamingo
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-teal-gorilla.sh
-        container: qc.ver_randy-beige-dodo
+        - /usr/bin/env sh .sqa/script.hasty-tomato-cat.sh
+        container: qc.ver_wimpy-firebrick-wombat
 timeout: 5400
