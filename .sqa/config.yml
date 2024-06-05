@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-dandelion-zebu.sh
-        container: qc.acc_baggy-cornflower-millipede
+        - /usr/bin/env sh .sqa/script.bumpy-azure-anteater.sh
+        container: qc.acc_silly-coral-forest
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-saffron-zorse.sh
-        container: qc.doc_hasty-khaki-dingo
+        - /usr/bin/env sh .sqa/script.pretty-zucchini-fossa.sh
+        container: qc.doc_stuffy-olivine-newfoundland
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-green-tarantula.sh
-        container: qc.doc_gamy-dandelion-fish
+        - /usr/bin/env sh .sqa/script.sloppy-chartreuse-uakari.sh
+        container: qc.doc_gummy-ruby-yak
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-celadon-tortoise.sh
-        container: qc.doc_homely-grey-wildebeest
+        - /usr/bin/env sh .sqa/script.hazy-cobalt-dalmatian.sh
+        container: qc.doc_crappy-aqua-wolf
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-eggplant-frise.sh
-        container: qc.lic_randy-charcoal-shrimp
+        - /usr/bin/env sh .sqa/script.thirsty-plum-beagle.sh
+        container: qc.lic_lumpy-tangerine-moose
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-amaranth-lizard.sh
-        container: qc.sty_sunny-jade-catfish
+        - /usr/bin/env sh .sqa/script.woolly-amber-frigatebird.sh
+        container: qc.sty_shaky-malachite-ocelot
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-indigo-skunk.sh
-        container: qc.ver_hasty-ivory-eagle
+        - /usr/bin/env sh .sqa/script.smelly-beige-seal.sh
+        container: qc.ver_squirrely-vermilion-greyhound
 timeout: 5400
