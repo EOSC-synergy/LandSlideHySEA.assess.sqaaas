@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-ochre-butterfly.sh
-        container: qc.acc_leaky-beige-havanese
+        - /usr/bin/env sh .sqa/script.goopy-orchid-dalmatian.sh
+        container: qc.acc_woozy-jade-wombat
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-pear-balinese.sh
-        container: qc.doc_shaggy-indigo-toad
+        - /usr/bin/env sh .sqa/script.shaky-rose-cuttlefish.sh
+        container: qc.doc_scanty-chestnut-lemming
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.nippy-charcoal-cichlid.sh
-        container: qc.doc_lanky-buff-sloth
+        - /usr/bin/env sh .sqa/script.chummy-coral-sheep.sh
+        container: qc.doc_thirsty-carmine-chipmunk
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.stinky-cobalt-eagle.sh
-        container: qc.doc_thirsty-brown-bear
+        - /usr/bin/env sh .sqa/script.silly-silver-sheep.sh
+        container: qc.doc_surly-gold-barb
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.wimpy-cerise-markhor.sh
-        container: qc.lic_sloppy-ruby-angelfish
+        - /usr/bin/env sh .sqa/script.skinny-olive-ocelot.sh
+        container: qc.lic_muggy-champagne-dhole
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-thistle-lion.sh
-        container: qc.sty_freaky-mustard-bonobo
+        - /usr/bin/env sh .sqa/script.tasty-flax-chin.sh
+        container: qc.sty_flaky-fuchsia-lizard
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-orange-sparrow.sh
-        container: qc.ver_thirsty-dandelion-catfish
+        - /usr/bin/env sh .sqa/script.flaky-wheat-terrier.sh
+        container: qc.ver_clammy-silver-tapir
 timeout: 5400
