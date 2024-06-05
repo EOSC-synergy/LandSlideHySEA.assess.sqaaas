@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.greasy-lavender-forest.sh
-        container: qc.acc_fuzzy-beige-ostrich
+        - /usr/bin/env sh .sqa/script.beady-wheat-gerbil.sh
+        container: qc.acc_sleazy-lime-abyssinian
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-turquoise-badger.sh
-        container: qc.doc_hilly-xanthic-owl
+        - /usr/bin/env sh .sqa/script.homely-scarlet-maltese.sh
+        container: qc.doc_snazzy-copper-axolotl
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-bronze-spitz.sh
-        container: qc.doc_pokey-carmine-bison
+        - /usr/bin/env sh .sqa/script.leaky-corn-hound.sh
+        container: qc.doc_hasty-sepia-barb
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-lime-drever.sh
-        container: qc.doc_frumpy-beige-giraffe
+        - /usr/bin/env sh .sqa/script.surly-chocolate-dragon.sh
+        container: qc.doc_sleazy-cinnabar-burmese
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-sangria-mau.sh
-        container: qc.lic_snazzy-alizarin-sloth
+        - /usr/bin/env sh .sqa/script.shaggy-pear-turtle.sh
+        container: qc.lic_tasty-gold-bordeaux
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-scarlet-mongrel.sh
-        container: qc.sty_chewy-viridian-fowl
+        - /usr/bin/env sh .sqa/script.crabby-scarlet-jaguar.sh
+        container: qc.sty_skimpy-cobalt-whippet
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-rose-macaque.sh
-        container: qc.ver_jumpy-fuchsia-indri
+        - /usr/bin/env sh .sqa/script.hasty-aquamarine-fish.sh
+        container: qc.ver_surly-gold-jaguar
 timeout: 5400
