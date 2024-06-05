@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.geeky-khaki-yak.sh
-        container: qc.acc_grumpy-salmon-markhor
+        - /usr/bin/env sh .sqa/script.freaky-apricot-uakari.sh
+        container: qc.acc_flaky-sangria-balinese
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-cardinal-pig.sh
-        container: qc.doc_flabby-ochre-warthog
+        - /usr/bin/env sh .sqa/script.blurry-tomato-malamute.sh
+        container: qc.doc_trippy-brass-dollar
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-rose-monster.sh
-        container: qc.doc_shaky-cobalt-beetle
+        - /usr/bin/env sh .sqa/script.baggy-lavender-caracal.sh
+        container: qc.doc_pokey-linen-cassowary
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-fuchsia-crane.sh
-        container: qc.doc_skinny-cobalt-jellyfish
+        - /usr/bin/env sh .sqa/script.squeaky-azure-frog.sh
+        container: qc.doc_zippy-maroon-lizard
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-yellow-bulldog.sh
-        container: qc.lic_tasty-asparagus-woodlouse
+        - /usr/bin/env sh .sqa/script.cheeky-azure-lionfish.sh
+        container: qc.lic_grumpy-lemon-robin
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-white-angora.sh
-        container: qc.sty_grumpy-peach-zebra
+        - /usr/bin/env sh .sqa/script.skanky-plum-chinchilla.sh
+        container: qc.sty_sleepy-myrtle-squid
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-violet-lion.sh
-        container: qc.ver_muggy-peach-chow
+        - /usr/bin/env sh .sqa/script.tasty-emerald-akbash.sh
+        container: qc.ver_goopy-azure-rhinoceros
 timeout: 5400
