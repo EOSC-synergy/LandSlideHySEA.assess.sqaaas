@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.blurry-russet-zebra.sh
-        container: qc.acc_trippy-cyan-frigatebird
+        - /usr/bin/env sh .sqa/script.snazzy-cyan-mule.sh
+        container: qc.acc_stuffy-celadon-bear
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.muzzy-periwinkle-bee.sh
-        container: qc.doc_bumpy-plum-hare
+        - /usr/bin/env sh .sqa/script.seedy-amber-crab.sh
+        container: qc.doc_grumpy-beige-cow
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.crappy-buff-capuchin.sh
-        container: qc.doc_wiggy-fuchsia-skunk
+        - /usr/bin/env sh .sqa/script.pasty-cream-urchin.sh
+        container: qc.doc_slimy-apricot-kangaroo
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.crabby-green-dane.sh
-        container: qc.doc_goopy-beige-albatross
+        - /usr/bin/env sh .sqa/script.squeaky-rust-oyster.sh
+        container: qc.doc_beady-firebrick-bloodhound
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-orchid-hyrax.sh
-        container: qc.lic_leaky-razzmatazz-abyssinian
+        - /usr/bin/env sh .sqa/script.sunny-magenta-dogfish.sh
+        container: qc.lic_cozy-gold-gharial
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-champagne-slug.sh
-        container: qc.sty_lanky-scarlet-boar
+        - /usr/bin/env sh .sqa/script.grumpy-taupe-chamois.sh
+        container: qc.sty_pasty-maroon-blue
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-lime-lynx.sh
-        container: qc.ver_tasty-mustard-coati
+        - /usr/bin/env sh .sqa/script.hasty-heliotrope-affenpinscher.sh
+        container: qc.ver_woozy-sapphire-chameleon
 timeout: 5400
