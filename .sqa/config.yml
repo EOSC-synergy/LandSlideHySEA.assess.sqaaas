@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-chestnut-dollar.sh
-        container: qc.acc_gloppy-teal-reindeer
+        - /usr/bin/env sh .sqa/script.smelly-ruby-bird.sh
+        container: qc.acc_lumpy-violet-dragon
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.muzzy-linen-duck.sh
-        container: qc.doc_shaggy-white-mandrill
+        - /usr/bin/env sh .sqa/script.surly-crimson-moose.sh
+        container: qc.doc_pretty-ruby-opossum
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-yellow-wrasse.sh
-        container: qc.doc_gimpy-aqua-grasshopper
+        - /usr/bin/env sh .sqa/script.freaky-asparagus-macaque.sh
+        container: qc.doc_fuzzy-heliotrope-paradise
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-platinum-bulldog.sh
-        container: qc.doc_skanky-asparagus-bird
+        - /usr/bin/env sh .sqa/script.silly-orchid-fox.sh
+        container: qc.doc_hazy-buff-goose
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-carmine-tarsier.sh
-        container: qc.lic_foggy-ruby-mandrill
+        - /usr/bin/env sh .sqa/script.pasty-carmine-cat.sh
+        container: qc.lic_skinny-coral-devil
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-peach-grouse.sh
-        container: qc.sty_queasy-flax-schnauzer
+        - /usr/bin/env sh .sqa/script.foggy-violet-foxhound.sh
+        container: qc.sty_woozy-razzmatazz-capuchin
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.wiggy-sepia-uakari.sh
-        container: qc.ver_scaly-champagne-civet
+        - /usr/bin/env sh .sqa/script.muzzy-ivory-mouse.sh
+        container: qc.ver_bluesy-olivine-boar
 timeout: 5400
