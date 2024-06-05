@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-smalt-buzzard.sh
-        container: qc.acc_homey-taupe-insect
+        - /usr/bin/env sh .sqa/script.shaggy-turquoise-sloth.sh
+        container: qc.acc_baggy-cerulean-kudu
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-brown-penguin.sh
-        container: qc.doc_crappy-cerulean-salamander
+        - /usr/bin/env sh .sqa/script.stinky-ivory-dolphin.sh
+        container: qc.doc_breezy-lilac-turkey
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-taupe-loon.sh
-        container: qc.doc_queasy-cobalt-chipmunk
+        - /usr/bin/env sh .sqa/script.lovely-chestnut-dodo.sh
+        container: qc.doc_sloppy-razzmatazz-orangutan
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.bluesy-celadon-turkey.sh
-        container: qc.doc_hilly-bronze-harrier
+        - /usr/bin/env sh .sqa/script.pokey-auburn-bombay.sh
+        container: qc.doc_foggy-viridian-tamarin
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-harlequin-baboon.sh
-        container: qc.lic_wheezy-viridian-deer
+        - /usr/bin/env sh .sqa/script.flimsy-periwinkle-eleuth.sh
+        container: qc.lic_flabby-silver-buzzard
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.trippy-cobalt-anteater.sh
-        container: qc.sty_thirsty-charcoal-avocet
+        - /usr/bin/env sh .sqa/script.chewy-amethyst-lemur.sh
+        container: qc.sty_cloudy-chartreuse-antelope
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-dandelion-caracal.sh
-        container: qc.ver_gloppy-tangerine-caracal
+        - /usr/bin/env sh .sqa/script.trippy-pink-grasshopper.sh
+        container: qc.ver_dorky-lemon-blue
 timeout: 5400
