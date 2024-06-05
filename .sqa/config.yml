@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.frumpy-aquamarine-quail.sh
-        container: qc.acc_woozy-red-argentino
+        - /usr/bin/env sh .sqa/script.geeky-khaki-yak.sh
+        container: qc.acc_grumpy-salmon-markhor
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-razzmatazz-uakari.sh
-        container: qc.doc_sickly-fuchsia-hornet
+        - /usr/bin/env sh .sqa/script.queasy-cardinal-pig.sh
+        container: qc.doc_flabby-ochre-warthog
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.blurry-periwinkle-cougar.sh
-        container: qc.doc_trippy-smalt-kiwi
+        - /usr/bin/env sh .sqa/script.messy-rose-monster.sh
+        container: qc.doc_shaky-cobalt-beetle
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-ultramarine-raccoon.sh
-        container: qc.doc_beady-amber-gecko
+        - /usr/bin/env sh .sqa/script.woolly-fuchsia-crane.sh
+        container: qc.doc_skinny-cobalt-jellyfish
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.sleepy-white-kudu.sh
-        container: qc.lic_wheezy-magnolia-tuatara
+        - /usr/bin/env sh .sqa/script.snazzy-yellow-bulldog.sh
+        container: qc.lic_tasty-asparagus-woodlouse
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-denim-burmese.sh
-        container: qc.sty_cloudy-linen-spaniel
+        - /usr/bin/env sh .sqa/script.hasty-white-angora.sh
+        container: qc.sty_grumpy-peach-zebra
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-aqua-javanese.sh
-        container: qc.ver_stealthy-aqua-buffalo
+        - /usr/bin/env sh .sqa/script.sleazy-violet-lion.sh
+        container: qc.ver_muggy-peach-chow
 timeout: 5400
