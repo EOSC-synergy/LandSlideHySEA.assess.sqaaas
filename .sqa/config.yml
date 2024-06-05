@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-ruby-macaque.sh
-        container: qc.acc_crappy-myrtle-wasp
+        - /usr/bin/env sh .sqa/script.bumpy-silver-pinscher.sh
+        container: qc.acc_sickly-smalt-flamingo
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-amethyst-anteater.sh
-        container: qc.doc_cranky-white-uguisu
+        - /usr/bin/env sh .sqa/script.flaky-corn-whippet.sh
+        container: qc.doc_pokey-orange-capuchin
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-pear-chin.sh
-        container: qc.doc_droopy-cerulean-rat
+        - /usr/bin/env sh .sqa/script.lovely-olivine-husky.sh
+        container: qc.doc_nerdy-olive-weasel
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-viridian-shrew.sh
-        container: qc.doc_scanty-flax-capybara
+        - /usr/bin/env sh .sqa/script.snippy-brass-swan.sh
+        container: qc.doc_randy-charcoal-camel
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-coral-burmese.sh
-        container: qc.lic_freaky-khaki-akbash
+        - /usr/bin/env sh .sqa/script.craggy-copper-chipmunk.sh
+        container: qc.lic_sleepy-pink-ferret
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.squirrely-chartreuse-giraffe.sh
-        container: qc.sty_gimpy-blue-vole
+        - /usr/bin/env sh .sqa/script.cozy-celadon-skunk.sh
+        container: qc.sty_crappy-auburn-scorpion
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-emerald-gopher.sh
-        container: qc.ver_snazzy-amber-tang
+        - /usr/bin/env sh .sqa/script.slaphappy-goldenrod-vulture.sh
+        container: qc.ver_lousy-white-mongrel
 timeout: 5400
