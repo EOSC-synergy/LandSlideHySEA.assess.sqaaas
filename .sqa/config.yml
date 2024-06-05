@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-magnolia-lemur.sh
-        container: qc.acc_skinny-brass-peccary
+        - /usr/bin/env sh .sqa/script.wheezy-champagne-spaniel.sh
+        container: qc.acc_nerdy-chestnut-gharial
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-aquamarine-lynx.sh
-        container: qc.doc_flimsy-orange-echidna
+        - /usr/bin/env sh .sqa/script.breezy-azure-eel.sh
+        container: qc.doc_homey-brown-meerkat
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.stinky-taupe-chameleon.sh
-        container: qc.doc_flaky-burgundy-heron
+        - /usr/bin/env sh .sqa/script.flabby-cinnabar-bombay.sh
+        container: qc.doc_leaky-coral-vulture
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-mauve-moose.sh
-        container: qc.doc_randy-flax-coyote
+        - /usr/bin/env sh .sqa/script.thirsty-cinnabar-owl.sh
+        container: qc.doc_wheezy-magnolia-capuchin
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-grey-monkey.sh
-        container: qc.lic_lumpy-saffron-robin
+        - /usr/bin/env sh .sqa/script.homely-cinnabar-crab.sh
+        container: qc.lic_greasy-myrtle-turtle
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-pear-buzzard.sh
-        container: qc.sty_shaggy-grey-turtle
+        - /usr/bin/env sh .sqa/script.homey-rust-octopus.sh
+        container: qc.sty_homely-lemon-ibis
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-salmon-hyrax.sh
-        container: qc.ver_crappy-ochre-kingfisher
+        - /usr/bin/env sh .sqa/script.jumpy-razzmatazz-octopus.sh
+        container: qc.ver_squeaky-heliotrope-badger
 timeout: 5400
