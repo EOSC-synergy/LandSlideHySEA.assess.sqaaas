@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-magnolia-lynx.sh
-        container: qc.acc_flabby-bronze-moth
+        - /usr/bin/env sh .sqa/script.craggy-champagne-otter.sh
+        container: qc.acc_gamy-wisteria-fousek
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cozy-rust-coati.sh
-        container: qc.doc_freaky-persimmon-whippet
+        - /usr/bin/env sh .sqa/script.droopy-turquoise-cow.sh
+        container: qc.doc_homely-cornflower-whippet
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-fuchsia-cuscus.sh
-        container: qc.doc_sickly-rose-lizard
+        - /usr/bin/env sh .sqa/script.wiggy-rose-deer.sh
+        container: qc.doc_cheeky-red-vulture
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.clammy-pear-axolotl.sh
-        container: qc.doc_snappy-coral-retriever
+        - /usr/bin/env sh .sqa/script.homely-linen-gibbon.sh
+        container: qc.doc_scummy-carmine-blue
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-emerald-wildebeest.sh
-        container: qc.lic_grumpy-silver-swan
+        - /usr/bin/env sh .sqa/script.wimpy-russet-bat.sh
+        container: qc.lic_snazzy-brass-eleuth
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-wheat-tang.sh
-        container: qc.sty_seedy-purple-dolphin
+        - /usr/bin/env sh .sqa/script.jumpy-bistre-echidna.sh
+        container: qc.sty_homely-brass-flounder
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.nerdy-puce-chihuahua.sh
-        container: qc.ver_woozy-cardinal-wildebeest
+        - /usr/bin/env sh .sqa/script.paltry-purple-peccary.sh
+        container: qc.ver_hilly-thistle-cassowary
 timeout: 5400
