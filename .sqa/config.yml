@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-lilac-leopard.sh
-        container: qc.acc_scaly-cyan-crocodile
+        - /usr/bin/env sh .sqa/script.hasty-champagne-anteater.sh
+        container: qc.acc_snoopy-linen-dugong
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-amaranth-uguisu.sh
-        container: qc.doc_gimpy-cyan-dollar
+        - /usr/bin/env sh .sqa/script.shabby-champagne-dragonfly.sh
+        container: qc.doc_gamy-aqua-octopus
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.breezy-linen-indri.sh
-        container: qc.doc_tasty-lime-macaque
+        - /usr/bin/env sh .sqa/script.lumpy-fuchsia-forest.sh
+        container: qc.doc_cozy-maroon-setter
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-russet-heron.sh
-        container: qc.doc_fuzzy-denim-audemer
+        - /usr/bin/env sh .sqa/script.goopy-champagne-ladybird.sh
+        container: qc.doc_geeky-amaranth-caracal
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.flimsy-razzmatazz-forest.sh
-        container: qc.lic_geeky-rust-caterpillar
+        - /usr/bin/env sh .sqa/script.scanty-brown-bird.sh
+        container: qc.lic_stinky-sapphire-devil
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-purple-camel.sh
-        container: qc.sty_scaly-orchid-greyhound
+        - /usr/bin/env sh .sqa/script.scanty-zucchini-mau.sh
+        container: qc.sty_stinky-salmon-affenpinscher
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-cerise-eleuth.sh
-        container: qc.ver_woozy-chartreuse-woodpecker
+        - /usr/bin/env sh .sqa/script.snappy-cobalt-millipede.sh
+        container: qc.ver_stinky-jade-gerbil
 timeout: 5400
