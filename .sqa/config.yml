@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.squeaky-persimmon-malamute.sh
-        container: qc.acc_beady-cerise-skunk
+        - /usr/bin/env sh .sqa/script.craggy-blue-bordeaux.sh
+        container: qc.acc_messy-yellow-seal
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-white-seal.sh
-        container: qc.doc_gummy-amaranth-spaniel
+        - /usr/bin/env sh .sqa/script.sloppy-denim-ibis.sh
+        container: qc.doc_cloudy-ochre-elephant
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-olivine-bloodhound.sh
-        container: qc.doc_gummy-seashell-eel
+        - /usr/bin/env sh .sqa/script.flaky-saffron-snail.sh
+        container: qc.doc_flabby-orchid-serval
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-olive-dormouse.sh
-        container: qc.doc_pokey-silver-raccoon
+        - /usr/bin/env sh .sqa/script.cheeky-rose-raccoon.sh
+        container: qc.doc_ready-bronze-cichlid
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-zucchini-swan.sh
-        container: qc.lic_cheeky-pear-termite
+        - /usr/bin/env sh .sqa/script.pokey-khaki-jellyfish.sh
+        container: qc.lic_hazy-khaki-baboon
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-plum-argentino.sh
-        container: qc.sty_shabby-aquamarine-panda
+        - /usr/bin/env sh .sqa/script.gummy-persimmon-donkey.sh
+        container: qc.sty_scanty-aqua-dormouse
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.greasy-scarlet-pig.sh
-        container: qc.ver_shabby-gamboge-rhinoceros
+        - /usr/bin/env sh .sqa/script.sleepy-puce-dugong.sh
+        container: qc.ver_geeky-amaranth-rottweiler
 timeout: 5400
