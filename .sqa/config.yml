@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-brass-tarsier.sh
-        container: qc.acc_leaky-blue-fox
+        - /usr/bin/env sh .sqa/script.nippy-ruby-gerbil.sh
+        container: qc.acc_flaky-xanthic-zebu
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-pumpkin-koala.sh
-        container: qc.doc_bumpy-magenta-affenpinscher
+        - /usr/bin/env sh .sqa/script.nippy-russet-audemer.sh
+        container: qc.doc_pasty-smalt-flamingo
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-purple-albatross.sh
-        container: qc.doc_ugly-goldenrod-raccoon
+        - /usr/bin/env sh .sqa/script.boozy-persimmon-tarsier.sh
+        container: qc.doc_cheeky-chartreuse-uakari
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-maroon-spitz.sh
-        container: qc.doc_greasy-cardinal-deer
+        - /usr/bin/env sh .sqa/script.fuzzy-cyan-rottweiler.sh
+        container: qc.doc_cranky-maroon-nightingale
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-viridian-chameleon.sh
-        container: qc.lic_sloppy-malachite-hedgehog
+        - /usr/bin/env sh .sqa/script.sunny-brass-goat.sh
+        container: qc.lic_hilly-heliotrope-caterpillar
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-alizarin-caterpillar.sh
-        container: qc.sty_flimsy-taupe-dragonfly
+        - /usr/bin/env sh .sqa/script.gummy-amethyst-molly.sh
+        container: qc.sty_freaky-crimson-hedgehog
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.freaky-green-mandrill.sh
-        container: qc.ver_stinky-lime-leopard
+        - /usr/bin/env sh .sqa/script.crappy-teal-hummingbird.sh
+        container: qc.ver_sickly-maroon-quail
 timeout: 5400
