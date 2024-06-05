@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-orchid-dalmatian.sh
-        container: qc.acc_woozy-jade-wombat
+        - /usr/bin/env sh .sqa/script.cloudy-linen-hornet.sh
+        container: qc.acc_homey-black-barnacle
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-rose-cuttlefish.sh
-        container: qc.doc_scanty-chestnut-lemming
+        - /usr/bin/env sh .sqa/script.sloppy-amethyst-frigatebird.sh
+        container: qc.doc_baggy-puce-mayfly
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-coral-sheep.sh
-        container: qc.doc_thirsty-carmine-chipmunk
+        - /usr/bin/env sh .sqa/script.snappy-russet-bee.sh
+        container: qc.doc_clammy-olivine-tarsier
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-silver-sheep.sh
-        container: qc.doc_surly-gold-barb
+        - /usr/bin/env sh .sqa/script.jumpy-xanthic-goose.sh
+        container: qc.doc_silly-jade-koala
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-olive-ocelot.sh
-        container: qc.lic_muggy-champagne-dhole
+        - /usr/bin/env sh .sqa/script.lanky-peach-dodo.sh
+        container: qc.lic_homey-celadon-mongoose
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-flax-chin.sh
-        container: qc.sty_flaky-fuchsia-lizard
+        - /usr/bin/env sh .sqa/script.gummy-smalt-ladybird.sh
+        container: qc.sty_snazzy-burgundy-opossum
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-wheat-terrier.sh
-        container: qc.ver_clammy-silver-tapir
+        - /usr/bin/env sh .sqa/script.snippy-harlequin-hyena.sh
+        container: qc.ver_messy-buff-beaver
 timeout: 5400
