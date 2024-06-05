@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-ruby-orangutan.sh
-        container: qc.acc_stealthy-goldenrod-bison
+        - /usr/bin/env sh .sqa/script.sleazy-lilac-leopard.sh
+        container: qc.acc_scaly-cyan-crocodile
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-teal-dachsbracke.sh
-        container: qc.doc_flimsy-linen-squirt
+        - /usr/bin/env sh .sqa/script.boozy-amaranth-uguisu.sh
+        container: qc.doc_gimpy-cyan-dollar
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-aqua-fox.sh
-        container: qc.doc_scaly-vermilion-crane
+        - /usr/bin/env sh .sqa/script.breezy-linen-indri.sh
+        container: qc.doc_tasty-lime-macaque
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.nippy-rose-chameleon.sh
-        container: qc.doc_squirrely-khaki-whale
+        - /usr/bin/env sh .sqa/script.scaly-russet-heron.sh
+        container: qc.doc_fuzzy-denim-audemer
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-burgundy-baboon.sh
-        container: qc.lic_foggy-alizarin-fousek
+        - /usr/bin/env sh .sqa/script.flimsy-razzmatazz-forest.sh
+        container: qc.lic_geeky-rust-caterpillar
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-viridian-capybara.sh
-        container: qc.sty_snazzy-violet-turkey
+        - /usr/bin/env sh .sqa/script.sickly-purple-camel.sh
+        container: qc.sty_scaly-orchid-greyhound
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-carmine-chimpanzee.sh
-        container: qc.ver_smelly-azure-burmese
+        - /usr/bin/env sh .sqa/script.snappy-cerise-eleuth.sh
+        container: qc.ver_woozy-chartreuse-woodpecker
 timeout: 5400
