@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.droopy-pink-starfish.sh
-        container: qc.acc_craggy-yellow-dormouse
+        - /usr/bin/env sh .sqa/script.randy-mustard-corgi.sh
+        container: qc.acc_woolly-dandelion-turkey
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gimpy-corn-capuchin.sh
-        container: qc.doc_muzzy-chestnut-drever
+        - /usr/bin/env sh .sqa/script.slaphappy-turquoise-camel.sh
+        container: qc.doc_foggy-lime-tiger
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-teal-barracuda.sh
-        container: qc.doc_wiggy-chestnut-jackal
+        - /usr/bin/env sh .sqa/script.muzzy-turquoise-mayfly.sh
+        container: qc.doc_skanky-maroon-camel
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.wiggy-cornflower-flamingo.sh
-        container: qc.doc_skimpy-rust-chamois
+        - /usr/bin/env sh .sqa/script.stealthy-lemon-tortoise.sh
+        container: qc.doc_woozy-viridian-sponge
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.geeky-brown-macaque.sh
-        container: qc.lic_flabby-beige-havanese
+        - /usr/bin/env sh .sqa/script.slimy-coral-chamois.sh
+        container: qc.lic_bluesy-amaranth-chamois
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.chewy-ultramarine-weasel.sh
-        container: qc.sty_blurry-smalt-centipede
+        - /usr/bin/env sh .sqa/script.pretty-cerulean-moth.sh
+        container: qc.sty_droopy-cinnabar-lobster
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cloudy-azure-cuttlefish.sh
-        container: qc.ver_pasty-maroon-malamute
+        - /usr/bin/env sh .sqa/script.zippy-violet-armadillo.sh
+        container: qc.ver_smelly-periwinkle-fly
 timeout: 5400
