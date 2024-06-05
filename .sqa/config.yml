@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.slimy-azure-flounder.sh
-        container: qc.acc_clammy-mauve-meerkat
+        - /usr/bin/env sh .sqa/script.boozy-asparagus-cuscus.sh
+        container: qc.acc_bluesy-amber-cuttlefish
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-azure-grouse.sh
-        container: qc.doc_muzzy-aqua-coral
+        - /usr/bin/env sh .sqa/script.whiny-crimson-meerkat.sh
+        container: qc.doc_clammy-orchid-balinese
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-platinum-whale.sh
-        container: qc.doc_scanty-alizarin-ladybird
+        - /usr/bin/env sh .sqa/script.tasty-magenta-butterfly.sh
+        container: qc.doc_queasy-vermilion-mole
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-maroon-chimpanzee.sh
-        container: qc.doc_silly-salmon-tortoise
+        - /usr/bin/env sh .sqa/script.ugly-tan-uakari.sh
+        container: qc.doc_wiggy-lime-olm
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.lumpy-turquoise-ferret.sh
-        container: qc.lic_gamy-persimmon-pig
+        - /usr/bin/env sh .sqa/script.ugly-indigo-mole.sh
+        container: qc.lic_breezy-khaki-ant
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-ruby-penguin.sh
-        container: qc.sty_homey-amber-quail
+        - /usr/bin/env sh .sqa/script.cranky-gamboge-cat.sh
+        container: qc.sty_flimsy-olive-bloodhound
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.paltry-amethyst-swan.sh
-        container: qc.ver_trippy-aqua-quoll
+        - /usr/bin/env sh .sqa/script.sleazy-azure-cow.sh
+        container: qc.ver_crappy-tomato-bandicoot
 timeout: 5400
