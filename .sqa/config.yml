@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-coral-axolotl.sh
-        container: qc.acc_blurry-coral-turkey
+        - /usr/bin/env sh .sqa/script.stealthy-pear-hedgehog.sh
+        container: qc.acc_randy-amaranth-heron
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.fuzzy-khaki-donkey.sh
-        container: qc.doc_gamy-goldenrod-eel
+        - /usr/bin/env sh .sqa/script.stuffy-olivine-kudu.sh
+        container: qc.doc_lovely-russet-emu
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-gold-akita.sh
-        container: qc.doc_muzzy-amaranth-bordeaux
+        - /usr/bin/env sh .sqa/script.craggy-burgundy-bonobo.sh
+        container: qc.doc_boozy-jade-akita
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-plum-opossum.sh
-        container: qc.doc_stealthy-wheat-chameleon
+        - /usr/bin/env sh .sqa/script.slimy-ecru-flamingo.sh
+        container: qc.doc_nippy-cream-cheetah
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-chartreuse-fowl.sh
-        container: qc.lic_snappy-zucchini-shrew
+        - /usr/bin/env sh .sqa/script.cozy-cream-turtle.sh
+        container: qc.lic_nerdy-bistre-koala
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-persimmon-duck.sh
-        container: qc.sty_silly-ruby-indri
+        - /usr/bin/env sh .sqa/script.shaggy-magnolia-angora.sh
+        container: qc.sty_sloppy-celadon-antelope
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gloppy-brown-mongrel.sh
-        container: qc.ver_tacky-cardinal-tzu
+        - /usr/bin/env sh .sqa/script.frumpy-cinnamon-rat.sh
+        container: qc.ver_lanky-scarlet-clam
 timeout: 5400
