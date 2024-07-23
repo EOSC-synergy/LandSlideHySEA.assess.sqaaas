@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-magnolia-magpie.sh
-        container: qc.acc_slaphappy-tangerine-urchin
+        - /usr/bin/env sh .sqa/script.gimpy-emerald-urchin.sh
+        container: qc.acc_lovely-blue-oriole
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-magenta-oyster.sh
-        container: qc.doc_homey-goldenrod-rabbit
+        - /usr/bin/env sh .sqa/script.flabby-dandelion-caracal.sh
+        container: qc.doc_tasty-amber-cheetah
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.pretty-ruby-blue.sh
-        container: qc.doc_randy-amaranth-peccary
+        - /usr/bin/env sh .sqa/script.sickly-bistre-tarsier.sh
+        container: qc.doc_nerdy-white-buffalo
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.stuffy-persimmon-lobster.sh
-        container: qc.doc_bluesy-olive-frog
+        - /usr/bin/env sh .sqa/script.flaky-grey-urchin.sh
+        container: qc.doc_shabby-cerulean-lynx
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.wimpy-emerald-yak.sh
-        container: qc.lic_skanky-viridian-iguana
+        - /usr/bin/env sh .sqa/script.scanty-cornflower-cow.sh
+        container: qc.lic_smelly-cerulean-tiger
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.lovely-eggplant-hamster.sh
-        container: qc.sty_gummy-flax-corgi
+        - /usr/bin/env sh .sqa/script.chummy-eggplant-dachsbracke.sh
+        container: qc.sty_stuffy-smalt-squid
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.fuzzy-burgundy-rottweiler.sh
-        container: qc.ver_snappy-chartreuse-russel
+        - /usr/bin/env sh .sqa/script.snappy-indigo-weasel.sh
+        container: qc.ver_skimpy-purple-woodpecker
 timeout: 5400
