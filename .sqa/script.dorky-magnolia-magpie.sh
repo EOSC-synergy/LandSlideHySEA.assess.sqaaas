@@ -5,5 +5,5 @@
 
 (
 cd github.com/edanya-uma/LandSlideHySEA &&
-    mdl --json .
+    git rev-parse --is-inside-work-tree 
 )

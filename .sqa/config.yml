@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/2.1.1
+      branch: release/2.2.1
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/edanya-uma/LandSlideHySEA:
       branch: v1.0.0
@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-maroon-clam.sh
-        container: qc.acc_breezy-flax-cow
+        - /usr/bin/env sh .sqa/script.dorky-magnolia-magpie.sh
+        container: qc.acc_slaphappy-tangerine-urchin
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-crimson-quail.sh
-        container: qc.doc_gummy-chartreuse-akita
+        - /usr/bin/env sh .sqa/script.goopy-magenta-oyster.sh
+        container: qc.doc_homey-goldenrod-rabbit
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-aquamarine-dhole.sh
-        container: qc.doc_clammy-grey-beaver
+        - /usr/bin/env sh .sqa/script.pretty-ruby-blue.sh
+        container: qc.doc_randy-amaranth-peccary
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-wheat-orangutan.sh
-        container: qc.doc_sloppy-apricot-bandicoot
+        - /usr/bin/env sh .sqa/script.stuffy-persimmon-lobster.sh
+        container: qc.doc_bluesy-olive-frog
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.hilly-grey-indri.sh
-        container: qc.lic_scanty-wheat-quoll
+        - /usr/bin/env sh .sqa/script.wimpy-emerald-yak.sh
+        container: qc.lic_skanky-viridian-iguana
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.baggy-cream-wolverine.sh
-        container: qc.sty_woozy-orange-ostrich
+        - /usr/bin/env sh .sqa/script.lovely-eggplant-hamster.sh
+        container: qc.sty_gummy-flax-corgi
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-auburn-wombat.sh
-        container: qc.ver_gloppy-malachite-robin
+        - /usr/bin/env sh .sqa/script.fuzzy-burgundy-rottweiler.sh
+        container: qc.ver_snappy-chartreuse-russel
 timeout: 5400
