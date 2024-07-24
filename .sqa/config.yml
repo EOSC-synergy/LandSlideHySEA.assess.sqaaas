@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.gimpy-emerald-urchin.sh
-        container: qc.acc_lovely-blue-oriole
+        - /usr/bin/env sh .sqa/script.bluesy-rust-walrus.sh
+        container: qc.acc_chewy-cerulean-tang
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-dandelion-caracal.sh
-        container: qc.doc_tasty-amber-cheetah
+        - /usr/bin/env sh .sqa/script.sickly-magnolia-crab.sh
+        container: qc.doc_goopy-thistle-kangaroo
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-bistre-tarsier.sh
-        container: qc.doc_nerdy-white-buffalo
+        - /usr/bin/env sh .sqa/script.scaly-persimmon-centipede.sh
+        container: qc.doc_cloudy-yellow-guppy
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-grey-urchin.sh
-        container: qc.doc_shabby-cerulean-lynx
+        - /usr/bin/env sh .sqa/script.greasy-celadon-flounder.sh
+        container: qc.doc_greasy-mustard-lobster
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-cornflower-cow.sh
-        container: qc.lic_smelly-cerulean-tiger
+        - /usr/bin/env sh .sqa/script.craggy-harlequin-macaw.sh
+        container: qc.lic_grumpy-denim-cow
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-eggplant-dachsbracke.sh
-        container: qc.sty_stuffy-smalt-squid
+        - /usr/bin/env sh .sqa/script.bumpy-red-centipede.sh
+        container: qc.sty_geeky-gamboge-okapi
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-indigo-weasel.sh
-        container: qc.ver_skimpy-purple-woodpecker
+        - /usr/bin/env sh .sqa/script.greasy-persimmon-walrus.sh
+        container: qc.ver_goopy-denim-argentino
 timeout: 5400
