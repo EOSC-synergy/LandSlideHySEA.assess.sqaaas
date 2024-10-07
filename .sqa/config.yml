@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-burgundy-dachsbracke.sh
-        container: qc.acc_crappy-zucchini-penguin
+        - /usr/bin/env sh .sqa/script.leaky-periwinkle-magpie.sh
+        container: qc.acc_seedy-cinnabar-dormouse
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-plum-serval.sh
-        container: qc.doc_dorky-plum-barb
+        - /usr/bin/env sh .sqa/script.lanky-emerald-maltese.sh
+        container: qc.doc_randy-puce-hippopotamus
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-cyan-civet.sh
-        container: qc.doc_bluesy-burgundy-frigatebird
+        - /usr/bin/env sh .sqa/script.snippy-azure-chamois.sh
+        container: qc.doc_scaly-wisteria-owl
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.grumpy-taupe-frigatebird.sh
-        container: qc.doc_geeky-amethyst-leopard
+        - /usr/bin/env sh .sqa/script.pasty-asparagus-wrasse.sh
+        container: qc.doc_flabby-chocolate-abyssinian
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.smelly-orange-wasp.sh
-        container: qc.lic_hilly-cream-iguana
+        - /usr/bin/env sh .sqa/script.scanty-ultramarine-millipede.sh
+        container: qc.lic_homely-ecru-birman
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-chocolate-bloodhound.sh
-        container: qc.sty_ugly-lilac-loon
+        - /usr/bin/env sh .sqa/script.shabby-ruby-leopard.sh
+        container: qc.sty_scanty-indigo-cockroach
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-chartreuse-javanese.sh
-        container: qc.ver_flabby-chocolate-balinese
+        - /usr/bin/env sh .sqa/script.shabby-malachite-horse.sh
+        container: qc.ver_droopy-auburn-hedgehog
 timeout: 5400
