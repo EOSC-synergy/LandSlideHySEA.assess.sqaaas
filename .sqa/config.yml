@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-olivine-liger.sh
-        container: qc.acc_messy-cinnamon-baboon
+        - /usr/bin/env sh .sqa/script.craggy-cardinal-termite.sh
+        container: qc.acc_sloppy-indigo-hippopotamus
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snazzy-cardinal-argentino.sh
-        container: qc.doc_messy-salmon-cockroach
+        - /usr/bin/env sh .sqa/script.tasty-taupe-caracal.sh
+        container: qc.doc_chummy-peach-salamander
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.wimpy-dandelion-antelope.sh
-        container: qc.doc_freaky-grey-cattle
+        - /usr/bin/env sh .sqa/script.stinky-cerulean-salamander.sh
+        container: qc.doc_skanky-ruby-dingo
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-periwinkle-cichlid.sh
-        container: qc.doc_messy-yellow-kakapo
+        - /usr/bin/env sh .sqa/script.dorky-ochre-deer.sh
+        container: qc.doc_cozy-teal-collie
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.greasy-celadon-barnacle.sh
-        container: qc.lic_breezy-apricot-okapi
+        - /usr/bin/env sh .sqa/script.wheezy-lilac-dragonfly.sh
+        container: qc.lic_flimsy-burgundy-capybara
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-indigo-coati.sh
-        container: qc.sty_sickly-purple-fish
+        - /usr/bin/env sh .sqa/script.slaphappy-blue-rabbit.sh
+        container: qc.sty_freaky-periwinkle-ant
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.queasy-peach-alligator.sh
-        container: qc.ver_jumpy-wisteria-ostrich
+        - /usr/bin/env sh .sqa/script.pokey-zucchini-donkey.sh
+        container: qc.ver_cheeky-gamboge-sheepdog
 timeout: 5400
