@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-cerulean-quoll.sh
-        container: qc.acc_greasy-salmon-coral
+        - /usr/bin/env sh .sqa/script.skinny-olivine-liger.sh
+        container: qc.acc_messy-cinnamon-baboon
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-razzmatazz-markhor.sh
-        container: qc.doc_boozy-heliotrope-millipede
+        - /usr/bin/env sh .sqa/script.snazzy-cardinal-argentino.sh
+        container: qc.doc_messy-salmon-cockroach
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-saffron-dane.sh
-        container: qc.doc_slimy-zucchini-owl
+        - /usr/bin/env sh .sqa/script.wimpy-dandelion-antelope.sh
+        container: qc.doc_freaky-grey-cattle
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-cinnamon-vole.sh
-        container: qc.doc_cozy-violet-ferret
+        - /usr/bin/env sh .sqa/script.flabby-periwinkle-cichlid.sh
+        container: qc.doc_messy-yellow-kakapo
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.cranky-russet-bulldog.sh
-        container: qc.lic_zippy-copper-jellyfish
+        - /usr/bin/env sh .sqa/script.greasy-celadon-barnacle.sh
+        container: qc.lic_breezy-apricot-okapi
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.breezy-indigo-okapi.sh
-        container: qc.sty_queasy-amethyst-ferret
+        - /usr/bin/env sh .sqa/script.snippy-indigo-coati.sh
+        container: qc.sty_sickly-purple-fish
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-amber-lemur.sh
-        container: qc.ver_sloppy-gamboge-giraffe
+        - /usr/bin/env sh .sqa/script.queasy-peach-alligator.sh
+        container: qc.ver_jumpy-wisteria-ostrich
 timeout: 5400
