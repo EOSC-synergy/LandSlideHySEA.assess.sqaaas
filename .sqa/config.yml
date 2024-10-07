@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.blurry-puce-bracke.sh
-        container: qc.acc_scaly-russet-snake
+        - /usr/bin/env sh .sqa/script.surly-burgundy-dachsbracke.sh
+        container: qc.acc_crappy-zucchini-penguin
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.baggy-linen-fox.sh
-        container: qc.doc_breezy-sepia-greyhound
+        - /usr/bin/env sh .sqa/script.silly-plum-serval.sh
+        container: qc.doc_dorky-plum-barb
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-salmon-dormouse.sh
-        container: qc.doc_queasy-chestnut-bombay
+        - /usr/bin/env sh .sqa/script.ready-cyan-civet.sh
+        container: qc.doc_bluesy-burgundy-frigatebird
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.scummy-crimson-fossa.sh
-        container: qc.doc_wimpy-lilac-beaver
+        - /usr/bin/env sh .sqa/script.grumpy-taupe-frigatebird.sh
+        container: qc.doc_geeky-amethyst-leopard
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-emerald-tarantula.sh
-        container: qc.lic_messy-khaki-butterfly
+        - /usr/bin/env sh .sqa/script.smelly-orange-wasp.sh
+        container: qc.lic_hilly-cream-iguana
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-bistre-centipede.sh
-        container: qc.sty_snappy-silver-harrier
+        - /usr/bin/env sh .sqa/script.slaphappy-chocolate-bloodhound.sh
+        container: qc.sty_ugly-lilac-loon
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-russet-penguin.sh
-        container: qc.ver_gloppy-eggplant-molly
+        - /usr/bin/env sh .sqa/script.craggy-chartreuse-javanese.sh
+        container: qc.ver_flabby-chocolate-balinese
 timeout: 5400
