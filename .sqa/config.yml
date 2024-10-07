@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.bluesy-rust-walrus.sh
-        container: qc.acc_chewy-cerulean-tang
+        - /usr/bin/env sh .sqa/script.blurry-puce-bracke.sh
+        container: qc.acc_scaly-russet-snake
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-magnolia-crab.sh
-        container: qc.doc_goopy-thistle-kangaroo
+        - /usr/bin/env sh .sqa/script.baggy-linen-fox.sh
+        container: qc.doc_breezy-sepia-greyhound
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-persimmon-centipede.sh
-        container: qc.doc_cloudy-yellow-guppy
+        - /usr/bin/env sh .sqa/script.craggy-salmon-dormouse.sh
+        container: qc.doc_queasy-chestnut-bombay
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.greasy-celadon-flounder.sh
-        container: qc.doc_greasy-mustard-lobster
+        - /usr/bin/env sh .sqa/script.scummy-crimson-fossa.sh
+        container: qc.doc_wimpy-lilac-beaver
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-harlequin-macaw.sh
-        container: qc.lic_grumpy-denim-cow
+        - /usr/bin/env sh .sqa/script.woozy-emerald-tarantula.sh
+        container: qc.lic_messy-khaki-butterfly
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-red-centipede.sh
-        container: qc.sty_geeky-gamboge-okapi
+        - /usr/bin/env sh .sqa/script.scanty-bistre-centipede.sh
+        container: qc.sty_snappy-silver-harrier
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.greasy-persimmon-walrus.sh
-        container: qc.ver_goopy-denim-argentino
+        - /usr/bin/env sh .sqa/script.sleazy-russet-penguin.sh
+        container: qc.ver_gloppy-eggplant-molly
 timeout: 5400
