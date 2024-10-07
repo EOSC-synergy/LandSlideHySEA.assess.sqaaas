@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-periwinkle-magpie.sh
-        container: qc.acc_seedy-cinnabar-dormouse
+        - /usr/bin/env sh .sqa/script.skanky-burgundy-chipmunk.sh
+        container: qc.acc_skimpy-champagne-kakapo
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-emerald-maltese.sh
-        container: qc.doc_randy-puce-hippopotamus
+        - /usr/bin/env sh .sqa/script.gloppy-denim-ragdoll.sh
+        container: qc.doc_shaky-tangerine-serval
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.snippy-azure-chamois.sh
-        container: qc.doc_scaly-wisteria-owl
+        - /usr/bin/env sh .sqa/script.hasty-smalt-koala.sh
+        container: qc.doc_woolly-violet-monster
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-asparagus-wrasse.sh
-        container: qc.doc_flabby-chocolate-abyssinian
+        - /usr/bin/env sh .sqa/script.randy-silver-dane.sh
+        container: qc.doc_squeaky-goldenrod-devil
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.scanty-ultramarine-millipede.sh
-        container: qc.lic_homely-ecru-birman
+        - /usr/bin/env sh .sqa/script.hasty-harlequin-jaguar.sh
+        container: qc.lic_breezy-cerulean-lizard
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-ruby-leopard.sh
-        container: qc.sty_scanty-indigo-cockroach
+        - /usr/bin/env sh .sqa/script.scummy-eggplant-crane.sh
+        container: qc.sty_muggy-salmon-deer
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-malachite-horse.sh
-        container: qc.ver_droopy-auburn-hedgehog
+        - /usr/bin/env sh .sqa/script.snappy-lavender-dog.sh
+        container: qc.ver_sunny-chartreuse-seal
 timeout: 5400
