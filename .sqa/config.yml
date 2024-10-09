@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-thistle-sheepdog.sh
-        container: qc.acc_sickly-brass-okapi
+        - /usr/bin/env sh .sqa/script.scummy-razzmatazz-sheep.sh
+        container: qc.acc_skimpy-brass-foxhound
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-copper-ferret.sh
-        container: qc.doc_baggy-buff-kudu
+        - /usr/bin/env sh .sqa/script.boozy-ecru-corgi.sh
+        container: qc.doc_hilly-heliotrope-mule
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.pasty-sapphire-cougar.sh
-        container: qc.doc_lousy-charcoal-mongoose
+        - /usr/bin/env sh .sqa/script.scaly-lavender-blue.sh
+        container: qc.doc_fuzzy-viridian-manatee
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-fuchsia-mongoose.sh
-        container: qc.doc_scummy-amaranth-boar
+        - /usr/bin/env sh .sqa/script.wheezy-dandelion-cheetah.sh
+        container: qc.doc_boozy-xanthic-heron
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.hazy-cornflower-zonkey.sh
-        container: qc.lic_skimpy-pumpkin-cat
+        - /usr/bin/env sh .sqa/script.flabby-tangerine-forest.sh
+        container: qc.lic_smelly-seashell-salamander
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-sangria-akbash.sh
-        container: qc.sty_snippy-flax-boar
+        - /usr/bin/env sh .sqa/script.flaky-champagne-corgi.sh
+        container: qc.sty_queasy-olivine-snake
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-pink-pig.sh
-        container: qc.ver_bumpy-wisteria-pinscher
+        - /usr/bin/env sh .sqa/script.woolly-cerise-anteater.sh
+        container: qc.ver_cozy-scarlet-sheep
 timeout: 5400
