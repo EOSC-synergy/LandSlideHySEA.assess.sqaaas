@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.homely-lime-vole.sh
-        container: qc.acc_scanty-yellow-mongrel
+        - /usr/bin/env sh .sqa/script.grumpy-bistre-setter.sh
+        container: qc.acc_sleazy-jade-chin
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.freaky-alizarin-robin.sh
-        container: qc.doc_ready-red-coati
+        - /usr/bin/env sh .sqa/script.sunny-silver-bulldog.sh
+        container: qc.doc_homely-myrtle-lynx
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.blurry-cerulean-uguisu.sh
-        container: qc.doc_geeky-silver-devil
+        - /usr/bin/env sh .sqa/script.sloppy-rose-mandrill.sh
+        container: qc.doc_stuffy-apricot-squirrel
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-turquoise-malamute.sh
-        container: qc.doc_tacky-lilac-shark
+        - /usr/bin/env sh .sqa/script.flimsy-blue-cuttlefish.sh
+        container: qc.doc_wheezy-tan-frigatebird
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-cerulean-barb.sh
-        container: qc.lic_whiny-charcoal-butterfly
+        - /usr/bin/env sh .sqa/script.freaky-lilac-wolfhound.sh
+        container: qc.lic_leaky-amaranth-lemming
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.woozy-eggplant-llama.sh
-        container: qc.sty_bluesy-zucchini-rattlesnake
+        - /usr/bin/env sh .sqa/script.woolly-indigo-axolotl.sh
+        container: qc.sty_snappy-celadon-argentino
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-gold-swan.sh
-        container: qc.ver_homely-chartreuse-dhole
+        - /usr/bin/env sh .sqa/script.stealthy-cinnabar-hyena.sh
+        container: qc.ver_homely-ultramarine-spider
 timeout: 5400
