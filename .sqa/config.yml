@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.grumpy-bistre-setter.sh
-        container: qc.acc_sleazy-jade-chin
+        - /usr/bin/env sh .sqa/script.pasty-thistle-sheepdog.sh
+        container: qc.acc_sickly-brass-okapi
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sunny-silver-bulldog.sh
-        container: qc.doc_homely-myrtle-lynx
+        - /usr/bin/env sh .sqa/script.skinny-copper-ferret.sh
+        container: qc.doc_baggy-buff-kudu
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.sloppy-rose-mandrill.sh
-        container: qc.doc_stuffy-apricot-squirrel
+        - /usr/bin/env sh .sqa/script.pasty-sapphire-cougar.sh
+        container: qc.doc_lousy-charcoal-mongoose
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.flimsy-blue-cuttlefish.sh
-        container: qc.doc_wheezy-tan-frigatebird
+        - /usr/bin/env sh .sqa/script.tacky-fuchsia-mongoose.sh
+        container: qc.doc_scummy-amaranth-boar
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.freaky-lilac-wolfhound.sh
-        container: qc.lic_leaky-amaranth-lemming
+        - /usr/bin/env sh .sqa/script.hazy-cornflower-zonkey.sh
+        container: qc.lic_skimpy-pumpkin-cat
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-indigo-axolotl.sh
-        container: qc.sty_snappy-celadon-argentino
+        - /usr/bin/env sh .sqa/script.thirsty-sangria-akbash.sh
+        container: qc.sty_snippy-flax-boar
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.stealthy-cinnabar-hyena.sh
-        container: qc.ver_homely-ultramarine-spider
+        - /usr/bin/env sh .sqa/script.leaky-pink-pig.sh
+        container: qc.ver_bumpy-wisteria-pinscher
 timeout: 5400
