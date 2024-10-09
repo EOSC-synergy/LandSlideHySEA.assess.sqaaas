@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-cardinal-termite.sh
-        container: qc.acc_sloppy-indigo-hippopotamus
+        - /usr/bin/env sh .sqa/script.homely-lime-vole.sh
+        container: qc.acc_scanty-yellow-mongrel
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-taupe-caracal.sh
-        container: qc.doc_chummy-peach-salamander
+        - /usr/bin/env sh .sqa/script.freaky-alizarin-robin.sh
+        container: qc.doc_ready-red-coati
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.stinky-cerulean-salamander.sh
-        container: qc.doc_skanky-ruby-dingo
+        - /usr/bin/env sh .sqa/script.blurry-cerulean-uguisu.sh
+        container: qc.doc_geeky-silver-devil
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-ochre-deer.sh
-        container: qc.doc_cozy-teal-collie
+        - /usr/bin/env sh .sqa/script.chummy-turquoise-malamute.sh
+        container: qc.doc_tacky-lilac-shark
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-lilac-dragonfly.sh
-        container: qc.lic_flimsy-burgundy-capybara
+        - /usr/bin/env sh .sqa/script.chummy-cerulean-barb.sh
+        container: qc.lic_whiny-charcoal-butterfly
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-blue-rabbit.sh
-        container: qc.sty_freaky-periwinkle-ant
+        - /usr/bin/env sh .sqa/script.woozy-eggplant-llama.sh
+        container: qc.sty_bluesy-zucchini-rattlesnake
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.pokey-zucchini-donkey.sh
-        container: qc.ver_cheeky-gamboge-sheepdog
+        - /usr/bin/env sh .sqa/script.scaly-gold-swan.sh
+        container: qc.ver_homely-chartreuse-dhole
 timeout: 5400
