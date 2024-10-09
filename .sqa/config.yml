@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.scummy-razzmatazz-sheep.sh
-        container: qc.acc_skimpy-brass-foxhound
+        - /usr/bin/env sh .sqa/script.stinky-cyan-mouse.sh
+        container: qc.acc_lovely-buff-quokka
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-ecru-corgi.sh
-        container: qc.doc_hilly-heliotrope-mule
+        - /usr/bin/env sh .sqa/script.gummy-orange-guppy.sh
+        container: qc.doc_crappy-azure-bloodhound
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-lavender-blue.sh
-        container: qc.doc_fuzzy-viridian-manatee
+        - /usr/bin/env sh .sqa/script.bumpy-mauve-dunker.sh
+        container: qc.doc_homey-persimmon-bonobo
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-dandelion-cheetah.sh
-        container: qc.doc_boozy-xanthic-heron
+        - /usr/bin/env sh .sqa/script.baggy-sepia-quoll.sh
+        container: qc.doc_flabby-chestnut-kudu
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-tangerine-forest.sh
-        container: qc.lic_smelly-seashell-salamander
+        - /usr/bin/env sh .sqa/script.beady-cream-okapi.sh
+        container: qc.lic_chewy-ochre-chicken
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-champagne-corgi.sh
-        container: qc.sty_queasy-olivine-snake
+        - /usr/bin/env sh .sqa/script.flaky-cerulean-gerbil.sh
+        container: qc.sty_hazy-goldenrod-bulldog
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.woolly-cerise-anteater.sh
-        container: qc.ver_cozy-scarlet-sheep
+        - /usr/bin/env sh .sqa/script.shaky-dandelion-vulture.sh
+        container: qc.ver_paltry-chocolate-quokka
 timeout: 5400
