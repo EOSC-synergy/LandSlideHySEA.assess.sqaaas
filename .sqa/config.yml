@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.stinky-cyan-mouse.sh
-        container: qc.acc_lovely-buff-quokka
+        - /usr/bin/env sh .sqa/script.boozy-xanthic-lion.sh
+        container: qc.acc_geeky-taupe-flounder
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gummy-orange-guppy.sh
-        container: qc.doc_crappy-azure-bloodhound
+        - /usr/bin/env sh .sqa/script.tasty-khaki-cuttlefish.sh
+        container: qc.doc_seedy-mauve-wolverine
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-mauve-dunker.sh
-        container: qc.doc_homey-persimmon-bonobo
+        - /usr/bin/env sh .sqa/script.hasty-vermilion-yak.sh
+        container: qc.doc_blurry-pink-terrier
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.baggy-sepia-quoll.sh
-        container: qc.doc_flabby-chestnut-kudu
+        - /usr/bin/env sh .sqa/script.lousy-cardinal-blue.sh
+        container: qc.doc_skanky-wheat-spitz
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.beady-cream-okapi.sh
-        container: qc.lic_chewy-ochre-chicken
+        - /usr/bin/env sh .sqa/script.snappy-pear-indri.sh
+        container: qc.lic_shaky-flax-blue
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-cerulean-gerbil.sh
-        container: qc.sty_hazy-goldenrod-bulldog
+        - /usr/bin/env sh .sqa/script.thirsty-maroon-shark.sh
+        container: qc.sty_snoopy-gamboge-vulture
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-dandelion-vulture.sh
-        container: qc.ver_paltry-chocolate-quokka
+        - /usr/bin/env sh .sqa/script.messy-tomato-ray.sh
+        container: qc.ver_shaggy-emerald-sparrow
 timeout: 5400
