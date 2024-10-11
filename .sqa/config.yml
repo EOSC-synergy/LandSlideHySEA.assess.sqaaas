@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.boozy-xanthic-lion.sh
-        container: qc.acc_geeky-taupe-flounder
+        - /usr/bin/env sh .sqa/script.nippy-grey-elephant.sh
+        container: qc.acc_sloppy-amber-cat
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.tasty-khaki-cuttlefish.sh
-        container: qc.doc_seedy-mauve-wolverine
+        - /usr/bin/env sh .sqa/script.shaggy-linen-tamarin.sh
+        container: qc.doc_shaggy-cyan-greyhound
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-vermilion-yak.sh
-        container: qc.doc_blurry-pink-terrier
+        - /usr/bin/env sh .sqa/script.shabby-smalt-snail.sh
+        container: qc.doc_sickly-vermilion-uakari
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.lousy-cardinal-blue.sh
-        container: qc.doc_skanky-wheat-spitz
+        - /usr/bin/env sh .sqa/script.flabby-linen-retriever.sh
+        container: qc.doc_cranky-turquoise-snail
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-pear-indri.sh
-        container: qc.lic_shaky-flax-blue
+        - /usr/bin/env sh .sqa/script.whiny-indigo-scorpion.sh
+        container: qc.lic_chummy-ivory-camel
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.thirsty-maroon-shark.sh
-        container: qc.sty_snoopy-gamboge-vulture
+        - /usr/bin/env sh .sqa/script.cranky-corn-fousek.sh
+        container: qc.sty_beady-alizarin-angora
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-tomato-ray.sh
-        container: qc.ver_shaggy-emerald-sparrow
+        - /usr/bin/env sh .sqa/script.hasty-goldenrod-ibis.sh
+        container: qc.ver_shaky-saffron-eagle
 timeout: 5400
