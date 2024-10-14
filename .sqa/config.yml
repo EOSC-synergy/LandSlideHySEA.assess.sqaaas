@@ -15,38 +15,38 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.nippy-grey-elephant.sh
-        container: qc.acc_sloppy-amber-cat
+        - /usr/bin/env sh .sqa/script.slaphappy-puce-squirt.sh
+        container: qc.acc_stinky-ruby-moose
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.shaggy-linen-tamarin.sh
-        container: qc.doc_shaggy-cyan-greyhound
+        - /usr/bin/env sh .sqa/script.greasy-brown-serval.sh
+        container: qc.doc_paltry-scarlet-bee
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-smalt-snail.sh
-        container: qc.doc_sickly-vermilion-uakari
+        - /usr/bin/env sh .sqa/script.grumpy-tan-antelope.sh
+        container: qc.doc_lanky-azure-mouse
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-linen-retriever.sh
-        container: qc.doc_cranky-turquoise-snail
+        - /usr/bin/env sh .sqa/script.zippy-crimson-badger.sh
+        container: qc.doc_pokey-chartreuse-booby
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.whiny-indigo-scorpion.sh
-        container: qc.lic_chummy-ivory-camel
+        - /usr/bin/env sh .sqa/script.shabby-zucchini-newt.sh
+        container: qc.lic_cozy-mauve-shrew
   QC.Sty:
     repos:
       github.com/edanya-uma/LandSlideHySEA oclint:
         commands:
-        - /usr/bin/env sh .sqa/script.cranky-corn-fousek.sh
-        container: qc.sty_beady-alizarin-angora
+        - /usr/bin/env sh .sqa/script.seedy-cardinal-devil.sh
+        container: qc.sty_cozy-olivine-civet
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-goldenrod-ibis.sh
-        container: qc.ver_shaky-saffron-eagle
+        - /usr/bin/env sh .sqa/script.cheeky-xanthic-tortoise.sh
+        container: qc.ver_freaky-denim-barnacle
 timeout: 5400
