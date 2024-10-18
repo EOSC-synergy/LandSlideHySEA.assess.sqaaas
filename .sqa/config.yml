@@ -15,32 +15,32 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.wimpy-indigo-skunk.sh
-        container: qc.acc_crabby-russet-dachsbracke
+        - /usr/bin/env sh .sqa/script.foggy-asparagus-swan.sh
+        container: qc.acc_homey-goldenrod-armadillo
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-cardinal-frise.sh
-        container: qc.doc_paltry-mauve-lion
+        - /usr/bin/env sh .sqa/script.cozy-cobalt-sloth.sh
+        container: qc.doc_snoopy-bistre-dormouse
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.cranky-orange-iguana.sh
-        container: qc.doc_slimy-crimson-cow
+        - /usr/bin/env sh .sqa/script.craggy-tan-rat.sh
+        container: qc.doc_gimpy-ivory-stoat
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.shaky-apricot-havanese.sh
-        container: qc.doc_wheezy-champagne-malamute
+        - /usr/bin/env sh .sqa/script.zippy-lilac-liger.sh
+        container: qc.doc_gloppy-linen-snail
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.sickly-periwinkle-audemer.sh
-        container: qc.lic_cloudy-ivory-dodo
+        - /usr/bin/env sh .sqa/script.wiggy-carmine-flounder.sh
+        container: qc.lic_cheeky-charcoal-woodlouse
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.wimpy-aquamarine-dhole.sh
-        container: qc.ver_ugly-celadon-koala
+        - /usr/bin/env sh .sqa/script.skimpy-red-pig.sh
+        container: qc.ver_geeky-viridian-kingfisher
 timeout: 5400
