@@ -5,5 +5,5 @@
 
 (
 cd github.com/edanya-uma/LandSlideHySEA &&
-    oclint  -- -c
+    mdl --json .
 )

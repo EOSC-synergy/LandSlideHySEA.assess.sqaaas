@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/2.2.1
+      branch: release/2.0.0
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/edanya-uma/LandSlideHySEA:
       branch: v1.0.0
@@ -15,38 +15,32 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-puce-squirt.sh
-        container: qc.acc_stinky-ruby-moose
+        - /usr/bin/env sh .sqa/script.wimpy-indigo-skunk.sh
+        container: qc.acc_crabby-russet-dachsbracke
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.greasy-brown-serval.sh
-        container: qc.doc_paltry-scarlet-bee
+        - /usr/bin/env sh .sqa/script.dorky-cardinal-frise.sh
+        container: qc.doc_paltry-mauve-lion
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.grumpy-tan-antelope.sh
-        container: qc.doc_lanky-azure-mouse
+        - /usr/bin/env sh .sqa/script.cranky-orange-iguana.sh
+        container: qc.doc_slimy-crimson-cow
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-crimson-badger.sh
-        container: qc.doc_pokey-chartreuse-booby
+        - /usr/bin/env sh .sqa/script.shaky-apricot-havanese.sh
+        container: qc.doc_wheezy-champagne-malamute
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-zucchini-newt.sh
-        container: qc.lic_cozy-mauve-shrew
-  QC.Sty:
-    repos:
-      github.com/edanya-uma/LandSlideHySEA oclint:
-        commands:
-        - /usr/bin/env sh .sqa/script.seedy-cardinal-devil.sh
-        container: qc.sty_cozy-olivine-civet
+        - /usr/bin/env sh .sqa/script.sickly-periwinkle-audemer.sh
+        container: qc.lic_cloudy-ivory-dodo
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cheeky-xanthic-tortoise.sh
-        container: qc.ver_freaky-denim-barnacle
+        - /usr/bin/env sh .sqa/script.wimpy-aquamarine-dhole.sh
+        container: qc.ver_ugly-celadon-koala
 timeout: 5400
