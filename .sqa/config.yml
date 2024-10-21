@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/2.0.0
+      branch: release/2.0.1
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     github.com/edanya-uma/LandSlideHySEA:
       branch: v1.0.0
@@ -15,32 +15,32 @@ sqa_criteria:
     repos:
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.foggy-asparagus-swan.sh
-        container: qc.acc_homey-goldenrod-armadillo
+        - /usr/bin/env sh .sqa/script.foggy-gold-earwig.sh
+        container: qc.acc_beady-yellow-liger
   QC.Doc:
     repos:
       github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.cozy-cobalt-sloth.sh
-        container: qc.doc_snoopy-bistre-dormouse
+        - /usr/bin/env sh .sqa/script.leaky-black-gerbil.sh
+        container: qc.doc_stealthy-ultramarine-angora
       github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-tan-rat.sh
-        container: qc.doc_gimpy-ivory-stoat
+        - /usr/bin/env sh .sqa/script.surly-teal-earwig.sh
+        container: qc.doc_geeky-zucchini-opossum
       github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-lilac-liger.sh
-        container: qc.doc_gloppy-linen-snail
+        - /usr/bin/env sh .sqa/script.gamy-corn-monkey.sh
+        container: qc.doc_bumpy-black-goose
   QC.Lic:
     repos:
       github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.wiggy-carmine-flounder.sh
-        container: qc.lic_cheeky-charcoal-woodlouse
+        - /usr/bin/env sh .sqa/script.muggy-vermilion-coati.sh
+        container: qc.lic_wimpy-peach-peccary
   QC.Ver:
     repos:
       github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-red-pig.sh
-        container: qc.ver_geeky-viridian-kingfisher
+        - /usr/bin/env sh .sqa/script.muzzy-scarlet-vulture.sh
+        container: qc.ver_woozy-asparagus-sparrow
 timeout: 5400
