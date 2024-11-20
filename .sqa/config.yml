@@ -2,10 +2,10 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: release/1.7.10
+      branch: main
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
-    github.com/edanya-uma/LandSlideHySEA/src:
-      branch: v1.0.0
+    github.com/edanya-uma/LandSlideHySEA:
+      branch: main
       repo: https://github.com/edanya-uma/LandSlideHySEA
 environment:
   JPL_DOCKERFORCEBUILD: enabled
@@ -13,34 +13,40 @@ environment:
 sqa_criteria:
   QC.Acc:
     repos:
-      github.com/edanya-uma/LandSlideHySEA/src git:
+      github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.jumpy-xanthic-crab.sh
-        container: qc.acc_blurry-lilac-snake
+        - /usr/bin/env sh .sqa/script.zippy-khaki-squid.sh
+        container: qc.acc_silly-lime-hound
   QC.Doc:
     repos:
-      github.com/edanya-uma/LandSlideHySEA/src find_doc_files.py:
+      github.com/edanya-uma/LandSlideHySEA find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.messy-lilac-lobster.sh
-        container: qc.doc_skimpy-taupe-hedgehog
-      github.com/edanya-uma/LandSlideHySEA/src git:
+        - /usr/bin/env sh .sqa/script.foggy-chestnut-tang.sh
+        container: qc.doc_shaggy-lilac-wallaby
+      github.com/edanya-uma/LandSlideHySEA git:
         commands:
-        - /usr/bin/env sh .sqa/script.silly-plum-woodlouse.sh
-        container: qc.doc_frumpy-saffron-woodlouse
-      github.com/edanya-uma/LandSlideHySEA/src markdownlint:
+        - /usr/bin/env sh .sqa/script.cloudy-olive-wolverine.sh
+        container: qc.doc_bluesy-apricot-shrimp
+      github.com/edanya-uma/LandSlideHySEA markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.flaky-razzmatazz-foxhound.sh
-        container: qc.doc_gamy-lime-spider
+        - /usr/bin/env sh .sqa/script.snippy-salmon-blue.sh
+        container: qc.doc_bluesy-heliotrope-crane
   QC.Lic:
     repos:
-      github.com/edanya-uma/LandSlideHySEA/src licensee:
+      github.com/edanya-uma/LandSlideHySEA licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.wheezy-seashell-spaniel.sh
-        container: qc.lic_whiny-amber-ragdoll
+        - /usr/bin/env sh .sqa/script.flaky-bistre-chimpanzee.sh
+        container: qc.lic_flaky-scarlet-octopus
+  QC.Sty:
+    repos:
+      github.com/edanya-uma/LandSlideHySEA oclint:
+        commands:
+        - /usr/bin/env sh .sqa/script.randy-peach-grouse.sh
+        container: qc.sty_stuffy-orchid-wombat
   QC.Ver:
     repos:
-      github.com/edanya-uma/LandSlideHySEA/src get_git_tags.py:
+      github.com/edanya-uma/LandSlideHySEA get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.goopy-plum-jackal.sh
-        container: qc.ver_frumpy-saffron-impala
+        - /usr/bin/env sh .sqa/script.dorky-brass-sponge.sh
+        container: qc.ver_snazzy-aqua-centipede
 timeout: 5400
